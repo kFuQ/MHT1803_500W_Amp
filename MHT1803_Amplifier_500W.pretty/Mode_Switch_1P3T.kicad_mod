@@ -1,0 +1,71 @@
+(footprint "Mode_Switch_1P3T" (version 20231120) (generator "pcbnew")
+  (layer "F.Cu")
+  (descr "1-Pole 3-Throw Slide Switch for Mode Selection")
+  (tags "slide switch mode selector 1P3T AM SSB FM")
+  (property "Reference" "REF**" (at 0 -4 0) (layer "F.SilkS")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (uuid "12345678-9abc-def0-1234-56789abcdef0")
+  )
+  (property "Value" "Mode_Switch_1P3T" (at 0 4 0) (layer "F.Fab")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (uuid "23456789-abcd-ef01-2345-6789abcdef01")
+  )
+  (property "Footprint" "Mode_Switch_1P3T" (at 0 0 0) (unlocked yes) (layer "F.Fab") hide
+    (effects (font (size 1.27 1.27)))
+    (uuid "3456789a-bcde-f012-3456-789abcdef012")
+  )
+  (property "Datasheet" "" (at 0 0 0) (unlocked yes) (layer "F.Fab") hide
+    (effects (font (size 1.27 1.27)))
+    (uuid "456789ab-cdef-0123-4567-89abcdef0123")
+  )
+  (property "Description" "" (at 0 0 0) (unlocked yes) (layer "F.Fab") hide
+    (effects (font (size 1.27 1.27)))
+    (uuid "56789abc-def0-1234-5678-9abcdef01234")
+  )
+  (attr through_hole)
+  
+  (fp_rect (start -6 -2.5) (end 6 2.5)
+    (stroke (width 0.12) (type solid)) (fill none) (layer "F.SilkS") (uuid "6789abcd-ef01-2345-6789-abcdef012345"))
+  
+  (fp_rect (start -4 -1.5) (end 4 1.5)
+    (stroke (width 0.05) (type solid)) (fill none) (layer "F.SilkS") (uuid "789abcde-f012-3456-789a-bcdef0123456"))
+  
+  (fp_text user "AM" (at -3 -2.8) (layer "F.SilkS")
+    (effects (font (size 0.8 0.8) (thickness 0.12)))
+    (uuid "89abcdef-0123-4567-89ab-cdef01234567"))
+  (fp_text user "SSB" (at 0 -2.8) (layer "F.SilkS")
+    (effects (font (size 0.8 0.8) (thickness 0.12)))
+    (uuid "9abcdef0-1234-5678-9abc-def012345678"))
+  (fp_text user "FM" (at 3 -2.8) (layer "F.SilkS")
+    (effects (font (size 0.8 0.8) (thickness 0.12)))
+    (uuid "abcdef01-2345-6789-abcd-ef0123456789"))
+  
+  (fp_line (start -2 0) (end -1 0)
+    (stroke (width 0.3) (type solid)) (layer "F.SilkS") (uuid "bcdef012-3456-789a-bcde-f01234567890"))
+  (fp_line (start 1 0) (end 2 0)
+    (stroke (width 0.3) (type solid)) (layer "F.SilkS") (uuid "cdef0123-4567-89ab-cdef-012345678901"))
+  
+  (fp_rect (start -6.5 -3) (end 6.5 3)
+    (stroke (width 0.05) (type solid)) (fill none) (layer "F.CrtYd") (uuid "def01234-5678-9abc-def0-123456789012"))
+  
+  (fp_rect (start -6 -2.5) (end 6 2.5)
+    (stroke (width 0.1) (type solid)) (fill none) (layer "F.Fab") (uuid "ef012345-6789-abcd-ef01-234567890123"))
+  
+  (pad "1" thru_hole circle (at 0 -1.5) (size 1.5 1.5) (drill 0.8) (layers "*.Cu" "*.Mask")
+    (uuid "f0123456-789a-bcde-f012-345678901234"))
+  
+  (pad "2" thru_hole circle (at -3 0) (size 1.5 1.5) (drill 0.8) (layers "*.Cu" "*.Mask")
+    (uuid "01234567-89ab-cdef-0123-456789012345"))
+  
+  (pad "3" thru_hole circle (at 3 0) (size 1.5 1.5) (drill 0.8) (layers "*.Cu" "*.Mask")
+    (uuid "12345678-9abc-def0-1234-567890123456"))
+  
+  (pad "4" thru_hole circle (at 0 1.5) (size 1.5 1.5) (drill 0.8) (layers "*.Cu" "*.Mask")
+    (uuid "23456789-abcd-ef01-2345-678901234567"))
+  
+  (model "${KICAD8_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_Slide_1P3T_CK_OS103011MS2Q.wrl"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)

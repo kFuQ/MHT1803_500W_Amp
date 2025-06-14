@@ -1,0 +1,108 @@
+You are an expert in electronics design, KiCad v9.x, and technical documentation, capable of generating accurate KiCad project files, repair diagrams, and user manuals. I need you to create a complete set of KiCad v9.x project files, a printed circuit repair diagram, and a user manual for a 500W push-pull amplifier using MHT1803A/B) transistors, designed for a mobile setup operating on 1.8 to 30MHz  supporting  AM, SSB, and FM modes. The design must meet the following specifications:
+ 
+ Project Requirements:
+ 
+ Amplifier Core:
+ Use two MHT1803A/B in a push-pull configuration for 500W output power, optimized for 1.8 to 30MHz
+ Low distortion Class B push-pull operation, as per the MHT1803 datasheet .
+ Input power: 6-8W for 500W output, with bias disable pads for VSWR protection.
+ 
+ Power Supply:
+ Input: 12-14 VDC from a mobile power source (e.g., vehicle battery).
+ Include a DC-DC converter to step up 12.5V to 50V for the MHT1803 transistors, handling 20-28A at 48V.
+ Use 4 AWG power and ground wires connected via screw terminals.
+ Include a main power status LED (green, 3mm, through-hole).
+ 
+ Band and Mode Selection:
+ Include a rotary switch (1-pole, 5-position) for band selection (10m, 12m, 40m, 20m, 80M) controlling antenna output routing.
+ Include a mode switch (1-pole, 3-position) for AM, SSB, or FM modes, affecting modulation circuitry.
+.
+ 
+ Connectors:
+Two SO-239 connectors: one for radio input, one for  output, 
+ One SMA connector for additional radio input.
+ Ensure connectors are robust for mobile use with proper grounding.
+ 
+ Thermal Management:
+ Integrate a 240mm AIO liquid cooler (radiator and fan externally mounted on top) for MHT1803 transistors and heatsink.
+ Include overheat detection using a temperature sensor (e.g., NTC thermistor or LM35) near the transistors, triggering power cutoff (via relay or MOSFET switch) if temperature exceeds 85°C.
+ Include an overheat status LED (red, 3mm, through-hole).
+ 
+ PCB Design Considerations:
+ Use microstrip technology for RF matching and impedance control.
+ Mount MHT1803 transistors and PCB to a CNC-machined aluminum heatsink compatible with the AIO liquid cooler.
+ Design for a 200mm x 150mm board, suitable for a mobile enclosure.
+ Use high-temperature, low-impedance Teflon coax for matching transformers.
+ Use surface-mount components where possible, designed for reflow soldering.
+ Ensure grounding and shielding for minimal RF interference.
+ 
+ KiCad File Requirements:
+ Generate a KiCad v9.x project with:
+ Schematic file (MHT1803_Amplifier_500W.kicad_sch): Include all components (MHT1803 LDmos, DC-DC converter, switches, connectors,  temperature sensor, power cutoff circuitry, screw terminals, passives).
+ PCB layout file (MHT1803_Amplifier_500W.kicad_pcb): Include RF trace routing, thermal vias under MHT1803, and mounting holes for heatsink and AIO cooler.
+ Symbol library file (MHT1803_Amplifier_500W.kicad_sym): Custom symbols for MHT1803 (M244 package), SO-239, SMA, switches, etc.
+ Footprint library file (MHT1803_Amplifier_500W.pretty): Footprints for all components, including MHT1803, connectors, and AIO cooler mounts.
+ Project file (MHT1803_Amplifier_500W.kicad_pro): Configure for KiCad 9.x, with design rules for high-power RF (50V traces, 4 AWG support).
+ Ensure KiCad 9.x syntax compatibility for schematic editor, PCB editor, and 3D viewer.
+ Wrap each file in an <xaiArtifact> tag with a unique UUID for artifact_id, appropriate title, and correct contentType (e.g., text/kicad_sch, text/kicad_pcb, text/kicad_sym, text/kicad_mod, text/kicad_pro).
+ Include a bill of materials (BOM) in CSV format (bom.csv) with part numbers, descriptions, and sources (e.g., Mouser, DigiKey), wrapped in an <xaiArtifact> tag with contentType="text/csv".
+ 
+ Printed Circuit Repair Diagram:
+ Generate a repair diagram to assist technicians in troubleshooting and repairing the PCB.
+ Format: SVG or PDF, suitable for printing.
+ Content:
+ Highlight key components (MHT1803 MOSFETs, DC-DC converter, temperature sensor, relay, connectors, switches, LEDs).
+ Label test points for critical signals (e.g., 12.5V input, 50V output, RF input/output, temperature sensor output).
+ Include a troubleshooting guide (e.g., check LED statuses, measure voltages at test points, verify switch positions).
+ Show thermal vias and heatsink mounting points for thermal troubleshooting.
+ Annotate common failure points (e.g., MOSFET failure, DC-DC converter issues, connector damage).
+ Wrap the file in an <xaiArtifact> tag with contentType="image/svg+xml" (for SVG) or text/latex" (for PDF, using LaTeX to generate a diagram with TikZ).
+ Title: MHT1803_Amplifier_500W_Repair_Diagram.
+ 
+ User Manual:
+ Generate a user manual for operating the amplifier in a mobile setup.
+ Format: LaTeX, compiled to PDF, using a professional layout (e.g., article document class).
+ Content:
+ Introduction: Overview of the amplifier (500W, multi-band, AM/SSB/FM, mobile use).
+ Setup Instructions: Connecting 12.5V power (4 AWG cables), attaching antennas to SO-239/SMA connectors, mounting the AIO cooler.
+ Operation: Using the rotary switch for band selection, mode switch for AM/SSB/FM, interpreting LED indicators (power, band, mode, overheat).
+ Safety Warnings: Handling high-power RF, ensuring proper cooling, avoiding overheating.
+ Troubleshooting: Common issues (e.g., no power, overheat LED on, no output), referencing the repair diagram.
+ Specifications: Power output, bands, input voltage, dimensions, cooling requirements.
+ Include diagrams (e.g., front panel layout, connector assignments) using LaTeX’s TikZ package.
+ Wrap the LaTeX source in an <xaiArtifact> tag with contentType="text/latex".
+ Title: MHT1803_Amplifier_500W_User_Manual.
+ 
+ 
+ Additional Notes:
+ Reference the MHT1803 datasheet for electrical characteristics and pinout.
+ Use standard KiCad libraries where possible; create custom symbols/footprints for non-standard components (e.g., MHT1803, SO-239, SMA).
+ For the DC-DC converter, select a module (e.g., Vicor DCM3623T50T53A6T00 or TI LM5122) for 12.5V to 50V at 20-22A.
+ Assume an NTC thermistor or LM35 for overheat detection, with a comparator for the 85°C threshold.
+ Ensure the repair diagram and user manual are consistent with the PCB design and component layout.
+ For LaTeX, use PDFLaTeX with packages from texlive-full and texlive-fonts-extra (e.g., noto for fonts, tikz for diagrams).
+ 
+ 
+ Output Instructions:
+ 
+ Generate the following files:
+ KiCad files: MHT1803_Amplifier_500W.kicad_sch, MHT1803_Amplifier_500W.kicad_pcb, MHT1803_Amplifier_500W.kicad_sym, MHT1803_Amplifier_500W.pretty, MHT1803_Amplifier_500W.kicad_pro. philosophyt- BOM: bom.csv.
+ Repair diagram: MHT1803_Amplifier_500W_Repair_Diagram.svg (or .tex for PDF).
+ User manual: MHT1803_Amplifier_500W_User_Manual.tex.
+ Assign a unique UUID for each artifact’s artifact_id.
+ Use correct contentType values: text/kicad_sch, text/kicad_pcb, text/kicad_sym, text/kicad_mod, text/kicad_pro, text/csv, image/svg+xml (or text/latex for repair diagram PDF), text/latex (user manual).
+ For the PCB layout, describe the layer stackup (e.g., 4-layer, 2 oz copper) and trace width calculations for 50V, 20-22A traces and 4 AWG connections.
+ Provide a brief explanation of design choices (component placement, thermal management, RF routing, repair diagram, user manual content) outside the <xaiArtifact> tags.
+ Note any assumptions (e.g., DC-DC converter model, temperature sensor type) in the explanation.
+
+ KiCad 9.0.2 is strict about rotation values and only accepts 0, 90, 180, or 270 degrees.
+
+Potential issues to pay attention to:
+1. Incomplete symbol definitions in lib_symbols section
+2. Missing component instances (comparator, relay, etc.)
+3. Incorrect wire connections or missing nets
+4. UUID references that don't match
+5. Missing electrical connections between components
+6. Incomplete symbol graphics in lib_symbols
+7. Power connections not properly defined
+8. expecting font, justify, hide or href

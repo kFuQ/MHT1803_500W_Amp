@@ -1,0 +1,4504 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2025-06-14T12:20:27-0700",
+    "kicad_version": "9.0.2",
+    "schematic_parity": [],
+    "source": "MHT1803_Amplifier_500W.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 3 [Net-(Q1-D)] of Q1 on F.Cu",
+                    "pos": {
+                        "x": 118.7175,
+                        "y": 67.995
+                    },
+                    "uuid": "89a0e67e-7408-4897-b344-fea605cd521d"
+                },
+                {
+                    "description": "Pad 1 [Net-(Q1-D)] of C3 on F.Cu",
+                    "pos": {
+                        "x": 118.95,
+                        "y": 82.0
+                    },
+                    "uuid": "91b56025-cca9-42d7-b157-99e9d9b50a67"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(Q2-S)] of C4 on F.Cu",
+                    "pos": {
+                        "x": 151.6,
+                        "y": 82.0
+                    },
+                    "uuid": "1f148c06-d2a6-4915-8001-626d3bdf20be"
+                },
+                {
+                    "description": "Pad 2 [Net-(Q2-S)] of Q2 on F.Cu",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 68.5
+                    },
+                    "uuid": "22c15af3-ff07-4cb4-9fd0-8e0d4af48cff"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 2 [Net-(U1-LO1)] of C6 on F.Cu",
+                    "pos": {
+                        "x": 87.4,
+                        "y": 103.0
+                    },
+                    "uuid": "3dc588dc-f37e-48c3-ae59-94d6837366bb"
+                },
+                {
+                    "description": "Pad 4 [Net-(U1-LO1)] of U1 on F.Cu",
+                    "pos": {
+                        "x": 115.55,
+                        "y": 113.53
+                    },
+                    "uuid": "8a0a1661-2725-4d74-88d3-5f4ab17d24f0"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 3 [Net-(D3-K)] of Q3 on F.Cu",
+                    "pos": {
+                        "x": 89.46,
+                        "y": 109.765
+                    },
+                    "uuid": "e1896d19-d540-4a09-9b42-edb40d058008"
+                },
+                {
+                    "description": "Pad 1 [Net-(D3-K)] of C6 on F.Cu",
+                    "pos": {
+                        "x": 85.5,
+                        "y": 103.0
+                    },
+                    "uuid": "b92860d8-d373-4af5-a7b0-4ece3c7b670e"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 2 [Net-(D3-K)] of Q4 on F.Cu",
+                    "pos": {
+                        "x": 74.715,
+                        "y": 114.915
+                    },
+                    "uuid": "fdbc7a2f-351f-463b-a2b5-d0f7c1201d00"
+                },
+                {
+                    "description": "Pad 3 [Net-(D3-K)] of Q3 on F.Cu",
+                    "pos": {
+                        "x": 89.46,
+                        "y": 109.765
+                    },
+                    "uuid": "e1896d19-d540-4a09-9b42-edb40d058008"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 3 [Net-(D3-K)] of Q3 on F.Cu",
+                    "pos": {
+                        "x": 89.46,
+                        "y": 109.765
+                    },
+                    "uuid": "e1896d19-d540-4a09-9b42-edb40d058008"
+                },
+                {
+                    "description": "Pad 1 [Net-(D3-K)] of D3 on F.Cu",
+                    "pos": {
+                        "x": 108.7,
+                        "y": 96.0
+                    },
+                    "uuid": "483d47df-a1b1-4345-b394-8f41eb0e2f9f"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 2 [Net-(D3-A)] of D3 on F.Cu",
+                    "pos": {
+                        "x": 113.0,
+                        "y": 96.0
+                    },
+                    "uuid": "5edec2e0-4135-404d-ab3a-90a28ee25337"
+                },
+                {
+                    "description": "Pad 5 [Net-(D3-A)] of U1 on F.Cu",
+                    "pos": {
+                        "x": 115.55,
+                        "y": 114.17
+                    },
+                    "uuid": "c3324914-f5b2-4566-a022-11c715b74c82"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 2 [unconnected-(J2-Ext-Pad2)] of J2 on B.Cu",
+                    "pos": {
+                        "x": 14.8625,
+                        "y": 151.25
+                    },
+                    "uuid": "89f484eb-eb06-4614-9800-0fd82db0d6a1"
+                },
+                {
+                    "description": "Pad 2 [unconnected-(J2-Ext-Pad2)] of J2 on B.Cu",
+                    "pos": {
+                        "x": 14.8625,
+                        "y": 151.25
+                    },
+                    "uuid": "89f484eb-eb06-4614-9800-0fd82db0d6a1"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 2 [unconnected-(J2-Ext-Pad2)] of J2 on B.Cu",
+                    "pos": {
+                        "x": 14.8625,
+                        "y": 151.25
+                    },
+                    "uuid": "89f484eb-eb06-4614-9800-0fd82db0d6a1"
+                },
+                {
+                    "description": "Pad 2 [unconnected-(J2-Ext-Pad2)] of J2 on B.Cu",
+                    "pos": {
+                        "x": 14.8625,
+                        "y": 151.25
+                    },
+                    "uuid": "89f484eb-eb06-4614-9800-0fd82db0d6a1"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 2 [unconnected-(J2-Ext-Pad2)] of J2 on B.Cu",
+                    "pos": {
+                        "x": 14.8625,
+                        "y": 151.25
+                    },
+                    "uuid": "89f484eb-eb06-4614-9800-0fd82db0d6a1"
+                },
+                {
+                    "description": "Pad 2 [unconnected-(J2-Ext-Pad2)] of J2 on B.Cu",
+                    "pos": {
+                        "x": 14.8625,
+                        "y": 151.25
+                    },
+                    "uuid": "89f484eb-eb06-4614-9800-0fd82db0d6a1"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 2 [unconnected-(J3-Ext-Pad2)] of J3 on B.Cu",
+                    "pos": {
+                        "x": 14.8625,
+                        "y": 180.25
+                    },
+                    "uuid": "71abcf78-b925-4c56-8198-91538c38b1be"
+                },
+                {
+                    "description": "Pad 2 [unconnected-(J3-Ext-Pad2)] of J3 on B.Cu",
+                    "pos": {
+                        "x": 14.8625,
+                        "y": 180.25
+                    },
+                    "uuid": "71abcf78-b925-4c56-8198-91538c38b1be"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 2 [unconnected-(J3-Ext-Pad2)] of J3 on B.Cu",
+                    "pos": {
+                        "x": 14.8625,
+                        "y": 180.25
+                    },
+                    "uuid": "71abcf78-b925-4c56-8198-91538c38b1be"
+                },
+                {
+                    "description": "Pad 2 [unconnected-(J3-Ext-Pad2)] of J3 on B.Cu",
+                    "pos": {
+                        "x": 14.8625,
+                        "y": 180.25
+                    },
+                    "uuid": "71abcf78-b925-4c56-8198-91538c38b1be"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 2 [unconnected-(J3-Ext-Pad2)] of J3 on B.Cu",
+                    "pos": {
+                        "x": 14.8625,
+                        "y": 180.25
+                    },
+                    "uuid": "71abcf78-b925-4c56-8198-91538c38b1be"
+                },
+                {
+                    "description": "Pad 2 [unconnected-(J3-Ext-Pad2)] of J3 on B.Cu",
+                    "pos": {
+                        "x": 14.8625,
+                        "y": 180.25
+                    },
+                    "uuid": "71abcf78-b925-4c56-8198-91538c38b1be"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 3 [+12V] of Q4 on F.Cu",
+                    "pos": {
+                        "x": 81.015,
+                        "y": 112.635
+                    },
+                    "uuid": "99bc4aa1-174d-44af-b31e-4197b3c928f0"
+                },
+                {
+                    "description": "Pad 2 [+12V] of Q3 on F.Cu",
+                    "pos": {
+                        "x": 91.74,
+                        "y": 116.065
+                    },
+                    "uuid": "4cbb1245-a940-49b8-853f-373f1f16448a"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 2 [+12V] of Q3 on F.Cu",
+                    "pos": {
+                        "x": 91.74,
+                        "y": 116.065
+                    },
+                    "uuid": "4cbb1245-a940-49b8-853f-373f1f16448a"
+                },
+                {
+                    "description": "Pad 7 [+12V] of U1 on F.Cu",
+                    "pos": {
+                        "x": 115.55,
+                        "y": 115.47
+                    },
+                    "uuid": "b6afafc0-877d-4a68-87bc-85df09ef1383"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": [
+        {
+            "description": "Clearance violation (footprint U1 clearance 0.2000 mm; actual 0.1900 mm)",
+            "items": [
+                {
+                    "description": "Pad 4 [Net-(U1-LO1)] of U1 on F.Cu",
+                    "pos": {
+                        "x": 115.55,
+                        "y": 113.53
+                    },
+                    "uuid": "8a0a1661-2725-4d74-88d3-5f4ab17d24f0"
+                },
+                {
+                    "description": "Pad 5 [Net-(D3-A)] of U1 on F.Cu",
+                    "pos": {
+                        "x": 115.55,
+                        "y": 114.17
+                    },
+                    "uuid": "c3324914-f5b2-4566-a022-11c715b74c82"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (footprint U1 clearance 0.2000 mm; actual 0.1900 mm)",
+            "items": [
+                {
+                    "description": "Pad 6 [unconnected-(U1-FB-Pad6)] of U1 on F.Cu",
+                    "pos": {
+                        "x": 115.55,
+                        "y": 114.83
+                    },
+                    "uuid": "b80a89ec-75f3-4a3e-bc78-fd920428ab44"
+                },
+                {
+                    "description": "Pad 7 [+12V] of U1 on F.Cu",
+                    "pos": {
+                        "x": 115.55,
+                        "y": 115.47
+                    },
+                    "uuid": "b6afafc0-877d-4a68-87bc-85df09ef1383"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (footprint U1 clearance 0.2000 mm; actual 0.1900 mm)",
+            "items": [
+                {
+                    "description": "Pad 14 [unconnected-(U1-VIN-Pad14)] of U1 on F.Cu",
+                    "pos": {
+                        "x": 121.45,
+                        "y": 115.47
+                    },
+                    "uuid": "4fb44da8-9987-4817-8095-d37351ddf25b"
+                },
+                {
+                    "description": "Pad 15 [unconnected-(U1-VIN-Pad15)] of U1 on F.Cu",
+                    "pos": {
+                        "x": 121.45,
+                        "y": 114.83
+                    },
+                    "uuid": "256f64c4-6732-4ce6-b24e-c329a2636e2e"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (footprint U1 clearance 0.2000 mm; actual 0.1900 mm)",
+            "items": [
+                {
+                    "description": "Pad 16 [unconnected-(U1-VIN-Pad16)] of U1 on F.Cu",
+                    "pos": {
+                        "x": 121.45,
+                        "y": 114.17
+                    },
+                    "uuid": "23a48bcd-0031-4e24-9e1e-f0e42c6fb71d"
+                },
+                {
+                    "description": "Pad 17 [unconnected-(U1-VIN-Pad17)] of U1 on F.Cu",
+                    "pos": {
+                        "x": 121.45,
+                        "y": 113.53
+                    },
+                    "uuid": "3c79a90d-d7e1-47fb-b0a9-bd00b0b6b2f1"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Items shorting two nets (nets unconnected-(Q2-G-Pad1) and unconnected-(Q2-Thermal-Pad4))",
+            "items": [
+                {
+                    "description": "Pad 1 [unconnected-(Q2-G-Pad1)] of Q2 on F.Cu",
+                    "pos": {
+                        "x": 147.0,
+                        "y": 63.5
+                    },
+                    "uuid": "a5f377c0-6718-4443-9bf4-a6656edd9ce3"
+                },
+                {
+                    "description": "Pad 4 [unconnected-(Q2-Thermal-Pad4)] of Q2 on F.Cu",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 63.5
+                    },
+                    "uuid": "3c3b5e60-02c0-4fa2-94f3-9075afab9ef4"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Items shorting two nets (nets Net-(Q2-S) and unconnected-(Q2-Thermal-Pad4))",
+            "items": [
+                {
+                    "description": "Pad 2 [Net-(Q2-S)] of Q2 on F.Cu",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 68.5
+                    },
+                    "uuid": "22c15af3-ff07-4cb4-9fd0-8e0d4af48cff"
+                },
+                {
+                    "description": "Pad 4 [unconnected-(Q2-Thermal-Pad4)] of Q2 on F.Cu",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 63.5
+                    },
+                    "uuid": "3c3b5e60-02c0-4fa2-94f3-9075afab9ef4"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Pad 2 [Net-(Q2-S)] of Q2 on F.Cu",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 68.5
+                    },
+                    "uuid": "22c15af3-ff07-4cb4-9fd0-8e0d4af48cff"
+                },
+                {
+                    "description": "NPTH pad of Q2",
+                    "pos": {
+                        "x": 146.0,
+                        "y": 69.5
+                    },
+                    "uuid": "5494e01c-09e4-4277-a194-b49c7231230d"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Pad 2 [Net-(Q2-S)] of Q2 on F.Cu",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 68.5
+                    },
+                    "uuid": "22c15af3-ff07-4cb4-9fd0-8e0d4af48cff"
+                },
+                {
+                    "description": "NPTH pad of Q2",
+                    "pos": {
+                        "x": 158.0,
+                        "y": 69.5
+                    },
+                    "uuid": "769fdacd-c815-414e-a41f-beaef9b0675b"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Pad 3 [unconnected-(Q2-D-Pad3)] of Q2 on F.Cu",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 58.5
+                    },
+                    "uuid": "ea13f5a9-1edb-462b-81c4-3190bc35ea54"
+                },
+                {
+                    "description": "NPTH pad of Q2",
+                    "pos": {
+                        "x": 158.0,
+                        "y": 57.5
+                    },
+                    "uuid": "017b5af1-f298-460c-9faa-2d4dae9231d8"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Pad 3 [unconnected-(Q2-D-Pad3)] of Q2 on F.Cu",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 58.5
+                    },
+                    "uuid": "ea13f5a9-1edb-462b-81c4-3190bc35ea54"
+                },
+                {
+                    "description": "NPTH pad of Q2",
+                    "pos": {
+                        "x": 146.0,
+                        "y": 57.5
+                    },
+                    "uuid": "8bf9e660-96aa-4f3a-bf3d-ec94607849f4"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Items shorting two nets (nets unconnected-(Q2-D-Pad3) and unconnected-(Q2-Thermal-Pad4))",
+            "items": [
+                {
+                    "description": "Pad 3 [unconnected-(Q2-D-Pad3)] of Q2 on F.Cu",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 58.5
+                    },
+                    "uuid": "ea13f5a9-1edb-462b-81c4-3190bc35ea54"
+                },
+                {
+                    "description": "Pad 4 [unconnected-(Q2-Thermal-Pad4)] of Q2 on F.Cu",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 63.5
+                    },
+                    "uuid": "3c3b5e60-02c0-4fa2-94f3-9075afab9ef4"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.7000 mm)",
+            "items": [
+                {
+                    "description": "Pad 4 [unconnected-(Q2-Thermal-Pad4)] of Q2 on F.Cu",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 63.5
+                    },
+                    "uuid": "3c3b5e60-02c0-4fa2-94f3-9075afab9ef4"
+                },
+                {
+                    "description": "PTH pad [<no net>] of Q2",
+                    "pos": {
+                        "x": 149.0,
+                        "y": 60.5
+                    },
+                    "uuid": "aa1f3e32-16a6-4cbf-84d6-8506dfd36974"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.7000 mm)",
+            "items": [
+                {
+                    "description": "Pad 4 [unconnected-(Q2-Thermal-Pad4)] of Q2 on F.Cu",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 63.5
+                    },
+                    "uuid": "3c3b5e60-02c0-4fa2-94f3-9075afab9ef4"
+                },
+                {
+                    "description": "PTH pad [<no net>] of Q2",
+                    "pos": {
+                        "x": 150.5,
+                        "y": 60.5
+                    },
+                    "uuid": "2899e0ac-73d7-44d1-b60e-f39f854cba4d"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.7000 mm)",
+            "items": [
+                {
+                    "description": "Pad 4 [unconnected-(Q2-Thermal-Pad4)] of Q2 on F.Cu",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 63.5
+                    },
+                    "uuid": "3c3b5e60-02c0-4fa2-94f3-9075afab9ef4"
+                },
+                {
+                    "description": "PTH pad [<no net>] of Q2",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 60.5
+                    },
+                    "uuid": "502e310e-d6b0-4ad2-992b-e1ebae948f18"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.7000 mm)",
+            "items": [
+                {
+                    "description": "Pad 4 [unconnected-(Q2-Thermal-Pad4)] of Q2 on F.Cu",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 63.5
+                    },
+                    "uuid": "3c3b5e60-02c0-4fa2-94f3-9075afab9ef4"
+                },
+                {
+                    "description": "PTH pad [<no net>] of Q2",
+                    "pos": {
+                        "x": 153.5,
+                        "y": 60.5
+                    },
+                    "uuid": "e3c554d2-446c-4e69-bfd5-ef30ba4d7eae"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.7000 mm)",
+            "items": [
+                {
+                    "description": "Pad 4 [unconnected-(Q2-Thermal-Pad4)] of Q2 on F.Cu",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 63.5
+                    },
+                    "uuid": "3c3b5e60-02c0-4fa2-94f3-9075afab9ef4"
+                },
+                {
+                    "description": "PTH pad [<no net>] of Q2",
+                    "pos": {
+                        "x": 155.0,
+                        "y": 60.5
+                    },
+                    "uuid": "2a0c0733-eb4e-4156-abf4-2acb688bb99f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.7000 mm)",
+            "items": [
+                {
+                    "description": "Pad 4 [unconnected-(Q2-Thermal-Pad4)] of Q2 on F.Cu",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 63.5
+                    },
+                    "uuid": "3c3b5e60-02c0-4fa2-94f3-9075afab9ef4"
+                },
+                {
+                    "description": "PTH pad [<no net>] of Q2",
+                    "pos": {
+                        "x": 149.0,
+                        "y": 62.0
+                    },
+                    "uuid": "f71532da-cae3-445a-8e3e-31e3e9d57e40"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.7000 mm)",
+            "items": [
+                {
+                    "description": "Pad 4 [unconnected-(Q2-Thermal-Pad4)] of Q2 on F.Cu",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 63.5
+                    },
+                    "uuid": "3c3b5e60-02c0-4fa2-94f3-9075afab9ef4"
+                },
+                {
+                    "description": "PTH pad [<no net>] of Q2",
+                    "pos": {
+                        "x": 149.0,
+                        "y": 63.5
+                    },
+                    "uuid": "074afd74-77ef-4b37-af8c-12eb8bb4f2a4"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 2.2000 mm)",
+            "items": [
+                {
+                    "description": "Pad 4 [unconnected-(Q2-Thermal-Pad4)] of Q2 on F.Cu",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 63.5
+                    },
+                    "uuid": "3c3b5e60-02c0-4fa2-94f3-9075afab9ef4"
+                },
+                {
+                    "description": "PTH pad [<no net>] of Q2",
+                    "pos": {
+                        "x": 150.5,
+                        "y": 62.0
+                    },
+                    "uuid": "11fdd4b3-4e09-4a3b-b200-817b92b934fc"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 2.2000 mm)",
+            "items": [
+                {
+                    "description": "Pad 4 [unconnected-(Q2-Thermal-Pad4)] of Q2 on F.Cu",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 63.5
+                    },
+                    "uuid": "3c3b5e60-02c0-4fa2-94f3-9075afab9ef4"
+                },
+                {
+                    "description": "PTH pad [<no net>] of Q2",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 62.0
+                    },
+                    "uuid": "70e4cbb3-6a2a-498f-a452-3167f9434ba7"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 2.2000 mm)",
+            "items": [
+                {
+                    "description": "Pad 4 [unconnected-(Q2-Thermal-Pad4)] of Q2 on F.Cu",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 63.5
+                    },
+                    "uuid": "3c3b5e60-02c0-4fa2-94f3-9075afab9ef4"
+                },
+                {
+                    "description": "PTH pad [<no net>] of Q2",
+                    "pos": {
+                        "x": 153.5,
+                        "y": 62.0
+                    },
+                    "uuid": "014e949d-7d9b-43bf-9439-043fce248cca"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.7000 mm)",
+            "items": [
+                {
+                    "description": "Pad 4 [unconnected-(Q2-Thermal-Pad4)] of Q2 on F.Cu",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 63.5
+                    },
+                    "uuid": "3c3b5e60-02c0-4fa2-94f3-9075afab9ef4"
+                },
+                {
+                    "description": "PTH pad [<no net>] of Q2",
+                    "pos": {
+                        "x": 155.0,
+                        "y": 62.0
+                    },
+                    "uuid": "fc918aa6-9f90-47fd-a930-70fd387ef8ff"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 3.7000 mm)",
+            "items": [
+                {
+                    "description": "Pad 4 [unconnected-(Q2-Thermal-Pad4)] of Q2 on F.Cu",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 63.5
+                    },
+                    "uuid": "3c3b5e60-02c0-4fa2-94f3-9075afab9ef4"
+                },
+                {
+                    "description": "PTH pad [<no net>] of Q2",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 63.5
+                    },
+                    "uuid": "d3f08de6-61ca-4ff0-bcea-ff41d7906323"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 2.2000 mm)",
+            "items": [
+                {
+                    "description": "Pad 4 [unconnected-(Q2-Thermal-Pad4)] of Q2 on F.Cu",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 63.5
+                    },
+                    "uuid": "3c3b5e60-02c0-4fa2-94f3-9075afab9ef4"
+                },
+                {
+                    "description": "PTH pad [<no net>] of Q2",
+                    "pos": {
+                        "x": 153.5,
+                        "y": 63.5
+                    },
+                    "uuid": "1f2adf4b-2eaa-40ad-b7cb-e2b7530ccfcf"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.7000 mm)",
+            "items": [
+                {
+                    "description": "Pad 4 [unconnected-(Q2-Thermal-Pad4)] of Q2 on F.Cu",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 63.5
+                    },
+                    "uuid": "3c3b5e60-02c0-4fa2-94f3-9075afab9ef4"
+                },
+                {
+                    "description": "PTH pad [<no net>] of Q2",
+                    "pos": {
+                        "x": 155.0,
+                        "y": 63.5
+                    },
+                    "uuid": "f8960378-d9d4-4739-9352-6bf3667f2ed3"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 2.2000 mm)",
+            "items": [
+                {
+                    "description": "Pad 4 [unconnected-(Q2-Thermal-Pad4)] of Q2 on F.Cu",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 63.5
+                    },
+                    "uuid": "3c3b5e60-02c0-4fa2-94f3-9075afab9ef4"
+                },
+                {
+                    "description": "PTH pad [<no net>] of Q2",
+                    "pos": {
+                        "x": 150.5,
+                        "y": 65.0
+                    },
+                    "uuid": "6c2f45f1-532a-4d38-99b7-f7b6bd973bcc"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.7000 mm)",
+            "items": [
+                {
+                    "description": "Pad 4 [unconnected-(Q2-Thermal-Pad4)] of Q2 on F.Cu",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 63.5
+                    },
+                    "uuid": "3c3b5e60-02c0-4fa2-94f3-9075afab9ef4"
+                },
+                {
+                    "description": "PTH pad [<no net>] of Q2",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 66.5
+                    },
+                    "uuid": "48dd0eb9-9afd-43ff-8a12-04556952d05c"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 2.2000 mm)",
+            "items": [
+                {
+                    "description": "Pad 4 [unconnected-(Q2-Thermal-Pad4)] of Q2 on F.Cu",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 63.5
+                    },
+                    "uuid": "3c3b5e60-02c0-4fa2-94f3-9075afab9ef4"
+                },
+                {
+                    "description": "PTH pad [<no net>] of Q2",
+                    "pos": {
+                        "x": 150.5,
+                        "y": 63.5
+                    },
+                    "uuid": "6fc8f153-0538-4796-af87-5da004a39393"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 2.2000 mm)",
+            "items": [
+                {
+                    "description": "Pad 4 [unconnected-(Q2-Thermal-Pad4)] of Q2 on F.Cu",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 63.5
+                    },
+                    "uuid": "3c3b5e60-02c0-4fa2-94f3-9075afab9ef4"
+                },
+                {
+                    "description": "PTH pad [<no net>] of Q2",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 65.0
+                    },
+                    "uuid": "1dd5af09-00dd-46dd-8354-5c2fb09d49f3"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 2.2000 mm)",
+            "items": [
+                {
+                    "description": "Pad 4 [unconnected-(Q2-Thermal-Pad4)] of Q2 on F.Cu",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 63.5
+                    },
+                    "uuid": "3c3b5e60-02c0-4fa2-94f3-9075afab9ef4"
+                },
+                {
+                    "description": "PTH pad [<no net>] of Q2",
+                    "pos": {
+                        "x": 153.5,
+                        "y": 65.0
+                    },
+                    "uuid": "4e86aba6-8f1e-4e3e-9644-276e71f35879"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.7000 mm)",
+            "items": [
+                {
+                    "description": "Pad 4 [unconnected-(Q2-Thermal-Pad4)] of Q2 on F.Cu",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 63.5
+                    },
+                    "uuid": "3c3b5e60-02c0-4fa2-94f3-9075afab9ef4"
+                },
+                {
+                    "description": "PTH pad [<no net>] of Q2",
+                    "pos": {
+                        "x": 149.0,
+                        "y": 65.0
+                    },
+                    "uuid": "635c78b8-df8c-47e3-9eb6-d9037f3c4ece"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.7000 mm)",
+            "items": [
+                {
+                    "description": "Pad 4 [unconnected-(Q2-Thermal-Pad4)] of Q2 on F.Cu",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 63.5
+                    },
+                    "uuid": "3c3b5e60-02c0-4fa2-94f3-9075afab9ef4"
+                },
+                {
+                    "description": "PTH pad [<no net>] of Q2",
+                    "pos": {
+                        "x": 149.0,
+                        "y": 66.5
+                    },
+                    "uuid": "533fcb8d-059d-49f0-9715-3fa563ca5e35"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.7000 mm)",
+            "items": [
+                {
+                    "description": "Pad 4 [unconnected-(Q2-Thermal-Pad4)] of Q2 on F.Cu",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 63.5
+                    },
+                    "uuid": "3c3b5e60-02c0-4fa2-94f3-9075afab9ef4"
+                },
+                {
+                    "description": "PTH pad [<no net>] of Q2",
+                    "pos": {
+                        "x": 150.5,
+                        "y": 66.5
+                    },
+                    "uuid": "dce4bafe-478a-4704-beb2-0f4b4d35fe6a"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.7000 mm)",
+            "items": [
+                {
+                    "description": "Pad 4 [unconnected-(Q2-Thermal-Pad4)] of Q2 on F.Cu",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 63.5
+                    },
+                    "uuid": "3c3b5e60-02c0-4fa2-94f3-9075afab9ef4"
+                },
+                {
+                    "description": "PTH pad [<no net>] of Q2",
+                    "pos": {
+                        "x": 155.0,
+                        "y": 65.0
+                    },
+                    "uuid": "80d51305-c4b4-47bc-8908-35133656e85f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.7000 mm)",
+            "items": [
+                {
+                    "description": "Pad 4 [unconnected-(Q2-Thermal-Pad4)] of Q2 on F.Cu",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 63.5
+                    },
+                    "uuid": "3c3b5e60-02c0-4fa2-94f3-9075afab9ef4"
+                },
+                {
+                    "description": "PTH pad [<no net>] of Q2",
+                    "pos": {
+                        "x": 153.5,
+                        "y": 66.5
+                    },
+                    "uuid": "12e5e542-9c98-4754-8bb5-b48e83f9b5d1"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.7000 mm)",
+            "items": [
+                {
+                    "description": "Pad 4 [unconnected-(Q2-Thermal-Pad4)] of Q2 on F.Cu",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 63.5
+                    },
+                    "uuid": "3c3b5e60-02c0-4fa2-94f3-9075afab9ef4"
+                },
+                {
+                    "description": "PTH pad [<no net>] of Q2",
+                    "pos": {
+                        "x": 155.0,
+                        "y": 66.5
+                    },
+                    "uuid": "670ce2c3-e5b0-4ada-9af4-9e0143137020"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Items shorting two nets (nets unconnected-(Q1-G-Pad1) and unconnected-(Q1-Thermal-Pad4))",
+            "items": [
+                {
+                    "description": "Pad 1 [unconnected-(Q1-G-Pad1)] of Q1 on F.Cu",
+                    "pos": {
+                        "x": 123.7175,
+                        "y": 62.995
+                    },
+                    "uuid": "1d7b6a5c-8e33-4456-85b9-c84fbee1493f"
+                },
+                {
+                    "description": "Pad 4 [unconnected-(Q1-Thermal-Pad4)] of Q1 on F.Cu",
+                    "pos": {
+                        "x": 118.7175,
+                        "y": 62.995
+                    },
+                    "uuid": "69a1b6cb-5954-433c-8354-7410116d1062"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Pad 2 [unconnected-(Q1-S-Pad2)] of Q1 on F.Cu",
+                    "pos": {
+                        "x": 118.7175,
+                        "y": 57.995
+                    },
+                    "uuid": "0b0e98ee-22d0-4bea-bc10-9b0b1ef506ab"
+                },
+                {
+                    "description": "NPTH pad of Q1",
+                    "pos": {
+                        "x": 124.7175,
+                        "y": 56.995
+                    },
+                    "uuid": "d2ee55e1-62f9-4027-a3ba-1a383b1538ac"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Items shorting two nets (nets unconnected-(Q1-S-Pad2) and unconnected-(Q1-Thermal-Pad4))",
+            "items": [
+                {
+                    "description": "Pad 2 [unconnected-(Q1-S-Pad2)] of Q1 on F.Cu",
+                    "pos": {
+                        "x": 118.7175,
+                        "y": 57.995
+                    },
+                    "uuid": "0b0e98ee-22d0-4bea-bc10-9b0b1ef506ab"
+                },
+                {
+                    "description": "Pad 4 [unconnected-(Q1-Thermal-Pad4)] of Q1 on F.Cu",
+                    "pos": {
+                        "x": 118.7175,
+                        "y": 62.995
+                    },
+                    "uuid": "69a1b6cb-5954-433c-8354-7410116d1062"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Pad 2 [unconnected-(Q1-S-Pad2)] of Q1 on F.Cu",
+                    "pos": {
+                        "x": 118.7175,
+                        "y": 57.995
+                    },
+                    "uuid": "0b0e98ee-22d0-4bea-bc10-9b0b1ef506ab"
+                },
+                {
+                    "description": "NPTH pad of Q1",
+                    "pos": {
+                        "x": 112.7175,
+                        "y": 56.995
+                    },
+                    "uuid": "d4ea00f8-2f27-41d3-a4af-cdea9c29cc5c"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Pad 3 [Net-(Q1-D)] of Q1 on F.Cu",
+                    "pos": {
+                        "x": 118.7175,
+                        "y": 67.995
+                    },
+                    "uuid": "89a0e67e-7408-4897-b344-fea605cd521d"
+                },
+                {
+                    "description": "NPTH pad of Q1",
+                    "pos": {
+                        "x": 124.7175,
+                        "y": 68.995
+                    },
+                    "uuid": "01659607-8e7a-4f4a-914c-4ebf1e08303e"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Items shorting two nets (nets Net-(Q1-D) and unconnected-(Q1-Thermal-Pad4))",
+            "items": [
+                {
+                    "description": "Pad 3 [Net-(Q1-D)] of Q1 on F.Cu",
+                    "pos": {
+                        "x": 118.7175,
+                        "y": 67.995
+                    },
+                    "uuid": "89a0e67e-7408-4897-b344-fea605cd521d"
+                },
+                {
+                    "description": "Pad 4 [unconnected-(Q1-Thermal-Pad4)] of Q1 on F.Cu",
+                    "pos": {
+                        "x": 118.7175,
+                        "y": 62.995
+                    },
+                    "uuid": "69a1b6cb-5954-433c-8354-7410116d1062"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Pad 3 [Net-(Q1-D)] of Q1 on F.Cu",
+                    "pos": {
+                        "x": 118.7175,
+                        "y": 67.995
+                    },
+                    "uuid": "89a0e67e-7408-4897-b344-fea605cd521d"
+                },
+                {
+                    "description": "NPTH pad of Q1",
+                    "pos": {
+                        "x": 112.7175,
+                        "y": 68.995
+                    },
+                    "uuid": "1a401228-b292-46aa-97db-06c460bc81a1"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.7000 mm)",
+            "items": [
+                {
+                    "description": "Pad 4 [unconnected-(Q1-Thermal-Pad4)] of Q1 on F.Cu",
+                    "pos": {
+                        "x": 118.7175,
+                        "y": 62.995
+                    },
+                    "uuid": "69a1b6cb-5954-433c-8354-7410116d1062"
+                },
+                {
+                    "description": "PTH pad [<no net>] of Q1",
+                    "pos": {
+                        "x": 121.7175,
+                        "y": 65.995
+                    },
+                    "uuid": "f36c556f-483d-432c-b210-413830313f18"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.7000 mm)",
+            "items": [
+                {
+                    "description": "Pad 4 [unconnected-(Q1-Thermal-Pad4)] of Q1 on F.Cu",
+                    "pos": {
+                        "x": 118.7175,
+                        "y": 62.995
+                    },
+                    "uuid": "69a1b6cb-5954-433c-8354-7410116d1062"
+                },
+                {
+                    "description": "PTH pad [<no net>] of Q1",
+                    "pos": {
+                        "x": 121.7175,
+                        "y": 64.495
+                    },
+                    "uuid": "aa50c616-8a27-4647-a575-beb49c466d28"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 2.2000 mm)",
+            "items": [
+                {
+                    "description": "Pad 4 [unconnected-(Q1-Thermal-Pad4)] of Q1 on F.Cu",
+                    "pos": {
+                        "x": 118.7175,
+                        "y": 62.995
+                    },
+                    "uuid": "69a1b6cb-5954-433c-8354-7410116d1062"
+                },
+                {
+                    "description": "PTH pad [<no net>] of Q1",
+                    "pos": {
+                        "x": 120.2175,
+                        "y": 64.495
+                    },
+                    "uuid": "69f44ea3-9ec6-4d6e-9f4a-535d69d39335"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.7000 mm)",
+            "items": [
+                {
+                    "description": "Pad 4 [unconnected-(Q1-Thermal-Pad4)] of Q1 on F.Cu",
+                    "pos": {
+                        "x": 118.7175,
+                        "y": 62.995
+                    },
+                    "uuid": "69a1b6cb-5954-433c-8354-7410116d1062"
+                },
+                {
+                    "description": "PTH pad [<no net>] of Q1",
+                    "pos": {
+                        "x": 121.7175,
+                        "y": 62.995
+                    },
+                    "uuid": "5f8a8593-2855-4224-bc5e-8e4b891c595b"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 2.2000 mm)",
+            "items": [
+                {
+                    "description": "Pad 4 [unconnected-(Q1-Thermal-Pad4)] of Q1 on F.Cu",
+                    "pos": {
+                        "x": 118.7175,
+                        "y": 62.995
+                    },
+                    "uuid": "69a1b6cb-5954-433c-8354-7410116d1062"
+                },
+                {
+                    "description": "PTH pad [<no net>] of Q1",
+                    "pos": {
+                        "x": 120.2175,
+                        "y": 62.995
+                    },
+                    "uuid": "994f1d89-2f47-498a-bb15-6556493e05c4"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.7000 mm)",
+            "items": [
+                {
+                    "description": "Pad 4 [unconnected-(Q1-Thermal-Pad4)] of Q1 on F.Cu",
+                    "pos": {
+                        "x": 118.7175,
+                        "y": 62.995
+                    },
+                    "uuid": "69a1b6cb-5954-433c-8354-7410116d1062"
+                },
+                {
+                    "description": "PTH pad [<no net>] of Q1",
+                    "pos": {
+                        "x": 121.7175,
+                        "y": 59.995
+                    },
+                    "uuid": "453a1694-db40-4cc1-a967-0b0a10708209"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.7000 mm)",
+            "items": [
+                {
+                    "description": "Pad 4 [unconnected-(Q1-Thermal-Pad4)] of Q1 on F.Cu",
+                    "pos": {
+                        "x": 118.7175,
+                        "y": 62.995
+                    },
+                    "uuid": "69a1b6cb-5954-433c-8354-7410116d1062"
+                },
+                {
+                    "description": "PTH pad [<no net>] of Q1",
+                    "pos": {
+                        "x": 120.2175,
+                        "y": 59.995
+                    },
+                    "uuid": "fd30a015-afbd-4ae4-bbf1-6775f4d8ba76"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.7000 mm)",
+            "items": [
+                {
+                    "description": "Pad 4 [unconnected-(Q1-Thermal-Pad4)] of Q1 on F.Cu",
+                    "pos": {
+                        "x": 118.7175,
+                        "y": 62.995
+                    },
+                    "uuid": "69a1b6cb-5954-433c-8354-7410116d1062"
+                },
+                {
+                    "description": "PTH pad [<no net>] of Q1",
+                    "pos": {
+                        "x": 120.2175,
+                        "y": 65.995
+                    },
+                    "uuid": "81d135f0-4f4c-4b46-ad8b-3d781a5db51a"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.7000 mm)",
+            "items": [
+                {
+                    "description": "Pad 4 [unconnected-(Q1-Thermal-Pad4)] of Q1 on F.Cu",
+                    "pos": {
+                        "x": 118.7175,
+                        "y": 62.995
+                    },
+                    "uuid": "69a1b6cb-5954-433c-8354-7410116d1062"
+                },
+                {
+                    "description": "PTH pad [<no net>] of Q1",
+                    "pos": {
+                        "x": 118.7175,
+                        "y": 65.995
+                    },
+                    "uuid": "b56527b1-98c8-452b-8844-e841069f3d6b"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.7000 mm)",
+            "items": [
+                {
+                    "description": "Pad 4 [unconnected-(Q1-Thermal-Pad4)] of Q1 on F.Cu",
+                    "pos": {
+                        "x": 118.7175,
+                        "y": 62.995
+                    },
+                    "uuid": "69a1b6cb-5954-433c-8354-7410116d1062"
+                },
+                {
+                    "description": "PTH pad [<no net>] of Q1",
+                    "pos": {
+                        "x": 117.2175,
+                        "y": 65.995
+                    },
+                    "uuid": "12118263-5191-4c70-b6d7-497ce24b62ce"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 2.2000 mm)",
+            "items": [
+                {
+                    "description": "Pad 4 [unconnected-(Q1-Thermal-Pad4)] of Q1 on F.Cu",
+                    "pos": {
+                        "x": 118.7175,
+                        "y": 62.995
+                    },
+                    "uuid": "69a1b6cb-5954-433c-8354-7410116d1062"
+                },
+                {
+                    "description": "PTH pad [<no net>] of Q1",
+                    "pos": {
+                        "x": 118.7175,
+                        "y": 64.495
+                    },
+                    "uuid": "642a3165-8128-495b-82a5-bfc0e10a4cce"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.7000 mm)",
+            "items": [
+                {
+                    "description": "Pad 4 [unconnected-(Q1-Thermal-Pad4)] of Q1 on F.Cu",
+                    "pos": {
+                        "x": 118.7175,
+                        "y": 62.995
+                    },
+                    "uuid": "69a1b6cb-5954-433c-8354-7410116d1062"
+                },
+                {
+                    "description": "PTH pad [<no net>] of Q1",
+                    "pos": {
+                        "x": 121.7175,
+                        "y": 61.495
+                    },
+                    "uuid": "cd3ef9c3-58b5-44df-99f0-b7c0bbb5d201"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 2.2000 mm)",
+            "items": [
+                {
+                    "description": "Pad 4 [unconnected-(Q1-Thermal-Pad4)] of Q1 on F.Cu",
+                    "pos": {
+                        "x": 118.7175,
+                        "y": 62.995
+                    },
+                    "uuid": "69a1b6cb-5954-433c-8354-7410116d1062"
+                },
+                {
+                    "description": "PTH pad [<no net>] of Q1",
+                    "pos": {
+                        "x": 120.2175,
+                        "y": 61.495
+                    },
+                    "uuid": "13713118-146c-4f4b-a53d-a6c18980424b"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.7000 mm)",
+            "items": [
+                {
+                    "description": "Pad 4 [unconnected-(Q1-Thermal-Pad4)] of Q1 on F.Cu",
+                    "pos": {
+                        "x": 118.7175,
+                        "y": 62.995
+                    },
+                    "uuid": "69a1b6cb-5954-433c-8354-7410116d1062"
+                },
+                {
+                    "description": "PTH pad [<no net>] of Q1",
+                    "pos": {
+                        "x": 118.7175,
+                        "y": 59.995
+                    },
+                    "uuid": "01b4341f-5dee-4124-94d5-d2add9ee2ecd"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 2.2000 mm)",
+            "items": [
+                {
+                    "description": "Pad 4 [unconnected-(Q1-Thermal-Pad4)] of Q1 on F.Cu",
+                    "pos": {
+                        "x": 118.7175,
+                        "y": 62.995
+                    },
+                    "uuid": "69a1b6cb-5954-433c-8354-7410116d1062"
+                },
+                {
+                    "description": "PTH pad [<no net>] of Q1",
+                    "pos": {
+                        "x": 117.2175,
+                        "y": 64.495
+                    },
+                    "uuid": "b96d90bd-5fae-4ca6-997b-b7b26066f296"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.7000 mm)",
+            "items": [
+                {
+                    "description": "Pad 4 [unconnected-(Q1-Thermal-Pad4)] of Q1 on F.Cu",
+                    "pos": {
+                        "x": 118.7175,
+                        "y": 62.995
+                    },
+                    "uuid": "69a1b6cb-5954-433c-8354-7410116d1062"
+                },
+                {
+                    "description": "PTH pad [<no net>] of Q1",
+                    "pos": {
+                        "x": 115.7175,
+                        "y": 64.495
+                    },
+                    "uuid": "04386d9c-3919-47f0-9fc1-3b5bc1c1e56a"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 3.7000 mm)",
+            "items": [
+                {
+                    "description": "Pad 4 [unconnected-(Q1-Thermal-Pad4)] of Q1 on F.Cu",
+                    "pos": {
+                        "x": 118.7175,
+                        "y": 62.995
+                    },
+                    "uuid": "69a1b6cb-5954-433c-8354-7410116d1062"
+                },
+                {
+                    "description": "PTH pad [<no net>] of Q1",
+                    "pos": {
+                        "x": 118.7175,
+                        "y": 62.995
+                    },
+                    "uuid": "3141d0c8-19d6-4087-9944-f0e8c6a457ec"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 2.2000 mm)",
+            "items": [
+                {
+                    "description": "Pad 4 [unconnected-(Q1-Thermal-Pad4)] of Q1 on F.Cu",
+                    "pos": {
+                        "x": 118.7175,
+                        "y": 62.995
+                    },
+                    "uuid": "69a1b6cb-5954-433c-8354-7410116d1062"
+                },
+                {
+                    "description": "PTH pad [<no net>] of Q1",
+                    "pos": {
+                        "x": 118.7175,
+                        "y": 61.495
+                    },
+                    "uuid": "37929672-e583-4665-aee3-01be1da5e3c8"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.7000 mm)",
+            "items": [
+                {
+                    "description": "Pad 4 [unconnected-(Q1-Thermal-Pad4)] of Q1 on F.Cu",
+                    "pos": {
+                        "x": 118.7175,
+                        "y": 62.995
+                    },
+                    "uuid": "69a1b6cb-5954-433c-8354-7410116d1062"
+                },
+                {
+                    "description": "PTH pad [<no net>] of Q1",
+                    "pos": {
+                        "x": 117.2175,
+                        "y": 59.995
+                    },
+                    "uuid": "808380a0-58c2-4767-adff-fa0fd12a4287"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.7000 mm)",
+            "items": [
+                {
+                    "description": "Pad 4 [unconnected-(Q1-Thermal-Pad4)] of Q1 on F.Cu",
+                    "pos": {
+                        "x": 118.7175,
+                        "y": 62.995
+                    },
+                    "uuid": "69a1b6cb-5954-433c-8354-7410116d1062"
+                },
+                {
+                    "description": "PTH pad [<no net>] of Q1",
+                    "pos": {
+                        "x": 115.7175,
+                        "y": 65.995
+                    },
+                    "uuid": "029093e6-da4b-4f6b-ac1b-bc86902778c9"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 2.2000 mm)",
+            "items": [
+                {
+                    "description": "Pad 4 [unconnected-(Q1-Thermal-Pad4)] of Q1 on F.Cu",
+                    "pos": {
+                        "x": 118.7175,
+                        "y": 62.995
+                    },
+                    "uuid": "69a1b6cb-5954-433c-8354-7410116d1062"
+                },
+                {
+                    "description": "PTH pad [<no net>] of Q1",
+                    "pos": {
+                        "x": 117.2175,
+                        "y": 62.995
+                    },
+                    "uuid": "fe25c76e-b0a1-4ed1-be9c-c8856a15ad8c"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.7000 mm)",
+            "items": [
+                {
+                    "description": "Pad 4 [unconnected-(Q1-Thermal-Pad4)] of Q1 on F.Cu",
+                    "pos": {
+                        "x": 118.7175,
+                        "y": 62.995
+                    },
+                    "uuid": "69a1b6cb-5954-433c-8354-7410116d1062"
+                },
+                {
+                    "description": "PTH pad [<no net>] of Q1",
+                    "pos": {
+                        "x": 115.7175,
+                        "y": 62.995
+                    },
+                    "uuid": "7fc3ff7e-d6ff-4a86-af17-7176b273ae19"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 2.2000 mm)",
+            "items": [
+                {
+                    "description": "Pad 4 [unconnected-(Q1-Thermal-Pad4)] of Q1 on F.Cu",
+                    "pos": {
+                        "x": 118.7175,
+                        "y": 62.995
+                    },
+                    "uuid": "69a1b6cb-5954-433c-8354-7410116d1062"
+                },
+                {
+                    "description": "PTH pad [<no net>] of Q1",
+                    "pos": {
+                        "x": 117.2175,
+                        "y": 61.495
+                    },
+                    "uuid": "e69aa5d1-b541-490e-a59a-8774be190694"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.7000 mm)",
+            "items": [
+                {
+                    "description": "Pad 4 [unconnected-(Q1-Thermal-Pad4)] of Q1 on F.Cu",
+                    "pos": {
+                        "x": 118.7175,
+                        "y": 62.995
+                    },
+                    "uuid": "69a1b6cb-5954-433c-8354-7410116d1062"
+                },
+                {
+                    "description": "PTH pad [<no net>] of Q1",
+                    "pos": {
+                        "x": 115.7175,
+                        "y": 61.495
+                    },
+                    "uuid": "fe974706-e4ca-40b6-91cb-3f45c070257b"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.7000 mm)",
+            "items": [
+                {
+                    "description": "Pad 4 [unconnected-(Q1-Thermal-Pad4)] of Q1 on F.Cu",
+                    "pos": {
+                        "x": 118.7175,
+                        "y": 62.995
+                    },
+                    "uuid": "69a1b6cb-5954-433c-8354-7410116d1062"
+                },
+                {
+                    "description": "PTH pad [<no net>] of Q1",
+                    "pos": {
+                        "x": 115.7175,
+                        "y": 59.995
+                    },
+                    "uuid": "c5bd693c-0fc9-4f8d-ad65-c90653ade5de"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q2",
+                    "pos": {
+                        "x": 149.0,
+                        "y": 60.5
+                    },
+                    "uuid": "aa1f3e32-16a6-4cbf-84d6-8506dfd36974"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q2",
+                    "pos": {
+                        "x": 150.5,
+                        "y": 60.5
+                    },
+                    "uuid": "2899e0ac-73d7-44d1-b60e-f39f854cba4d"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q2",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 60.5
+                    },
+                    "uuid": "502e310e-d6b0-4ad2-992b-e1ebae948f18"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q2",
+                    "pos": {
+                        "x": 153.5,
+                        "y": 60.5
+                    },
+                    "uuid": "e3c554d2-446c-4e69-bfd5-ef30ba4d7eae"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q2",
+                    "pos": {
+                        "x": 155.0,
+                        "y": 60.5
+                    },
+                    "uuid": "2a0c0733-eb4e-4156-abf4-2acb688bb99f"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q2",
+                    "pos": {
+                        "x": 149.0,
+                        "y": 62.0
+                    },
+                    "uuid": "f71532da-cae3-445a-8e3e-31e3e9d57e40"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q2",
+                    "pos": {
+                        "x": 150.5,
+                        "y": 62.0
+                    },
+                    "uuid": "11fdd4b3-4e09-4a3b-b200-817b92b934fc"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q2",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 62.0
+                    },
+                    "uuid": "70e4cbb3-6a2a-498f-a452-3167f9434ba7"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q2",
+                    "pos": {
+                        "x": 153.5,
+                        "y": 62.0
+                    },
+                    "uuid": "014e949d-7d9b-43bf-9439-043fce248cca"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q2",
+                    "pos": {
+                        "x": 155.0,
+                        "y": 62.0
+                    },
+                    "uuid": "fc918aa6-9f90-47fd-a930-70fd387ef8ff"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q2",
+                    "pos": {
+                        "x": 149.0,
+                        "y": 63.5
+                    },
+                    "uuid": "074afd74-77ef-4b37-af8c-12eb8bb4f2a4"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q2",
+                    "pos": {
+                        "x": 150.5,
+                        "y": 63.5
+                    },
+                    "uuid": "6fc8f153-0538-4796-af87-5da004a39393"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q2",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 63.5
+                    },
+                    "uuid": "d3f08de6-61ca-4ff0-bcea-ff41d7906323"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q2",
+                    "pos": {
+                        "x": 153.5,
+                        "y": 63.5
+                    },
+                    "uuid": "1f2adf4b-2eaa-40ad-b7cb-e2b7530ccfcf"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q2",
+                    "pos": {
+                        "x": 155.0,
+                        "y": 63.5
+                    },
+                    "uuid": "f8960378-d9d4-4739-9352-6bf3667f2ed3"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q2",
+                    "pos": {
+                        "x": 149.0,
+                        "y": 65.0
+                    },
+                    "uuid": "635c78b8-df8c-47e3-9eb6-d9037f3c4ece"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q2",
+                    "pos": {
+                        "x": 150.5,
+                        "y": 65.0
+                    },
+                    "uuid": "6c2f45f1-532a-4d38-99b7-f7b6bd973bcc"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q2",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 65.0
+                    },
+                    "uuid": "1dd5af09-00dd-46dd-8354-5c2fb09d49f3"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q2",
+                    "pos": {
+                        "x": 153.5,
+                        "y": 65.0
+                    },
+                    "uuid": "4e86aba6-8f1e-4e3e-9644-276e71f35879"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q2",
+                    "pos": {
+                        "x": 155.0,
+                        "y": 65.0
+                    },
+                    "uuid": "80d51305-c4b4-47bc-8908-35133656e85f"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q2",
+                    "pos": {
+                        "x": 149.0,
+                        "y": 66.5
+                    },
+                    "uuid": "533fcb8d-059d-49f0-9715-3fa563ca5e35"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q2",
+                    "pos": {
+                        "x": 150.5,
+                        "y": 66.5
+                    },
+                    "uuid": "dce4bafe-478a-4704-beb2-0f4b4d35fe6a"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q2",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 66.5
+                    },
+                    "uuid": "48dd0eb9-9afd-43ff-8a12-04556952d05c"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q2",
+                    "pos": {
+                        "x": 153.5,
+                        "y": 66.5
+                    },
+                    "uuid": "12e5e542-9c98-4754-8bb5-b48e83f9b5d1"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q2",
+                    "pos": {
+                        "x": 155.0,
+                        "y": 66.5
+                    },
+                    "uuid": "670ce2c3-e5b0-4ada-9af4-9e0143137020"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q1",
+                    "pos": {
+                        "x": 121.7175,
+                        "y": 65.995
+                    },
+                    "uuid": "f36c556f-483d-432c-b210-413830313f18"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q1",
+                    "pos": {
+                        "x": 120.2175,
+                        "y": 65.995
+                    },
+                    "uuid": "81d135f0-4f4c-4b46-ad8b-3d781a5db51a"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q1",
+                    "pos": {
+                        "x": 118.7175,
+                        "y": 65.995
+                    },
+                    "uuid": "b56527b1-98c8-452b-8844-e841069f3d6b"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q1",
+                    "pos": {
+                        "x": 117.2175,
+                        "y": 65.995
+                    },
+                    "uuid": "12118263-5191-4c70-b6d7-497ce24b62ce"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q1",
+                    "pos": {
+                        "x": 115.7175,
+                        "y": 65.995
+                    },
+                    "uuid": "029093e6-da4b-4f6b-ac1b-bc86902778c9"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q1",
+                    "pos": {
+                        "x": 121.7175,
+                        "y": 64.495
+                    },
+                    "uuid": "aa50c616-8a27-4647-a575-beb49c466d28"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q1",
+                    "pos": {
+                        "x": 120.2175,
+                        "y": 64.495
+                    },
+                    "uuid": "69f44ea3-9ec6-4d6e-9f4a-535d69d39335"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q1",
+                    "pos": {
+                        "x": 118.7175,
+                        "y": 64.495
+                    },
+                    "uuid": "642a3165-8128-495b-82a5-bfc0e10a4cce"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q1",
+                    "pos": {
+                        "x": 117.2175,
+                        "y": 64.495
+                    },
+                    "uuid": "b96d90bd-5fae-4ca6-997b-b7b26066f296"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q1",
+                    "pos": {
+                        "x": 115.7175,
+                        "y": 64.495
+                    },
+                    "uuid": "04386d9c-3919-47f0-9fc1-3b5bc1c1e56a"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q1",
+                    "pos": {
+                        "x": 121.7175,
+                        "y": 62.995
+                    },
+                    "uuid": "5f8a8593-2855-4224-bc5e-8e4b891c595b"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q1",
+                    "pos": {
+                        "x": 120.2175,
+                        "y": 62.995
+                    },
+                    "uuid": "994f1d89-2f47-498a-bb15-6556493e05c4"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q1",
+                    "pos": {
+                        "x": 118.7175,
+                        "y": 62.995
+                    },
+                    "uuid": "3141d0c8-19d6-4087-9944-f0e8c6a457ec"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q1",
+                    "pos": {
+                        "x": 117.2175,
+                        "y": 62.995
+                    },
+                    "uuid": "fe25c76e-b0a1-4ed1-be9c-c8856a15ad8c"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q1",
+                    "pos": {
+                        "x": 115.7175,
+                        "y": 62.995
+                    },
+                    "uuid": "7fc3ff7e-d6ff-4a86-af17-7176b273ae19"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q1",
+                    "pos": {
+                        "x": 121.7175,
+                        "y": 61.495
+                    },
+                    "uuid": "cd3ef9c3-58b5-44df-99f0-b7c0bbb5d201"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q1",
+                    "pos": {
+                        "x": 120.2175,
+                        "y": 61.495
+                    },
+                    "uuid": "13713118-146c-4f4b-a53d-a6c18980424b"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q1",
+                    "pos": {
+                        "x": 118.7175,
+                        "y": 61.495
+                    },
+                    "uuid": "37929672-e583-4665-aee3-01be1da5e3c8"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q1",
+                    "pos": {
+                        "x": 117.2175,
+                        "y": 61.495
+                    },
+                    "uuid": "e69aa5d1-b541-490e-a59a-8774be190694"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q1",
+                    "pos": {
+                        "x": 115.7175,
+                        "y": 61.495
+                    },
+                    "uuid": "fe974706-e4ca-40b6-91cb-3f45c070257b"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q1",
+                    "pos": {
+                        "x": 121.7175,
+                        "y": 59.995
+                    },
+                    "uuid": "453a1694-db40-4cc1-a967-0b0a10708209"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q1",
+                    "pos": {
+                        "x": 120.2175,
+                        "y": 59.995
+                    },
+                    "uuid": "fd30a015-afbd-4ae4-bbf1-6775f4d8ba76"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q1",
+                    "pos": {
+                        "x": 118.7175,
+                        "y": 59.995
+                    },
+                    "uuid": "01b4341f-5dee-4124-94d5-d2add9ee2ecd"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q1",
+                    "pos": {
+                        "x": 117.2175,
+                        "y": 59.995
+                    },
+                    "uuid": "808380a0-58c2-4767-adff-fa0fd12a4287"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q1",
+                    "pos": {
+                        "x": 115.7175,
+                        "y": 59.995
+                    },
+                    "uuid": "c5bd693c-0fc9-4f8d-ad65-c90653ade5de"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Board has malformed outline (no edges found on Edge.Cuts layer)",
+            "items": [
+                {
+                    "description": "PCB",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "9a370ed6-aa6a-4e86-9d55-42cf67ec8966"
+                }
+            ],
+            "severity": "error",
+            "type": "invalid_outline"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6000 mm)",
+            "items": [
+                {
+                    "description": "Footprint text of T2 (200Ω)",
+                    "pos": {
+                        "x": 99.0,
+                        "y": 181.0
+                    },
+                    "uuid": "d122724f-1bd3-445d-99ce-1bb146b321e7"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6000 mm)",
+            "items": [
+                {
+                    "description": "Footprint text of T2 (50Ω)",
+                    "pos": {
+                        "x": 81.5,
+                        "y": 181.0
+                    },
+                    "uuid": "203bf7c4-07f2-475d-bd33-f2bd7b9cdbeb"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)",
+            "items": [
+                {
+                    "description": "Footprint text of T2 (MATCH WINDING DIRECTION)",
+                    "pos": {
+                        "x": 90.0,
+                        "y": 189.5
+                    },
+                    "uuid": "fbf1217e-6988-4292-a4c3-183c330203ac"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6000 mm)",
+            "items": [
+                {
+                    "description": "Footprint text of T1 (200Ω)",
+                    "pos": {
+                        "x": 99.0,
+                        "y": 151.95
+                    },
+                    "uuid": "7fe66d2d-3654-494a-9366-a9df9f429072"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6000 mm)",
+            "items": [
+                {
+                    "description": "Footprint text of T1 (50Ω)",
+                    "pos": {
+                        "x": 81.5,
+                        "y": 151.95
+                    },
+                    "uuid": "e9d372a7-0889-4c43-b971-9212c5e2d802"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)",
+            "items": [
+                {
+                    "description": "Footprint text of T1 (MATCH WINDING DIRECTION)",
+                    "pos": {
+                        "x": 90.0,
+                        "y": 160.0
+                    },
+                    "uuid": "46146701-30ae-42d3-a559-c3be7cd1c287"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6000 mm)",
+            "items": [
+                {
+                    "description": "Footprint text of Q2 (THERMAL PAD REQUIRED)",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 54.0
+                    },
+                    "uuid": "cc4f801a-41c7-4568-859d-b6eafe41156e"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6000 mm)",
+            "items": [
+                {
+                    "description": "Footprint text of Q1 (THERMAL PAD REQUIRED)",
+                    "pos": {
+                        "x": 118.435,
+                        "y": 72.49
+                    },
+                    "uuid": "eef005b4-0e10-4890-905e-bfb2ec6f958e"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Circle of T2 on F.Silkscreen",
+                    "pos": {
+                        "x": 90.0,
+                        "y": 181.0
+                    },
+                    "uuid": "0d260912-3bea-4cd9-b3a5-4b9674c07f8b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Arc of T2 on F.Silkscreen",
+                    "pos": {
+                        "x": 94.910488,
+                        "y": 177.089512
+                    },
+                    "uuid": "8c704525-66f9-40a4-b9d0-b011d60b3c4e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Arc of T2 on F.Silkscreen",
+                    "pos": {
+                        "x": 85.0895,
+                        "y": 184.9105
+                    },
+                    "uuid": "2fd0e762-5186-4459-9f7b-8d437d0e63d3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Circle of T1 on F.Silkscreen",
+                    "pos": {
+                        "x": 90.0,
+                        "y": 151.95
+                    },
+                    "uuid": "aafcf285-7376-4070-9ba2-0e0362c93366"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Arc of T1 on F.Silkscreen",
+                    "pos": {
+                        "x": 94.910488,
+                        "y": 148.039512
+                    },
+                    "uuid": "6084a49f-ca53-4f79-812d-117b5cdf7f32"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Arc of T1 on F.Silkscreen",
+                    "pos": {
+                        "x": 85.0895,
+                        "y": 155.8605
+                    },
+                    "uuid": "9fe4831f-b92e-45d5-bed7-bbe1f4465916"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Rectangle of Q2 on F.Silkscreen",
+                    "pos": {
+                        "x": 145.0,
+                        "y": 56.5
+                    },
+                    "uuid": "263e17f5-24b2-4ff1-86ca-af2a6cd79905"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Rectangle of Q2 on F.Silkscreen",
+                    "pos": {
+                        "x": 147.0,
+                        "y": 58.5
+                    },
+                    "uuid": "684de748-38ba-4d58-8a4f-b28fbb5fc1a7"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Circle of Q2 on F.Silkscreen",
+                    "pos": {
+                        "x": 146.5,
+                        "y": 63.5
+                    },
+                    "uuid": "4365e014-5812-4e75-9ee3-cf631100b978"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Rectangle of Q1 on F.Silkscreen",
+                    "pos": {
+                        "x": 125.7175,
+                        "y": 69.995
+                    },
+                    "uuid": "eb1e52d8-1ab1-4303-876f-11ab524b0113"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Rectangle of Q1 on F.Silkscreen",
+                    "pos": {
+                        "x": 123.7175,
+                        "y": 67.995
+                    },
+                    "uuid": "d40e6d41-5921-471e-8bfe-e86c47f62678"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Circle of Q1 on F.Silkscreen",
+                    "pos": {
+                        "x": 124.2175,
+                        "y": 62.995
+                    },
+                    "uuid": "7081a46a-507c-4444-94bb-7885599803a5"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 1 [unconnected-(Q2-G-Pad1)] of Q2 on F.Cu",
+                    "pos": {
+                        "x": 147.0,
+                        "y": 63.5
+                    },
+                    "uuid": "a5f377c0-6718-4443-9bf4-a6656edd9ce3"
+                },
+                {
+                    "description": "Pad 4 [unconnected-(Q2-Thermal-Pad4)] of Q2 on F.Cu",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 63.5
+                    },
+                    "uuid": "3c3b5e60-02c0-4fa2-94f3-9075afab9ef4"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 2 [Net-(Q2-S)] of Q2 on F.Cu",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 68.5
+                    },
+                    "uuid": "22c15af3-ff07-4cb4-9fd0-8e0d4af48cff"
+                },
+                {
+                    "description": "Pad 4 [unconnected-(Q2-Thermal-Pad4)] of Q2 on F.Cu",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 63.5
+                    },
+                    "uuid": "3c3b5e60-02c0-4fa2-94f3-9075afab9ef4"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 3 [unconnected-(Q2-D-Pad3)] of Q2 on F.Cu",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 58.5
+                    },
+                    "uuid": "ea13f5a9-1edb-462b-81c4-3190bc35ea54"
+                },
+                {
+                    "description": "Pad 4 [unconnected-(Q2-Thermal-Pad4)] of Q2 on F.Cu",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 63.5
+                    },
+                    "uuid": "3c3b5e60-02c0-4fa2-94f3-9075afab9ef4"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q2",
+                    "pos": {
+                        "x": 149.0,
+                        "y": 60.5
+                    },
+                    "uuid": "aa1f3e32-16a6-4cbf-84d6-8506dfd36974"
+                },
+                {
+                    "description": "Pad 4 [unconnected-(Q2-Thermal-Pad4)] of Q2 on F.Cu",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 63.5
+                    },
+                    "uuid": "3c3b5e60-02c0-4fa2-94f3-9075afab9ef4"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q2",
+                    "pos": {
+                        "x": 150.5,
+                        "y": 60.5
+                    },
+                    "uuid": "2899e0ac-73d7-44d1-b60e-f39f854cba4d"
+                },
+                {
+                    "description": "Pad 4 [unconnected-(Q2-Thermal-Pad4)] of Q2 on F.Cu",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 63.5
+                    },
+                    "uuid": "3c3b5e60-02c0-4fa2-94f3-9075afab9ef4"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q2",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 60.5
+                    },
+                    "uuid": "502e310e-d6b0-4ad2-992b-e1ebae948f18"
+                },
+                {
+                    "description": "Pad 4 [unconnected-(Q2-Thermal-Pad4)] of Q2 on F.Cu",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 63.5
+                    },
+                    "uuid": "3c3b5e60-02c0-4fa2-94f3-9075afab9ef4"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q2",
+                    "pos": {
+                        "x": 153.5,
+                        "y": 60.5
+                    },
+                    "uuid": "e3c554d2-446c-4e69-bfd5-ef30ba4d7eae"
+                },
+                {
+                    "description": "Pad 4 [unconnected-(Q2-Thermal-Pad4)] of Q2 on F.Cu",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 63.5
+                    },
+                    "uuid": "3c3b5e60-02c0-4fa2-94f3-9075afab9ef4"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q2",
+                    "pos": {
+                        "x": 155.0,
+                        "y": 60.5
+                    },
+                    "uuid": "2a0c0733-eb4e-4156-abf4-2acb688bb99f"
+                },
+                {
+                    "description": "Pad 4 [unconnected-(Q2-Thermal-Pad4)] of Q2 on F.Cu",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 63.5
+                    },
+                    "uuid": "3c3b5e60-02c0-4fa2-94f3-9075afab9ef4"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q2",
+                    "pos": {
+                        "x": 149.0,
+                        "y": 62.0
+                    },
+                    "uuid": "f71532da-cae3-445a-8e3e-31e3e9d57e40"
+                },
+                {
+                    "description": "Pad 4 [unconnected-(Q2-Thermal-Pad4)] of Q2 on F.Cu",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 63.5
+                    },
+                    "uuid": "3c3b5e60-02c0-4fa2-94f3-9075afab9ef4"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q2",
+                    "pos": {
+                        "x": 150.5,
+                        "y": 62.0
+                    },
+                    "uuid": "11fdd4b3-4e09-4a3b-b200-817b92b934fc"
+                },
+                {
+                    "description": "Pad 4 [unconnected-(Q2-Thermal-Pad4)] of Q2 on F.Cu",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 63.5
+                    },
+                    "uuid": "3c3b5e60-02c0-4fa2-94f3-9075afab9ef4"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q2",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 62.0
+                    },
+                    "uuid": "70e4cbb3-6a2a-498f-a452-3167f9434ba7"
+                },
+                {
+                    "description": "Pad 4 [unconnected-(Q2-Thermal-Pad4)] of Q2 on F.Cu",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 63.5
+                    },
+                    "uuid": "3c3b5e60-02c0-4fa2-94f3-9075afab9ef4"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q2",
+                    "pos": {
+                        "x": 153.5,
+                        "y": 62.0
+                    },
+                    "uuid": "014e949d-7d9b-43bf-9439-043fce248cca"
+                },
+                {
+                    "description": "Pad 4 [unconnected-(Q2-Thermal-Pad4)] of Q2 on F.Cu",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 63.5
+                    },
+                    "uuid": "3c3b5e60-02c0-4fa2-94f3-9075afab9ef4"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q2",
+                    "pos": {
+                        "x": 155.0,
+                        "y": 62.0
+                    },
+                    "uuid": "fc918aa6-9f90-47fd-a930-70fd387ef8ff"
+                },
+                {
+                    "description": "Pad 4 [unconnected-(Q2-Thermal-Pad4)] of Q2 on F.Cu",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 63.5
+                    },
+                    "uuid": "3c3b5e60-02c0-4fa2-94f3-9075afab9ef4"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q2",
+                    "pos": {
+                        "x": 149.0,
+                        "y": 63.5
+                    },
+                    "uuid": "074afd74-77ef-4b37-af8c-12eb8bb4f2a4"
+                },
+                {
+                    "description": "Pad 4 [unconnected-(Q2-Thermal-Pad4)] of Q2 on F.Cu",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 63.5
+                    },
+                    "uuid": "3c3b5e60-02c0-4fa2-94f3-9075afab9ef4"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q2",
+                    "pos": {
+                        "x": 150.5,
+                        "y": 63.5
+                    },
+                    "uuid": "6fc8f153-0538-4796-af87-5da004a39393"
+                },
+                {
+                    "description": "Pad 4 [unconnected-(Q2-Thermal-Pad4)] of Q2 on F.Cu",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 63.5
+                    },
+                    "uuid": "3c3b5e60-02c0-4fa2-94f3-9075afab9ef4"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q2",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 63.5
+                    },
+                    "uuid": "d3f08de6-61ca-4ff0-bcea-ff41d7906323"
+                },
+                {
+                    "description": "Pad 4 [unconnected-(Q2-Thermal-Pad4)] of Q2 on F.Cu",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 63.5
+                    },
+                    "uuid": "3c3b5e60-02c0-4fa2-94f3-9075afab9ef4"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q2",
+                    "pos": {
+                        "x": 153.5,
+                        "y": 63.5
+                    },
+                    "uuid": "1f2adf4b-2eaa-40ad-b7cb-e2b7530ccfcf"
+                },
+                {
+                    "description": "Pad 4 [unconnected-(Q2-Thermal-Pad4)] of Q2 on F.Cu",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 63.5
+                    },
+                    "uuid": "3c3b5e60-02c0-4fa2-94f3-9075afab9ef4"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q2",
+                    "pos": {
+                        "x": 155.0,
+                        "y": 63.5
+                    },
+                    "uuid": "f8960378-d9d4-4739-9352-6bf3667f2ed3"
+                },
+                {
+                    "description": "Pad 4 [unconnected-(Q2-Thermal-Pad4)] of Q2 on F.Cu",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 63.5
+                    },
+                    "uuid": "3c3b5e60-02c0-4fa2-94f3-9075afab9ef4"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q2",
+                    "pos": {
+                        "x": 149.0,
+                        "y": 65.0
+                    },
+                    "uuid": "635c78b8-df8c-47e3-9eb6-d9037f3c4ece"
+                },
+                {
+                    "description": "Pad 4 [unconnected-(Q2-Thermal-Pad4)] of Q2 on F.Cu",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 63.5
+                    },
+                    "uuid": "3c3b5e60-02c0-4fa2-94f3-9075afab9ef4"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q2",
+                    "pos": {
+                        "x": 150.5,
+                        "y": 65.0
+                    },
+                    "uuid": "6c2f45f1-532a-4d38-99b7-f7b6bd973bcc"
+                },
+                {
+                    "description": "Pad 4 [unconnected-(Q2-Thermal-Pad4)] of Q2 on F.Cu",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 63.5
+                    },
+                    "uuid": "3c3b5e60-02c0-4fa2-94f3-9075afab9ef4"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q2",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 65.0
+                    },
+                    "uuid": "1dd5af09-00dd-46dd-8354-5c2fb09d49f3"
+                },
+                {
+                    "description": "Pad 4 [unconnected-(Q2-Thermal-Pad4)] of Q2 on F.Cu",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 63.5
+                    },
+                    "uuid": "3c3b5e60-02c0-4fa2-94f3-9075afab9ef4"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q2",
+                    "pos": {
+                        "x": 153.5,
+                        "y": 65.0
+                    },
+                    "uuid": "4e86aba6-8f1e-4e3e-9644-276e71f35879"
+                },
+                {
+                    "description": "Pad 4 [unconnected-(Q2-Thermal-Pad4)] of Q2 on F.Cu",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 63.5
+                    },
+                    "uuid": "3c3b5e60-02c0-4fa2-94f3-9075afab9ef4"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q2",
+                    "pos": {
+                        "x": 155.0,
+                        "y": 65.0
+                    },
+                    "uuid": "80d51305-c4b4-47bc-8908-35133656e85f"
+                },
+                {
+                    "description": "Pad 4 [unconnected-(Q2-Thermal-Pad4)] of Q2 on F.Cu",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 63.5
+                    },
+                    "uuid": "3c3b5e60-02c0-4fa2-94f3-9075afab9ef4"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q2",
+                    "pos": {
+                        "x": 149.0,
+                        "y": 66.5
+                    },
+                    "uuid": "533fcb8d-059d-49f0-9715-3fa563ca5e35"
+                },
+                {
+                    "description": "Pad 4 [unconnected-(Q2-Thermal-Pad4)] of Q2 on F.Cu",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 63.5
+                    },
+                    "uuid": "3c3b5e60-02c0-4fa2-94f3-9075afab9ef4"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q2",
+                    "pos": {
+                        "x": 150.5,
+                        "y": 66.5
+                    },
+                    "uuid": "dce4bafe-478a-4704-beb2-0f4b4d35fe6a"
+                },
+                {
+                    "description": "Pad 4 [unconnected-(Q2-Thermal-Pad4)] of Q2 on F.Cu",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 63.5
+                    },
+                    "uuid": "3c3b5e60-02c0-4fa2-94f3-9075afab9ef4"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q2",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 66.5
+                    },
+                    "uuid": "48dd0eb9-9afd-43ff-8a12-04556952d05c"
+                },
+                {
+                    "description": "Pad 4 [unconnected-(Q2-Thermal-Pad4)] of Q2 on F.Cu",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 63.5
+                    },
+                    "uuid": "3c3b5e60-02c0-4fa2-94f3-9075afab9ef4"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q2",
+                    "pos": {
+                        "x": 153.5,
+                        "y": 66.5
+                    },
+                    "uuid": "12e5e542-9c98-4754-8bb5-b48e83f9b5d1"
+                },
+                {
+                    "description": "Pad 4 [unconnected-(Q2-Thermal-Pad4)] of Q2 on F.Cu",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 63.5
+                    },
+                    "uuid": "3c3b5e60-02c0-4fa2-94f3-9075afab9ef4"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q2",
+                    "pos": {
+                        "x": 155.0,
+                        "y": 66.5
+                    },
+                    "uuid": "670ce2c3-e5b0-4ada-9af4-9e0143137020"
+                },
+                {
+                    "description": "Pad 4 [unconnected-(Q2-Thermal-Pad4)] of Q2 on F.Cu",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 63.5
+                    },
+                    "uuid": "3c3b5e60-02c0-4fa2-94f3-9075afab9ef4"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "NPTH pad of Q2",
+                    "pos": {
+                        "x": 146.0,
+                        "y": 57.5
+                    },
+                    "uuid": "8bf9e660-96aa-4f3a-bf3d-ec94607849f4"
+                },
+                {
+                    "description": "Pad 3 [unconnected-(Q2-D-Pad3)] of Q2 on F.Cu",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 58.5
+                    },
+                    "uuid": "ea13f5a9-1edb-462b-81c4-3190bc35ea54"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "NPTH pad of Q2",
+                    "pos": {
+                        "x": 158.0,
+                        "y": 57.5
+                    },
+                    "uuid": "017b5af1-f298-460c-9faa-2d4dae9231d8"
+                },
+                {
+                    "description": "Pad 3 [unconnected-(Q2-D-Pad3)] of Q2 on F.Cu",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 58.5
+                    },
+                    "uuid": "ea13f5a9-1edb-462b-81c4-3190bc35ea54"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "NPTH pad of Q2",
+                    "pos": {
+                        "x": 146.0,
+                        "y": 69.5
+                    },
+                    "uuid": "5494e01c-09e4-4277-a194-b49c7231230d"
+                },
+                {
+                    "description": "Pad 2 [Net-(Q2-S)] of Q2 on F.Cu",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 68.5
+                    },
+                    "uuid": "22c15af3-ff07-4cb4-9fd0-8e0d4af48cff"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "NPTH pad of Q2",
+                    "pos": {
+                        "x": 158.0,
+                        "y": 69.5
+                    },
+                    "uuid": "769fdacd-c815-414e-a41f-beaef9b0675b"
+                },
+                {
+                    "description": "Pad 2 [Net-(Q2-S)] of Q2 on F.Cu",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 68.5
+                    },
+                    "uuid": "22c15af3-ff07-4cb4-9fd0-8e0d4af48cff"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 1 [unconnected-(Q1-G-Pad1)] of Q1 on F.Cu",
+                    "pos": {
+                        "x": 123.7175,
+                        "y": 62.995
+                    },
+                    "uuid": "1d7b6a5c-8e33-4456-85b9-c84fbee1493f"
+                },
+                {
+                    "description": "Pad 4 [unconnected-(Q1-Thermal-Pad4)] of Q1 on F.Cu",
+                    "pos": {
+                        "x": 118.7175,
+                        "y": 62.995
+                    },
+                    "uuid": "69a1b6cb-5954-433c-8354-7410116d1062"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 2 [unconnected-(Q1-S-Pad2)] of Q1 on F.Cu",
+                    "pos": {
+                        "x": 118.7175,
+                        "y": 57.995
+                    },
+                    "uuid": "0b0e98ee-22d0-4bea-bc10-9b0b1ef506ab"
+                },
+                {
+                    "description": "Pad 4 [unconnected-(Q1-Thermal-Pad4)] of Q1 on F.Cu",
+                    "pos": {
+                        "x": 118.7175,
+                        "y": 62.995
+                    },
+                    "uuid": "69a1b6cb-5954-433c-8354-7410116d1062"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 3 [Net-(Q1-D)] of Q1 on F.Cu",
+                    "pos": {
+                        "x": 118.7175,
+                        "y": 67.995
+                    },
+                    "uuid": "89a0e67e-7408-4897-b344-fea605cd521d"
+                },
+                {
+                    "description": "Pad 4 [unconnected-(Q1-Thermal-Pad4)] of Q1 on F.Cu",
+                    "pos": {
+                        "x": 118.7175,
+                        "y": 62.995
+                    },
+                    "uuid": "69a1b6cb-5954-433c-8354-7410116d1062"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q1",
+                    "pos": {
+                        "x": 121.7175,
+                        "y": 65.995
+                    },
+                    "uuid": "f36c556f-483d-432c-b210-413830313f18"
+                },
+                {
+                    "description": "Pad 4 [unconnected-(Q1-Thermal-Pad4)] of Q1 on F.Cu",
+                    "pos": {
+                        "x": 118.7175,
+                        "y": 62.995
+                    },
+                    "uuid": "69a1b6cb-5954-433c-8354-7410116d1062"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q1",
+                    "pos": {
+                        "x": 120.2175,
+                        "y": 65.995
+                    },
+                    "uuid": "81d135f0-4f4c-4b46-ad8b-3d781a5db51a"
+                },
+                {
+                    "description": "Pad 4 [unconnected-(Q1-Thermal-Pad4)] of Q1 on F.Cu",
+                    "pos": {
+                        "x": 118.7175,
+                        "y": 62.995
+                    },
+                    "uuid": "69a1b6cb-5954-433c-8354-7410116d1062"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q1",
+                    "pos": {
+                        "x": 118.7175,
+                        "y": 65.995
+                    },
+                    "uuid": "b56527b1-98c8-452b-8844-e841069f3d6b"
+                },
+                {
+                    "description": "Pad 4 [unconnected-(Q1-Thermal-Pad4)] of Q1 on F.Cu",
+                    "pos": {
+                        "x": 118.7175,
+                        "y": 62.995
+                    },
+                    "uuid": "69a1b6cb-5954-433c-8354-7410116d1062"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q1",
+                    "pos": {
+                        "x": 117.2175,
+                        "y": 65.995
+                    },
+                    "uuid": "12118263-5191-4c70-b6d7-497ce24b62ce"
+                },
+                {
+                    "description": "Pad 4 [unconnected-(Q1-Thermal-Pad4)] of Q1 on F.Cu",
+                    "pos": {
+                        "x": 118.7175,
+                        "y": 62.995
+                    },
+                    "uuid": "69a1b6cb-5954-433c-8354-7410116d1062"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q1",
+                    "pos": {
+                        "x": 115.7175,
+                        "y": 65.995
+                    },
+                    "uuid": "029093e6-da4b-4f6b-ac1b-bc86902778c9"
+                },
+                {
+                    "description": "Pad 4 [unconnected-(Q1-Thermal-Pad4)] of Q1 on F.Cu",
+                    "pos": {
+                        "x": 118.7175,
+                        "y": 62.995
+                    },
+                    "uuid": "69a1b6cb-5954-433c-8354-7410116d1062"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q1",
+                    "pos": {
+                        "x": 121.7175,
+                        "y": 64.495
+                    },
+                    "uuid": "aa50c616-8a27-4647-a575-beb49c466d28"
+                },
+                {
+                    "description": "Pad 4 [unconnected-(Q1-Thermal-Pad4)] of Q1 on F.Cu",
+                    "pos": {
+                        "x": 118.7175,
+                        "y": 62.995
+                    },
+                    "uuid": "69a1b6cb-5954-433c-8354-7410116d1062"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q1",
+                    "pos": {
+                        "x": 120.2175,
+                        "y": 64.495
+                    },
+                    "uuid": "69f44ea3-9ec6-4d6e-9f4a-535d69d39335"
+                },
+                {
+                    "description": "Pad 4 [unconnected-(Q1-Thermal-Pad4)] of Q1 on F.Cu",
+                    "pos": {
+                        "x": 118.7175,
+                        "y": 62.995
+                    },
+                    "uuid": "69a1b6cb-5954-433c-8354-7410116d1062"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q1",
+                    "pos": {
+                        "x": 118.7175,
+                        "y": 64.495
+                    },
+                    "uuid": "642a3165-8128-495b-82a5-bfc0e10a4cce"
+                },
+                {
+                    "description": "Pad 4 [unconnected-(Q1-Thermal-Pad4)] of Q1 on F.Cu",
+                    "pos": {
+                        "x": 118.7175,
+                        "y": 62.995
+                    },
+                    "uuid": "69a1b6cb-5954-433c-8354-7410116d1062"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q1",
+                    "pos": {
+                        "x": 117.2175,
+                        "y": 64.495
+                    },
+                    "uuid": "b96d90bd-5fae-4ca6-997b-b7b26066f296"
+                },
+                {
+                    "description": "Pad 4 [unconnected-(Q1-Thermal-Pad4)] of Q1 on F.Cu",
+                    "pos": {
+                        "x": 118.7175,
+                        "y": 62.995
+                    },
+                    "uuid": "69a1b6cb-5954-433c-8354-7410116d1062"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q1",
+                    "pos": {
+                        "x": 115.7175,
+                        "y": 64.495
+                    },
+                    "uuid": "04386d9c-3919-47f0-9fc1-3b5bc1c1e56a"
+                },
+                {
+                    "description": "Pad 4 [unconnected-(Q1-Thermal-Pad4)] of Q1 on F.Cu",
+                    "pos": {
+                        "x": 118.7175,
+                        "y": 62.995
+                    },
+                    "uuid": "69a1b6cb-5954-433c-8354-7410116d1062"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q1",
+                    "pos": {
+                        "x": 121.7175,
+                        "y": 62.995
+                    },
+                    "uuid": "5f8a8593-2855-4224-bc5e-8e4b891c595b"
+                },
+                {
+                    "description": "Pad 4 [unconnected-(Q1-Thermal-Pad4)] of Q1 on F.Cu",
+                    "pos": {
+                        "x": 118.7175,
+                        "y": 62.995
+                    },
+                    "uuid": "69a1b6cb-5954-433c-8354-7410116d1062"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q1",
+                    "pos": {
+                        "x": 120.2175,
+                        "y": 62.995
+                    },
+                    "uuid": "994f1d89-2f47-498a-bb15-6556493e05c4"
+                },
+                {
+                    "description": "Pad 4 [unconnected-(Q1-Thermal-Pad4)] of Q1 on F.Cu",
+                    "pos": {
+                        "x": 118.7175,
+                        "y": 62.995
+                    },
+                    "uuid": "69a1b6cb-5954-433c-8354-7410116d1062"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q1",
+                    "pos": {
+                        "x": 118.7175,
+                        "y": 62.995
+                    },
+                    "uuid": "3141d0c8-19d6-4087-9944-f0e8c6a457ec"
+                },
+                {
+                    "description": "Pad 4 [unconnected-(Q1-Thermal-Pad4)] of Q1 on F.Cu",
+                    "pos": {
+                        "x": 118.7175,
+                        "y": 62.995
+                    },
+                    "uuid": "69a1b6cb-5954-433c-8354-7410116d1062"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q1",
+                    "pos": {
+                        "x": 117.2175,
+                        "y": 62.995
+                    },
+                    "uuid": "fe25c76e-b0a1-4ed1-be9c-c8856a15ad8c"
+                },
+                {
+                    "description": "Pad 4 [unconnected-(Q1-Thermal-Pad4)] of Q1 on F.Cu",
+                    "pos": {
+                        "x": 118.7175,
+                        "y": 62.995
+                    },
+                    "uuid": "69a1b6cb-5954-433c-8354-7410116d1062"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q1",
+                    "pos": {
+                        "x": 115.7175,
+                        "y": 62.995
+                    },
+                    "uuid": "7fc3ff7e-d6ff-4a86-af17-7176b273ae19"
+                },
+                {
+                    "description": "Pad 4 [unconnected-(Q1-Thermal-Pad4)] of Q1 on F.Cu",
+                    "pos": {
+                        "x": 118.7175,
+                        "y": 62.995
+                    },
+                    "uuid": "69a1b6cb-5954-433c-8354-7410116d1062"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q1",
+                    "pos": {
+                        "x": 121.7175,
+                        "y": 61.495
+                    },
+                    "uuid": "cd3ef9c3-58b5-44df-99f0-b7c0bbb5d201"
+                },
+                {
+                    "description": "Pad 4 [unconnected-(Q1-Thermal-Pad4)] of Q1 on F.Cu",
+                    "pos": {
+                        "x": 118.7175,
+                        "y": 62.995
+                    },
+                    "uuid": "69a1b6cb-5954-433c-8354-7410116d1062"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q1",
+                    "pos": {
+                        "x": 120.2175,
+                        "y": 61.495
+                    },
+                    "uuid": "13713118-146c-4f4b-a53d-a6c18980424b"
+                },
+                {
+                    "description": "Pad 4 [unconnected-(Q1-Thermal-Pad4)] of Q1 on F.Cu",
+                    "pos": {
+                        "x": 118.7175,
+                        "y": 62.995
+                    },
+                    "uuid": "69a1b6cb-5954-433c-8354-7410116d1062"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q1",
+                    "pos": {
+                        "x": 118.7175,
+                        "y": 61.495
+                    },
+                    "uuid": "37929672-e583-4665-aee3-01be1da5e3c8"
+                },
+                {
+                    "description": "Pad 4 [unconnected-(Q1-Thermal-Pad4)] of Q1 on F.Cu",
+                    "pos": {
+                        "x": 118.7175,
+                        "y": 62.995
+                    },
+                    "uuid": "69a1b6cb-5954-433c-8354-7410116d1062"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q1",
+                    "pos": {
+                        "x": 117.2175,
+                        "y": 61.495
+                    },
+                    "uuid": "e69aa5d1-b541-490e-a59a-8774be190694"
+                },
+                {
+                    "description": "Pad 4 [unconnected-(Q1-Thermal-Pad4)] of Q1 on F.Cu",
+                    "pos": {
+                        "x": 118.7175,
+                        "y": 62.995
+                    },
+                    "uuid": "69a1b6cb-5954-433c-8354-7410116d1062"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q1",
+                    "pos": {
+                        "x": 115.7175,
+                        "y": 61.495
+                    },
+                    "uuid": "fe974706-e4ca-40b6-91cb-3f45c070257b"
+                },
+                {
+                    "description": "Pad 4 [unconnected-(Q1-Thermal-Pad4)] of Q1 on F.Cu",
+                    "pos": {
+                        "x": 118.7175,
+                        "y": 62.995
+                    },
+                    "uuid": "69a1b6cb-5954-433c-8354-7410116d1062"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q1",
+                    "pos": {
+                        "x": 121.7175,
+                        "y": 59.995
+                    },
+                    "uuid": "453a1694-db40-4cc1-a967-0b0a10708209"
+                },
+                {
+                    "description": "Pad 4 [unconnected-(Q1-Thermal-Pad4)] of Q1 on F.Cu",
+                    "pos": {
+                        "x": 118.7175,
+                        "y": 62.995
+                    },
+                    "uuid": "69a1b6cb-5954-433c-8354-7410116d1062"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q1",
+                    "pos": {
+                        "x": 120.2175,
+                        "y": 59.995
+                    },
+                    "uuid": "fd30a015-afbd-4ae4-bbf1-6775f4d8ba76"
+                },
+                {
+                    "description": "Pad 4 [unconnected-(Q1-Thermal-Pad4)] of Q1 on F.Cu",
+                    "pos": {
+                        "x": 118.7175,
+                        "y": 62.995
+                    },
+                    "uuid": "69a1b6cb-5954-433c-8354-7410116d1062"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q1",
+                    "pos": {
+                        "x": 118.7175,
+                        "y": 59.995
+                    },
+                    "uuid": "01b4341f-5dee-4124-94d5-d2add9ee2ecd"
+                },
+                {
+                    "description": "Pad 4 [unconnected-(Q1-Thermal-Pad4)] of Q1 on F.Cu",
+                    "pos": {
+                        "x": 118.7175,
+                        "y": 62.995
+                    },
+                    "uuid": "69a1b6cb-5954-433c-8354-7410116d1062"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q1",
+                    "pos": {
+                        "x": 117.2175,
+                        "y": 59.995
+                    },
+                    "uuid": "808380a0-58c2-4767-adff-fa0fd12a4287"
+                },
+                {
+                    "description": "Pad 4 [unconnected-(Q1-Thermal-Pad4)] of Q1 on F.Cu",
+                    "pos": {
+                        "x": 118.7175,
+                        "y": 62.995
+                    },
+                    "uuid": "69a1b6cb-5954-433c-8354-7410116d1062"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of Q1",
+                    "pos": {
+                        "x": 115.7175,
+                        "y": 59.995
+                    },
+                    "uuid": "c5bd693c-0fc9-4f8d-ad65-c90653ade5de"
+                },
+                {
+                    "description": "Pad 4 [unconnected-(Q1-Thermal-Pad4)] of Q1 on F.Cu",
+                    "pos": {
+                        "x": 118.7175,
+                        "y": 62.995
+                    },
+                    "uuid": "69a1b6cb-5954-433c-8354-7410116d1062"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "NPTH pad of Q1",
+                    "pos": {
+                        "x": 124.7175,
+                        "y": 68.995
+                    },
+                    "uuid": "01659607-8e7a-4f4a-914c-4ebf1e08303e"
+                },
+                {
+                    "description": "Pad 3 [Net-(Q1-D)] of Q1 on F.Cu",
+                    "pos": {
+                        "x": 118.7175,
+                        "y": 67.995
+                    },
+                    "uuid": "89a0e67e-7408-4897-b344-fea605cd521d"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "NPTH pad of Q1",
+                    "pos": {
+                        "x": 112.7175,
+                        "y": 68.995
+                    },
+                    "uuid": "1a401228-b292-46aa-97db-06c460bc81a1"
+                },
+                {
+                    "description": "Pad 3 [Net-(Q1-D)] of Q1 on F.Cu",
+                    "pos": {
+                        "x": 118.7175,
+                        "y": 67.995
+                    },
+                    "uuid": "89a0e67e-7408-4897-b344-fea605cd521d"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "NPTH pad of Q1",
+                    "pos": {
+                        "x": 124.7175,
+                        "y": 56.995
+                    },
+                    "uuid": "d2ee55e1-62f9-4027-a3ba-1a383b1538ac"
+                },
+                {
+                    "description": "Pad 2 [unconnected-(Q1-S-Pad2)] of Q1 on F.Cu",
+                    "pos": {
+                        "x": 118.7175,
+                        "y": 57.995
+                    },
+                    "uuid": "0b0e98ee-22d0-4bea-bc10-9b0b1ef506ab"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "NPTH pad of Q1",
+                    "pos": {
+                        "x": 112.7175,
+                        "y": 56.995
+                    },
+                    "uuid": "d4ea00f8-2f27-41d3-a4af-cdea9c29cc5c"
+                },
+                {
+                    "description": "Pad 2 [unconnected-(Q1-S-Pad2)] of Q1 on F.Cu",
+                    "pos": {
+                        "x": 118.7175,
+                        "y": 57.995
+                    },
+                    "uuid": "0b0e98ee-22d0-4bea-bc10-9b0b1ef506ab"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Circle of T2 on F.Silkscreen",
+                    "pos": {
+                        "x": 90.0,
+                        "y": 181.0
+                    },
+                    "uuid": "0d260912-3bea-4cd9-b3a5-4b9674c07f8b"
+                },
+                {
+                    "description": "Footprint text of T2 (•)",
+                    "pos": {
+                        "x": 94.0,
+                        "y": 185.0
+                    },
+                    "uuid": "1fe7ea9b-6894-4a0d-a37f-ddb478f2c3a0"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Footprint text of T1 (•)",
+                    "pos": {
+                        "x": 94.0,
+                        "y": 155.95
+                    },
+                    "uuid": "771c95e6-99d4-40cf-a704-b72261139362"
+                },
+                {
+                    "description": "Circle of T1 on F.Silkscreen",
+                    "pos": {
+                        "x": 90.0,
+                        "y": 151.95
+                    },
+                    "uuid": "aafcf285-7376-4070-9ba2-0e0362c93366"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        }
+    ]
+}

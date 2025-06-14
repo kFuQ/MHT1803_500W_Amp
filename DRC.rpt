@@ -1,0 +1,1227 @@
+** Drc report for MHT1803_Amplifier_500W.kicad_pcb **
+** Created on 2025-06-08T13:00:44-0700 **
+
+** Found 274 DRC violations **
+[clearance]: Clearance violation (footprint U1 clearance 0.2000 mm; actual 0.1900 mm)
+    Local override; error
+    @(140.3650 mm, 116.3800 mm): Pad 4 [Net-(R5-Pad2)] of U1 on F.Cu
+    @(140.3650 mm, 117.0200 mm): Pad 5 [+12V] of U1 on F.Cu
+[clearance]: Clearance violation (footprint U1 clearance 0.2000 mm; actual 0.1900 mm)
+    Local override; error
+    @(140.3650 mm, 117.6800 mm): Pad 6 [unconnected-(U1-FB-Pad6)] of U1 on F.Cu
+    @(140.3650 mm, 118.3200 mm): Pad 7 [unconnected-(U1-PGND-Pad7)] of U1 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; error
+    @(141.6150 mm, 85.6250 mm): Pad 1 [unconnected-(Q2-G-Pad1)] of Q2 on F.Cu
+    @(146.6150 mm, 85.6250 mm): Pad 4 [<no net>] of Q2 on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(146.6150 mm, 90.6250 mm): Pad 2 [+12V] of Q2 on F.Cu
+    @(140.6150 mm, 91.6250 mm): NPTH pad of Q2
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(146.6150 mm, 90.6250 mm): Pad 2 [+12V] of Q2 on F.Cu
+    @(152.6150 mm, 91.6250 mm): NPTH pad of Q2
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; error
+    @(146.6150 mm, 90.6250 mm): Pad 2 [+12V] of Q2 on F.Cu
+    @(146.6150 mm, 85.6250 mm): Pad 4 [<no net>] of Q2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; error
+    @(146.6150 mm, 80.6250 mm): Pad 3 [unconnected-(Q2-D-Pad3)] of Q2 on F.Cu
+    @(146.6150 mm, 85.6250 mm): Pad 4 [<no net>] of Q2 on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(146.6150 mm, 80.6250 mm): Pad 3 [unconnected-(Q2-D-Pad3)] of Q2 on F.Cu
+    @(140.6150 mm, 79.6250 mm): NPTH pad of Q2
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(146.6150 mm, 80.6250 mm): Pad 3 [unconnected-(Q2-D-Pad3)] of Q2 on F.Cu
+    @(152.6150 mm, 79.6250 mm): NPTH pad of Q2
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.7000 mm)
+    Rule: netclass 'Default'; error
+    @(146.6150 mm, 85.6250 mm): Pad 4 [<no net>] of Q2 on F.Cu
+    @(143.6150 mm, 84.1250 mm): PTH pad [<no net>] of Q2
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.7000 mm)
+    Rule: netclass 'Default'; error
+    @(146.6150 mm, 85.6250 mm): Pad 4 [<no net>] of Q2 on F.Cu
+    @(143.6150 mm, 85.6250 mm): PTH pad [<no net>] of Q2
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 2.2000 mm)
+    Rule: netclass 'Default'; error
+    @(146.6150 mm, 85.6250 mm): Pad 4 [<no net>] of Q2 on F.Cu
+    @(145.1150 mm, 84.1250 mm): PTH pad [<no net>] of Q2
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 2.2000 mm)
+    Rule: netclass 'Default'; error
+    @(146.6150 mm, 85.6250 mm): Pad 4 [<no net>] of Q2 on F.Cu
+    @(146.6150 mm, 84.1250 mm): PTH pad [<no net>] of Q2
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.7000 mm)
+    Rule: netclass 'Default'; error
+    @(146.6150 mm, 85.6250 mm): Pad 4 [<no net>] of Q2 on F.Cu
+    @(143.6150 mm, 87.1250 mm): PTH pad [<no net>] of Q2
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 2.2000 mm)
+    Rule: netclass 'Default'; error
+    @(146.6150 mm, 85.6250 mm): Pad 4 [<no net>] of Q2 on F.Cu
+    @(145.1150 mm, 87.1250 mm): PTH pad [<no net>] of Q2
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.7000 mm)
+    Rule: netclass 'Default'; error
+    @(146.6150 mm, 85.6250 mm): Pad 4 [<no net>] of Q2 on F.Cu
+    @(145.1150 mm, 88.6250 mm): PTH pad [<no net>] of Q2
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.7000 mm)
+    Rule: netclass 'Default'; error
+    @(146.6150 mm, 85.6250 mm): Pad 4 [<no net>] of Q2 on F.Cu
+    @(149.6150 mm, 88.6250 mm): PTH pad [<no net>] of Q2
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.7000 mm)
+    Rule: netclass 'Default'; error
+    @(146.6150 mm, 85.6250 mm): Pad 4 [<no net>] of Q2 on F.Cu
+    @(143.6150 mm, 88.6250 mm): PTH pad [<no net>] of Q2
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.7000 mm)
+    Rule: netclass 'Default'; error
+    @(146.6150 mm, 85.6250 mm): Pad 4 [<no net>] of Q2 on F.Cu
+    @(146.6150 mm, 88.6250 mm): PTH pad [<no net>] of Q2
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.7000 mm)
+    Rule: netclass 'Default'; error
+    @(146.6150 mm, 85.6250 mm): Pad 4 [<no net>] of Q2 on F.Cu
+    @(148.1150 mm, 88.6250 mm): PTH pad [<no net>] of Q2
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 2.2000 mm)
+    Rule: netclass 'Default'; error
+    @(146.6150 mm, 85.6250 mm): Pad 4 [<no net>] of Q2 on F.Cu
+    @(148.1150 mm, 84.1250 mm): PTH pad [<no net>] of Q2
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.7000 mm)
+    Rule: netclass 'Default'; error
+    @(146.6150 mm, 85.6250 mm): Pad 4 [<no net>] of Q2 on F.Cu
+    @(149.6150 mm, 84.1250 mm): PTH pad [<no net>] of Q2
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 2.2000 mm)
+    Rule: netclass 'Default'; error
+    @(146.6150 mm, 85.6250 mm): Pad 4 [<no net>] of Q2 on F.Cu
+    @(145.1150 mm, 85.6250 mm): PTH pad [<no net>] of Q2
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 3.7000 mm)
+    Rule: netclass 'Default'; error
+    @(146.6150 mm, 85.6250 mm): Pad 4 [<no net>] of Q2 on F.Cu
+    @(146.6150 mm, 85.6250 mm): PTH pad [<no net>] of Q2
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 2.2000 mm)
+    Rule: netclass 'Default'; error
+    @(146.6150 mm, 85.6250 mm): Pad 4 [<no net>] of Q2 on F.Cu
+    @(148.1150 mm, 85.6250 mm): PTH pad [<no net>] of Q2
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.7000 mm)
+    Rule: netclass 'Default'; error
+    @(146.6150 mm, 85.6250 mm): Pad 4 [<no net>] of Q2 on F.Cu
+    @(149.6150 mm, 85.6250 mm): PTH pad [<no net>] of Q2
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.7000 mm)
+    Rule: netclass 'Default'; error
+    @(146.6150 mm, 85.6250 mm): Pad 4 [<no net>] of Q2 on F.Cu
+    @(149.6150 mm, 87.1250 mm): PTH pad [<no net>] of Q2
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 2.2000 mm)
+    Rule: netclass 'Default'; error
+    @(146.6150 mm, 85.6250 mm): Pad 4 [<no net>] of Q2 on F.Cu
+    @(146.6150 mm, 87.1250 mm): PTH pad [<no net>] of Q2
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 2.2000 mm)
+    Rule: netclass 'Default'; error
+    @(146.6150 mm, 85.6250 mm): Pad 4 [<no net>] of Q2 on F.Cu
+    @(148.1150 mm, 87.1250 mm): PTH pad [<no net>] of Q2
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.7000 mm)
+    Rule: netclass 'Default'; error
+    @(146.6150 mm, 85.6250 mm): Pad 4 [<no net>] of Q2 on F.Cu
+    @(143.6150 mm, 82.6250 mm): PTH pad [<no net>] of Q2
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.7000 mm)
+    Rule: netclass 'Default'; error
+    @(146.6150 mm, 85.6250 mm): Pad 4 [<no net>] of Q2 on F.Cu
+    @(145.1150 mm, 82.6250 mm): PTH pad [<no net>] of Q2
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.7000 mm)
+    Rule: netclass 'Default'; error
+    @(146.6150 mm, 85.6250 mm): Pad 4 [<no net>] of Q2 on F.Cu
+    @(146.6150 mm, 82.6250 mm): PTH pad [<no net>] of Q2
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.7000 mm)
+    Rule: netclass 'Default'; error
+    @(146.6150 mm, 85.6250 mm): Pad 4 [<no net>] of Q2 on F.Cu
+    @(148.1150 mm, 82.6250 mm): PTH pad [<no net>] of Q2
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.7000 mm)
+    Rule: netclass 'Default'; error
+    @(146.6150 mm, 85.6250 mm): Pad 4 [<no net>] of Q2 on F.Cu
+    @(149.6150 mm, 82.6250 mm): PTH pad [<no net>] of Q2
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; error
+    @(141.6150 mm, 69.4250 mm): Pad 1 [+12V] of Q1 on F.Cu
+    @(146.6150 mm, 69.4250 mm): Pad 4 [<no net>] of Q1 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; error
+    @(146.6150 mm, 74.4250 mm): Pad 2 [+12V] of Q1 on F.Cu
+    @(146.6150 mm, 69.4250 mm): Pad 4 [<no net>] of Q1 on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(146.6150 mm, 74.4250 mm): Pad 2 [+12V] of Q1 on F.Cu
+    @(140.6150 mm, 75.4250 mm): NPTH pad of Q1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(146.6150 mm, 74.4250 mm): Pad 2 [+12V] of Q1 on F.Cu
+    @(152.6150 mm, 75.4250 mm): NPTH pad of Q1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(146.6150 mm, 64.4250 mm): Pad 3 [+12V] of Q1 on F.Cu
+    @(140.6150 mm, 63.4250 mm): NPTH pad of Q1
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; error
+    @(146.6150 mm, 64.4250 mm): Pad 3 [+12V] of Q1 on F.Cu
+    @(146.6150 mm, 69.4250 mm): Pad 4 [<no net>] of Q1 on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(146.6150 mm, 64.4250 mm): Pad 3 [+12V] of Q1 on F.Cu
+    @(152.6150 mm, 63.4250 mm): NPTH pad of Q1
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.7000 mm)
+    Rule: netclass 'Default'; error
+    @(146.6150 mm, 69.4250 mm): Pad 4 [<no net>] of Q1 on F.Cu
+    @(143.6150 mm, 67.9250 mm): PTH pad [<no net>] of Q1
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.7000 mm)
+    Rule: netclass 'Default'; error
+    @(146.6150 mm, 69.4250 mm): Pad 4 [<no net>] of Q1 on F.Cu
+    @(143.6150 mm, 69.4250 mm): PTH pad [<no net>] of Q1
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.7000 mm)
+    Rule: netclass 'Default'; error
+    @(146.6150 mm, 69.4250 mm): Pad 4 [<no net>] of Q1 on F.Cu
+    @(143.6150 mm, 66.4250 mm): PTH pad [<no net>] of Q1
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.7000 mm)
+    Rule: netclass 'Default'; error
+    @(146.6150 mm, 69.4250 mm): Pad 4 [<no net>] of Q1 on F.Cu
+    @(145.1150 mm, 66.4250 mm): PTH pad [<no net>] of Q1
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.7000 mm)
+    Rule: netclass 'Default'; error
+    @(146.6150 mm, 69.4250 mm): Pad 4 [<no net>] of Q1 on F.Cu
+    @(146.6150 mm, 66.4250 mm): PTH pad [<no net>] of Q1
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.7000 mm)
+    Rule: netclass 'Default'; error
+    @(146.6150 mm, 69.4250 mm): Pad 4 [<no net>] of Q1 on F.Cu
+    @(148.1150 mm, 66.4250 mm): PTH pad [<no net>] of Q1
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 2.2000 mm)
+    Rule: netclass 'Default'; error
+    @(146.6150 mm, 69.4250 mm): Pad 4 [<no net>] of Q1 on F.Cu
+    @(148.1150 mm, 67.9250 mm): PTH pad [<no net>] of Q1
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.7000 mm)
+    Rule: netclass 'Default'; error
+    @(146.6150 mm, 69.4250 mm): Pad 4 [<no net>] of Q1 on F.Cu
+    @(149.6150 mm, 67.9250 mm): PTH pad [<no net>] of Q1
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 3.7000 mm)
+    Rule: netclass 'Default'; error
+    @(146.6150 mm, 69.4250 mm): Pad 4 [<no net>] of Q1 on F.Cu
+    @(146.6150 mm, 69.4250 mm): PTH pad [<no net>] of Q1
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 2.2000 mm)
+    Rule: netclass 'Default'; error
+    @(146.6150 mm, 69.4250 mm): Pad 4 [<no net>] of Q1 on F.Cu
+    @(148.1150 mm, 69.4250 mm): PTH pad [<no net>] of Q1
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.7000 mm)
+    Rule: netclass 'Default'; error
+    @(146.6150 mm, 69.4250 mm): Pad 4 [<no net>] of Q1 on F.Cu
+    @(149.6150 mm, 69.4250 mm): PTH pad [<no net>] of Q1
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 2.2000 mm)
+    Rule: netclass 'Default'; error
+    @(146.6150 mm, 69.4250 mm): Pad 4 [<no net>] of Q1 on F.Cu
+    @(145.1150 mm, 70.9250 mm): PTH pad [<no net>] of Q1
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.7000 mm)
+    Rule: netclass 'Default'; error
+    @(146.6150 mm, 69.4250 mm): Pad 4 [<no net>] of Q1 on F.Cu
+    @(149.6150 mm, 66.4250 mm): PTH pad [<no net>] of Q1
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.7000 mm)
+    Rule: netclass 'Default'; error
+    @(146.6150 mm, 69.4250 mm): Pad 4 [<no net>] of Q1 on F.Cu
+    @(149.6150 mm, 70.9250 mm): PTH pad [<no net>] of Q1
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.7000 mm)
+    Rule: netclass 'Default'; error
+    @(146.6150 mm, 69.4250 mm): Pad 4 [<no net>] of Q1 on F.Cu
+    @(149.6150 mm, 72.4250 mm): PTH pad [<no net>] of Q1
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 2.2000 mm)
+    Rule: netclass 'Default'; error
+    @(146.6150 mm, 69.4250 mm): Pad 4 [<no net>] of Q1 on F.Cu
+    @(145.1150 mm, 67.9250 mm): PTH pad [<no net>] of Q1
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 2.2000 mm)
+    Rule: netclass 'Default'; error
+    @(146.6150 mm, 69.4250 mm): Pad 4 [<no net>] of Q1 on F.Cu
+    @(146.6150 mm, 67.9250 mm): PTH pad [<no net>] of Q1
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 2.2000 mm)
+    Rule: netclass 'Default'; error
+    @(146.6150 mm, 69.4250 mm): Pad 4 [<no net>] of Q1 on F.Cu
+    @(145.1150 mm, 69.4250 mm): PTH pad [<no net>] of Q1
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 2.2000 mm)
+    Rule: netclass 'Default'; error
+    @(146.6150 mm, 69.4250 mm): Pad 4 [<no net>] of Q1 on F.Cu
+    @(146.6150 mm, 70.9250 mm): PTH pad [<no net>] of Q1
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 2.2000 mm)
+    Rule: netclass 'Default'; error
+    @(146.6150 mm, 69.4250 mm): Pad 4 [<no net>] of Q1 on F.Cu
+    @(148.1150 mm, 70.9250 mm): PTH pad [<no net>] of Q1
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.7000 mm)
+    Rule: netclass 'Default'; error
+    @(146.6150 mm, 69.4250 mm): Pad 4 [<no net>] of Q1 on F.Cu
+    @(146.6150 mm, 72.4250 mm): PTH pad [<no net>] of Q1
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.7000 mm)
+    Rule: netclass 'Default'; error
+    @(146.6150 mm, 69.4250 mm): Pad 4 [<no net>] of Q1 on F.Cu
+    @(148.1150 mm, 72.4250 mm): PTH pad [<no net>] of Q1
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.7000 mm)
+    Rule: netclass 'Default'; error
+    @(146.6150 mm, 69.4250 mm): Pad 4 [<no net>] of Q1 on F.Cu
+    @(143.6150 mm, 70.9250 mm): PTH pad [<no net>] of Q1
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.7000 mm)
+    Rule: netclass 'Default'; error
+    @(146.6150 mm, 69.4250 mm): Pad 4 [<no net>] of Q1 on F.Cu
+    @(143.6150 mm, 72.4250 mm): PTH pad [<no net>] of Q1
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.7000 mm)
+    Rule: netclass 'Default'; error
+    @(146.6150 mm, 69.4250 mm): Pad 4 [<no net>] of Q1 on F.Cu
+    @(145.1150 mm, 72.4250 mm): PTH pad [<no net>] of Q1
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(143.6150 mm, 82.6250 mm): PTH pad [<no net>] of Q2
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(145.1150 mm, 82.6250 mm): PTH pad [<no net>] of Q2
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(146.6150 mm, 82.6250 mm): PTH pad [<no net>] of Q2
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(148.1150 mm, 82.6250 mm): PTH pad [<no net>] of Q2
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(149.6150 mm, 82.6250 mm): PTH pad [<no net>] of Q2
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(143.6150 mm, 84.1250 mm): PTH pad [<no net>] of Q2
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(145.1150 mm, 84.1250 mm): PTH pad [<no net>] of Q2
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(146.6150 mm, 84.1250 mm): PTH pad [<no net>] of Q2
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(148.1150 mm, 84.1250 mm): PTH pad [<no net>] of Q2
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(149.6150 mm, 84.1250 mm): PTH pad [<no net>] of Q2
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(143.6150 mm, 85.6250 mm): PTH pad [<no net>] of Q2
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(145.1150 mm, 85.6250 mm): PTH pad [<no net>] of Q2
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(146.6150 mm, 85.6250 mm): PTH pad [<no net>] of Q2
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(148.1150 mm, 85.6250 mm): PTH pad [<no net>] of Q2
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(149.6150 mm, 85.6250 mm): PTH pad [<no net>] of Q2
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(143.6150 mm, 87.1250 mm): PTH pad [<no net>] of Q2
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(145.1150 mm, 87.1250 mm): PTH pad [<no net>] of Q2
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(146.6150 mm, 87.1250 mm): PTH pad [<no net>] of Q2
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(148.1150 mm, 87.1250 mm): PTH pad [<no net>] of Q2
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(149.6150 mm, 87.1250 mm): PTH pad [<no net>] of Q2
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(143.6150 mm, 88.6250 mm): PTH pad [<no net>] of Q2
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(145.1150 mm, 88.6250 mm): PTH pad [<no net>] of Q2
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(146.6150 mm, 88.6250 mm): PTH pad [<no net>] of Q2
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(148.1150 mm, 88.6250 mm): PTH pad [<no net>] of Q2
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(149.6150 mm, 88.6250 mm): PTH pad [<no net>] of Q2
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(143.6150 mm, 66.4250 mm): PTH pad [<no net>] of Q1
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(145.1150 mm, 66.4250 mm): PTH pad [<no net>] of Q1
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(146.6150 mm, 66.4250 mm): PTH pad [<no net>] of Q1
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(148.1150 mm, 66.4250 mm): PTH pad [<no net>] of Q1
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(149.6150 mm, 66.4250 mm): PTH pad [<no net>] of Q1
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(143.6150 mm, 67.9250 mm): PTH pad [<no net>] of Q1
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(145.1150 mm, 67.9250 mm): PTH pad [<no net>] of Q1
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(146.6150 mm, 67.9250 mm): PTH pad [<no net>] of Q1
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(148.1150 mm, 67.9250 mm): PTH pad [<no net>] of Q1
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(149.6150 mm, 67.9250 mm): PTH pad [<no net>] of Q1
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(143.6150 mm, 69.4250 mm): PTH pad [<no net>] of Q1
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(145.1150 mm, 69.4250 mm): PTH pad [<no net>] of Q1
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(146.6150 mm, 69.4250 mm): PTH pad [<no net>] of Q1
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(148.1150 mm, 69.4250 mm): PTH pad [<no net>] of Q1
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(149.6150 mm, 69.4250 mm): PTH pad [<no net>] of Q1
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(143.6150 mm, 70.9250 mm): PTH pad [<no net>] of Q1
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(145.1150 mm, 70.9250 mm): PTH pad [<no net>] of Q1
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(146.6150 mm, 70.9250 mm): PTH pad [<no net>] of Q1
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(148.1150 mm, 70.9250 mm): PTH pad [<no net>] of Q1
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(149.6150 mm, 70.9250 mm): PTH pad [<no net>] of Q1
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(143.6150 mm, 72.4250 mm): PTH pad [<no net>] of Q1
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(145.1150 mm, 72.4250 mm): PTH pad [<no net>] of Q1
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(146.6150 mm, 72.4250 mm): PTH pad [<no net>] of Q1
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(148.1150 mm, 72.4250 mm): PTH pad [<no net>] of Q1
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(149.6150 mm, 72.4250 mm): PTH pad [<no net>] of Q1
+[invalid_outline]: Board has malformed outline (no edges found on Edge.Cuts layer)
+    Local override; error
+    @(0.0000 mm, 0.0000 mm): PCB
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(155.2400 mm, 83.9000 mm): Footprint text of T2 (200Ω)
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(169.2400 mm, 83.9000 mm): Footprint text of T2 (50Ω)
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(162.2400 mm, 76.4000 mm): Footprint text of T2 (MATCH WINDING DIRECTION)
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(155.2400 mm, 68.8500 mm): Footprint text of T1 (200Ω)
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(169.2400 mm, 68.8500 mm): Footprint text of T1 (50Ω)
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(162.2400 mm, 61.3500 mm): Footprint text of T1 (MATCH WINDING DIRECTION)
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(146.6150 mm, 78.1250 mm): Footprint text of Q2 (THERMAL PAD REQUIRED)
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(146.6150 mm, 61.9250 mm): Footprint text of Q1 (THERMAL PAD REQUIRED)
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(128.4825 mm, 100.9375 mm): Footprint text of J3 (ENSURE PROPER RF GROUND)
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(128.4825 mm, 80.8625 mm): Footprint text of J2 (ENSURE PROPER RF GROUND)
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(162.2400 mm, 83.9000 mm): Circle of T2 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(156.7400 mm, 86.4000 mm): Footprint text of T2 (P1)
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(156.7400 mm, 81.4000 mm): Footprint text of T2 (P2)
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(167.7400 mm, 86.4000 mm): Footprint text of T2 (S1)
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(167.7400 mm, 81.4000 mm): Footprint text of T2 (S2)
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(157.3295 mm, 87.8105 mm): Arc of T2 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(167.1505 mm, 79.9895 mm): Arc of T2 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(162.2400 mm, 68.8500 mm): Circle of T1 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(156.7400 mm, 71.3500 mm): Footprint text of T1 (P1)
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(156.7400 mm, 66.3500 mm): Footprint text of T1 (P2)
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(167.7400 mm, 71.3500 mm): Footprint text of T1 (S1)
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(167.7400 mm, 66.3500 mm): Footprint text of T1 (S2)
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(157.3295 mm, 72.7605 mm): Arc of T1 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(167.1505 mm, 64.9395 mm): Arc of T1 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(171.9700 mm, 75.9000 mm): Reference field of R6
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(171.9700 mm, 72.9500 mm): Reference field of R5
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(171.9700 mm, 70.0000 mm): Reference field of R4
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(171.9700 mm, 67.0500 mm): Reference field of R3
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(171.9700 mm, 64.1000 mm): Reference field of R2
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(139.6150 mm, 78.6250 mm): Rectangle of Q2 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(141.6150 mm, 80.6250 mm): Rectangle of Q2 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(141.1150 mm, 85.6250 mm): Circle of Q2 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(140.6150 mm, 85.6250 mm): Footprint text of Q2 (G)
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(146.6150 mm, 79.6250 mm): Footprint text of Q2 (D)
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(146.6150 mm, 91.6250 mm): Footprint text of Q2 (S)
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(146.6150 mm, 78.1250 mm): Footprint text of Q2 (THERMAL PAD REQUIRED)
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(139.6150 mm, 62.4250 mm): Rectangle of Q1 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(141.6150 mm, 64.4250 mm): Rectangle of Q1 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(141.1150 mm, 69.4250 mm): Circle of Q1 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(140.6150 mm, 69.4250 mm): Footprint text of Q1 (G)
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(146.6150 mm, 63.4250 mm): Footprint text of Q1 (D)
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(146.6150 mm, 75.4250 mm): Footprint text of Q1 (S)
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(146.6150 mm, 61.9250 mm): Footprint text of Q1 (THERMAL PAD REQUIRED)
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(150.2600 mm, 116.8500 mm): Reference field of L3
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(120.5450 mm, 83.5000 mm): Circle of J3 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(136.4200 mm, 83.5000 mm): Circle of J3 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(120.5450 mm, 99.3750 mm): Circle of J3 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(136.4200 mm, 99.3750 mm): Circle of J3 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(128.4825 mm, 85.9375 mm): Footprint text of J3 (50Ω)
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(120.5450 mm, 63.4250 mm): Circle of J2 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(136.4200 mm, 63.4250 mm): Circle of J2 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(120.5450 mm, 79.3000 mm): Circle of J2 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(136.4200 mm, 79.3000 mm): Circle of J2 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(128.4825 mm, 65.8625 mm): Footprint text of J2 (50Ω)
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(172.7100 mm, 78.8000 mm): Reference field of D1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(173.0500 mm, 113.8200 mm): Reference field of C5
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(141.6150 mm, 85.6250 mm): Pad 1 [unconnected-(Q2-G-Pad1)] of Q2 on F.Cu
+    @(146.6150 mm, 85.6250 mm): Pad 4 [<no net>] of Q2 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(146.6150 mm, 90.6250 mm): Pad 2 [+12V] of Q2 on F.Cu
+    @(146.6150 mm, 85.6250 mm): Pad 4 [<no net>] of Q2 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(146.6150 mm, 80.6250 mm): Pad 3 [unconnected-(Q2-D-Pad3)] of Q2 on F.Cu
+    @(146.6150 mm, 85.6250 mm): Pad 4 [<no net>] of Q2 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(143.6150 mm, 82.6250 mm): PTH pad [<no net>] of Q2
+    @(146.6150 mm, 85.6250 mm): Pad 4 [<no net>] of Q2 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(145.1150 mm, 82.6250 mm): PTH pad [<no net>] of Q2
+    @(146.6150 mm, 85.6250 mm): Pad 4 [<no net>] of Q2 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(146.6150 mm, 82.6250 mm): PTH pad [<no net>] of Q2
+    @(146.6150 mm, 85.6250 mm): Pad 4 [<no net>] of Q2 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(148.1150 mm, 82.6250 mm): PTH pad [<no net>] of Q2
+    @(146.6150 mm, 85.6250 mm): Pad 4 [<no net>] of Q2 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(149.6150 mm, 82.6250 mm): PTH pad [<no net>] of Q2
+    @(146.6150 mm, 85.6250 mm): Pad 4 [<no net>] of Q2 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(143.6150 mm, 84.1250 mm): PTH pad [<no net>] of Q2
+    @(146.6150 mm, 85.6250 mm): Pad 4 [<no net>] of Q2 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(145.1150 mm, 84.1250 mm): PTH pad [<no net>] of Q2
+    @(146.6150 mm, 85.6250 mm): Pad 4 [<no net>] of Q2 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(146.6150 mm, 84.1250 mm): PTH pad [<no net>] of Q2
+    @(146.6150 mm, 85.6250 mm): Pad 4 [<no net>] of Q2 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(148.1150 mm, 84.1250 mm): PTH pad [<no net>] of Q2
+    @(146.6150 mm, 85.6250 mm): Pad 4 [<no net>] of Q2 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(149.6150 mm, 84.1250 mm): PTH pad [<no net>] of Q2
+    @(146.6150 mm, 85.6250 mm): Pad 4 [<no net>] of Q2 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(143.6150 mm, 85.6250 mm): PTH pad [<no net>] of Q2
+    @(146.6150 mm, 85.6250 mm): Pad 4 [<no net>] of Q2 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(145.1150 mm, 85.6250 mm): PTH pad [<no net>] of Q2
+    @(146.6150 mm, 85.6250 mm): Pad 4 [<no net>] of Q2 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(146.6150 mm, 85.6250 mm): PTH pad [<no net>] of Q2
+    @(146.6150 mm, 85.6250 mm): Pad 4 [<no net>] of Q2 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(148.1150 mm, 85.6250 mm): PTH pad [<no net>] of Q2
+    @(146.6150 mm, 85.6250 mm): Pad 4 [<no net>] of Q2 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(149.6150 mm, 85.6250 mm): PTH pad [<no net>] of Q2
+    @(146.6150 mm, 85.6250 mm): Pad 4 [<no net>] of Q2 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(143.6150 mm, 87.1250 mm): PTH pad [<no net>] of Q2
+    @(146.6150 mm, 85.6250 mm): Pad 4 [<no net>] of Q2 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(145.1150 mm, 87.1250 mm): PTH pad [<no net>] of Q2
+    @(146.6150 mm, 85.6250 mm): Pad 4 [<no net>] of Q2 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(146.6150 mm, 87.1250 mm): PTH pad [<no net>] of Q2
+    @(146.6150 mm, 85.6250 mm): Pad 4 [<no net>] of Q2 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(148.1150 mm, 87.1250 mm): PTH pad [<no net>] of Q2
+    @(146.6150 mm, 85.6250 mm): Pad 4 [<no net>] of Q2 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(149.6150 mm, 87.1250 mm): PTH pad [<no net>] of Q2
+    @(146.6150 mm, 85.6250 mm): Pad 4 [<no net>] of Q2 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(143.6150 mm, 88.6250 mm): PTH pad [<no net>] of Q2
+    @(146.6150 mm, 85.6250 mm): Pad 4 [<no net>] of Q2 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(145.1150 mm, 88.6250 mm): PTH pad [<no net>] of Q2
+    @(146.6150 mm, 85.6250 mm): Pad 4 [<no net>] of Q2 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(146.6150 mm, 88.6250 mm): PTH pad [<no net>] of Q2
+    @(146.6150 mm, 85.6250 mm): Pad 4 [<no net>] of Q2 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(148.1150 mm, 88.6250 mm): PTH pad [<no net>] of Q2
+    @(146.6150 mm, 85.6250 mm): Pad 4 [<no net>] of Q2 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(149.6150 mm, 88.6250 mm): PTH pad [<no net>] of Q2
+    @(146.6150 mm, 85.6250 mm): Pad 4 [<no net>] of Q2 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(140.6150 mm, 79.6250 mm): NPTH pad of Q2
+    @(146.6150 mm, 80.6250 mm): Pad 3 [unconnected-(Q2-D-Pad3)] of Q2 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(152.6150 mm, 79.6250 mm): NPTH pad of Q2
+    @(146.6150 mm, 80.6250 mm): Pad 3 [unconnected-(Q2-D-Pad3)] of Q2 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(140.6150 mm, 91.6250 mm): NPTH pad of Q2
+    @(146.6150 mm, 90.6250 mm): Pad 2 [+12V] of Q2 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(152.6150 mm, 91.6250 mm): NPTH pad of Q2
+    @(146.6150 mm, 90.6250 mm): Pad 2 [+12V] of Q2 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(141.6150 mm, 69.4250 mm): Pad 1 [+12V] of Q1 on F.Cu
+    @(146.6150 mm, 69.4250 mm): Pad 4 [<no net>] of Q1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(146.6150 mm, 74.4250 mm): Pad 2 [+12V] of Q1 on F.Cu
+    @(146.6150 mm, 69.4250 mm): Pad 4 [<no net>] of Q1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(146.6150 mm, 64.4250 mm): Pad 3 [+12V] of Q1 on F.Cu
+    @(146.6150 mm, 69.4250 mm): Pad 4 [<no net>] of Q1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(143.6150 mm, 66.4250 mm): PTH pad [<no net>] of Q1
+    @(146.6150 mm, 69.4250 mm): Pad 4 [<no net>] of Q1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(145.1150 mm, 66.4250 mm): PTH pad [<no net>] of Q1
+    @(146.6150 mm, 69.4250 mm): Pad 4 [<no net>] of Q1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(146.6150 mm, 66.4250 mm): PTH pad [<no net>] of Q1
+    @(146.6150 mm, 69.4250 mm): Pad 4 [<no net>] of Q1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(148.1150 mm, 66.4250 mm): PTH pad [<no net>] of Q1
+    @(146.6150 mm, 69.4250 mm): Pad 4 [<no net>] of Q1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(149.6150 mm, 66.4250 mm): PTH pad [<no net>] of Q1
+    @(146.6150 mm, 69.4250 mm): Pad 4 [<no net>] of Q1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(143.6150 mm, 67.9250 mm): PTH pad [<no net>] of Q1
+    @(146.6150 mm, 69.4250 mm): Pad 4 [<no net>] of Q1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(145.1150 mm, 67.9250 mm): PTH pad [<no net>] of Q1
+    @(146.6150 mm, 69.4250 mm): Pad 4 [<no net>] of Q1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(146.6150 mm, 67.9250 mm): PTH pad [<no net>] of Q1
+    @(146.6150 mm, 69.4250 mm): Pad 4 [<no net>] of Q1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(148.1150 mm, 67.9250 mm): PTH pad [<no net>] of Q1
+    @(146.6150 mm, 69.4250 mm): Pad 4 [<no net>] of Q1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(149.6150 mm, 67.9250 mm): PTH pad [<no net>] of Q1
+    @(146.6150 mm, 69.4250 mm): Pad 4 [<no net>] of Q1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(143.6150 mm, 69.4250 mm): PTH pad [<no net>] of Q1
+    @(146.6150 mm, 69.4250 mm): Pad 4 [<no net>] of Q1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(145.1150 mm, 69.4250 mm): PTH pad [<no net>] of Q1
+    @(146.6150 mm, 69.4250 mm): Pad 4 [<no net>] of Q1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(146.6150 mm, 69.4250 mm): PTH pad [<no net>] of Q1
+    @(146.6150 mm, 69.4250 mm): Pad 4 [<no net>] of Q1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(148.1150 mm, 69.4250 mm): PTH pad [<no net>] of Q1
+    @(146.6150 mm, 69.4250 mm): Pad 4 [<no net>] of Q1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(149.6150 mm, 69.4250 mm): PTH pad [<no net>] of Q1
+    @(146.6150 mm, 69.4250 mm): Pad 4 [<no net>] of Q1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(143.6150 mm, 70.9250 mm): PTH pad [<no net>] of Q1
+    @(146.6150 mm, 69.4250 mm): Pad 4 [<no net>] of Q1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(145.1150 mm, 70.9250 mm): PTH pad [<no net>] of Q1
+    @(146.6150 mm, 69.4250 mm): Pad 4 [<no net>] of Q1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(146.6150 mm, 70.9250 mm): PTH pad [<no net>] of Q1
+    @(146.6150 mm, 69.4250 mm): Pad 4 [<no net>] of Q1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(148.1150 mm, 70.9250 mm): PTH pad [<no net>] of Q1
+    @(146.6150 mm, 69.4250 mm): Pad 4 [<no net>] of Q1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(149.6150 mm, 70.9250 mm): PTH pad [<no net>] of Q1
+    @(146.6150 mm, 69.4250 mm): Pad 4 [<no net>] of Q1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(143.6150 mm, 72.4250 mm): PTH pad [<no net>] of Q1
+    @(146.6150 mm, 69.4250 mm): Pad 4 [<no net>] of Q1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(145.1150 mm, 72.4250 mm): PTH pad [<no net>] of Q1
+    @(146.6150 mm, 69.4250 mm): Pad 4 [<no net>] of Q1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(146.6150 mm, 72.4250 mm): PTH pad [<no net>] of Q1
+    @(146.6150 mm, 69.4250 mm): Pad 4 [<no net>] of Q1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(148.1150 mm, 72.4250 mm): PTH pad [<no net>] of Q1
+    @(146.6150 mm, 69.4250 mm): Pad 4 [<no net>] of Q1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(149.6150 mm, 72.4250 mm): PTH pad [<no net>] of Q1
+    @(146.6150 mm, 69.4250 mm): Pad 4 [<no net>] of Q1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(140.6150 mm, 63.4250 mm): NPTH pad of Q1
+    @(146.6150 mm, 64.4250 mm): Pad 3 [+12V] of Q1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(152.6150 mm, 63.4250 mm): NPTH pad of Q1
+    @(146.6150 mm, 64.4250 mm): Pad 3 [+12V] of Q1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(140.6150 mm, 75.4250 mm): NPTH pad of Q1
+    @(146.6150 mm, 74.4250 mm): Pad 2 [+12V] of Q1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(152.6150 mm, 75.4250 mm): NPTH pad of Q1
+    @(146.6150 mm, 74.4250 mm): Pad 2 [+12V] of Q1 on F.Cu
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(141.1150 mm, 85.6250 mm): Circle of Q2 on F.Silkscreen
+    @(140.6150 mm, 85.6250 mm): Footprint text of Q2 (G)
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(148.8344 mm, 93.2500 mm): Reference field of C1
+    @(139.6150 mm, 78.6250 mm): Rectangle of Q2 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(128.4825 mm, 83.4375 mm): Reference field of J3
+    @(128.4825 mm, 91.4375 mm): Circle of J3 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(127.6945 mm, 101.0000 mm): Reference field of C2
+    @(128.4825 mm, 100.9375 mm): Footprint text of J3 (ENSURE PROPER RF GROUND)
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(150.2600 mm, 113.1000 mm): Reference field of L2
+    @(149.5144 mm, 94.4450 mm): Segment of C1 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(150.2600 mm, 113.1000 mm): Reference field of L2
+    @(149.5544 mm, 94.4480 mm): Segment of C1 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(150.2600 mm, 113.1000 mm): Reference field of L2
+    @(149.5944 mm, 94.4520 mm): Segment of C1 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(150.2600 mm, 113.1000 mm): Reference field of L2
+    @(149.6344 mm, 94.4550 mm): Segment of C1 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(149.6744 mm, 94.4590 mm): Segment of C1 on F.Silkscreen
+    @(150.2600 mm, 113.1000 mm): Reference field of L2
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(149.7144 mm, 94.4630 mm): Segment of C1 on F.Silkscreen
+    @(150.2600 mm, 113.1000 mm): Reference field of L2
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(150.4744 mm, 94.5690 mm): Segment of C1 on F.Silkscreen
+    @(150.2600 mm, 113.1000 mm): Reference field of L2
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(150.5144 mm, 94.5760 mm): Segment of C1 on F.Silkscreen
+    @(150.2600 mm, 113.1000 mm): Reference field of L2
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(162.2400 mm, 75.9000 mm): Reference field of T2
+    @(162.2400 mm, 76.4000 mm): Footprint text of T2 (MATCH WINDING DIRECTION)
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(162.2400 mm, 68.8500 mm): Circle of T1 on F.Silkscreen
+    @(156.7400 mm, 66.3500 mm): Footprint text of T1 (P2)
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(162.2400 mm, 68.8500 mm): Circle of T1 on F.Silkscreen
+    @(167.7400 mm, 71.3500 mm): Footprint text of T1 (S1)
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(162.2400 mm, 68.8500 mm): Circle of T1 on F.Silkscreen
+    @(167.7400 mm, 66.3500 mm): Footprint text of T1 (S2)
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(156.7400 mm, 71.3500 mm): Footprint text of T1 (P1)
+    @(162.2400 mm, 68.8500 mm): Circle of T1 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(162.2400 mm, 68.8500 mm): Circle of T1 on F.Silkscreen
+    @(155.2400 mm, 68.8500 mm): Footprint text of T1 (200Ω)
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(162.2400 mm, 61.3500 mm): Footprint text of T1 (MATCH WINDING DIRECTION)
+    @(162.2400 mm, 60.8500 mm): Reference field of T1
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(171.9700 mm, 75.9000 mm): Reference field of R6
+    @(171.7429 mm, 75.3350 mm): Segment of R5 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(171.7429 mm, 78.2850 mm): Segment of R6 on F.Silkscreen
+    @(172.7100 mm, 78.8000 mm): Reference field of D1
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(171.9700 mm, 72.9500 mm): Reference field of R5
+    @(171.7429 mm, 72.3850 mm): Segment of R4 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(171.7429 mm, 69.4350 mm): Segment of R3 on F.Silkscreen
+    @(171.9700 mm, 70.0000 mm): Reference field of R4
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(171.7429 mm, 66.4850 mm): Segment of R2 on F.Silkscreen
+    @(171.9700 mm, 67.0500 mm): Reference field of R3
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(171.9700 mm, 64.1000 mm): Reference field of R2
+    @(171.7429 mm, 63.5350 mm): Segment of R1 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(140.6150 mm, 69.4250 mm): Footprint text of Q1 (G)
+    @(141.1150 mm, 69.4250 mm): Circle of Q1 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(128.4825 mm, 63.3625 mm): Reference field of J2
+    @(128.4825 mm, 71.3625 mm): Circle of J2 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(150.2600 mm, 113.1000 mm): Reference field of L2
+    @(148.8344 mm, 103.5000 mm): Circle of C1 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(150.2600 mm, 116.8500 mm): Reference field of L3
+    @(149.9987 mm, 116.2600 mm): Segment of L2 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(162.2400 mm, 83.9000 mm): Circle of T2 on F.Silkscreen
+    @(167.7400 mm, 86.4000 mm): Footprint text of T2 (S1)
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(162.2400 mm, 83.9000 mm): Circle of T2 on F.Silkscreen
+    @(167.7400 mm, 81.4000 mm): Footprint text of T2 (S2)
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(162.2400 mm, 83.9000 mm): Circle of T2 on F.Silkscreen
+    @(156.7400 mm, 81.4000 mm): Footprint text of T2 (P2)
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(155.2400 mm, 83.9000 mm): Footprint text of T2 (200Ω)
+    @(162.2400 mm, 83.9000 mm): Circle of T2 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(162.2400 mm, 83.9000 mm): Circle of T2 on F.Silkscreen
+    @(156.7400 mm, 86.4000 mm): Footprint text of T2 (P1)
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(172.7100 mm, 81.7600 mm): Arc of D1 on F.Silkscreen
+    @(172.7100 mm, 84.2700 mm): Reference field of D2
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(173.0500 mm, 110.8100 mm): Reference field of C4
+    @(172.7887 mm, 110.2150 mm): Segment of C3 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(172.7887 mm, 113.2250 mm): Segment of C4 on F.Silkscreen
+    @(173.0500 mm, 113.8200 mm): Reference field of C5
+
+** Found 57 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(172.8825 mm, 65.7500 mm): Pad 2 [+12V] of R2 on F.Cu
+    @(171.0575 mm, 65.7500 mm): Pad 1 [+12V] of R2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(172.8825 mm, 62.8000 mm): Pad 2 [+12V] of R1 on F.Cu
+    @(171.0575 mm, 62.8000 mm): Pad 1 [+12V] of R1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(151.3350 mm, 115.1500 mm): Pad 2 [+12V] of L2 on F.Cu
+    @(149.1850 mm, 115.1500 mm): Pad 1 [+12V] of L2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(172.8825 mm, 62.8000 mm): Pad 2 [+12V] of R1 on F.Cu
+    @(172.8825 mm, 65.7500 mm): Pad 2 [+12V] of R2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(171.0575 mm, 68.7000 mm): Pad 1 [+12V] of R3 on F.Cu
+    @(171.0575 mm, 65.7500 mm): Pad 1 [+12V] of R2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(146.2650 mm, 119.6200 mm): Pad 12 [+12V] of U1 on F.Cu
+    @(149.1850 mm, 118.9000 mm): Pad 1 [+12V] of L3 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(174.0000 mm, 112.4900 mm): Pad 2 [+12V] of C4 on F.Cu
+    @(174.0000 mm, 109.4800 mm): Pad 2 [+12V] of C3 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(172.8825 mm, 77.5500 mm): Pad 2 [+12V] of R6 on F.Cu
+    @(171.0575 mm, 74.6000 mm): Pad 1 [+12V] of R5 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(149.1850 mm, 118.9000 mm): Pad 1 [+12V] of L3 on F.Cu
+    @(149.1850 mm, 115.1500 mm): Pad 1 [+12V] of L2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(173.9800 mm, 81.7600 mm): PTH pad 2 [+12V] of D1
+    @(172.8825 mm, 77.5500 mm): Pad 2 [+12V] of R6 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(157.2400 mm, 71.3500 mm): PTH pad 1 [+12V] of T1
+    @(157.2400 mm, 66.3500 mm): PTH pad 2 [+12V] of T1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(173.9800 mm, 81.7600 mm): PTH pad 2 [+12V] of D1
+    @(173.9800 mm, 87.2300 mm): PTH pad 2 [+12V] of D2
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(171.0575 mm, 74.6000 mm): Pad 1 [+12V] of R5 on F.Cu
+    @(171.0575 mm, 68.7000 mm): Pad 1 [+12V] of R3 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(146.2650 mm, 119.6200 mm): Pad 12 [+12V] of U1 on F.Cu
+    @(140.3650 mm, 117.0200 mm): Pad 5 [+12V] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(146.6150 mm, 64.4250 mm): Pad 3 [+12V] of Q1 on F.Cu
+    @(141.6150 mm, 69.4250 mm): Pad 1 [+12V] of Q1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(141.6150 mm, 69.4250 mm): Pad 1 [+12V] of Q1 on F.Cu
+    @(146.6150 mm, 74.4250 mm): Pad 2 [+12V] of Q1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(145.0844 mm, 103.5000 mm): PTH pad 1 [+12V] of C1
+    @(152.5844 mm, 103.5000 mm): PTH pad 2 [+12V] of C1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(131.4445 mm, 110.2500 mm): PTH pad 2 [+12V] of C2
+    @(123.9445 mm, 110.2500 mm): PTH pad 1 [+12V] of C2
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(157.2400 mm, 66.3500 mm): PTH pad 2 [+12V] of T1
+    @(146.6150 mm, 64.4250 mm): Pad 3 [+12V] of Q1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(140.3650 mm, 117.0200 mm): Pad 5 [+12V] of U1 on F.Cu
+    @(131.4445 mm, 110.2500 mm): PTH pad 2 [+12V] of C2
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(151.3350 mm, 115.1500 mm): Pad 2 [+12V] of L2 on F.Cu
+    @(152.5844 mm, 103.5000 mm): PTH pad 2 [+12V] of C1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(146.6150 mm, 90.6250 mm): Pad 2 [+12V] of Q2 on F.Cu
+    @(145.0844 mm, 103.5000 mm): PTH pad 1 [+12V] of C1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(171.0575 mm, 65.7500 mm): Pad 1 [+12V] of R2 on F.Cu
+    @(157.2400 mm, 66.3500 mm): PTH pad 2 [+12V] of T1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(146.6150 mm, 74.4250 mm): Pad 2 [+12V] of Q1 on F.Cu
+    @(146.6150 mm, 90.6250 mm): Pad 2 [+12V] of Q2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(174.0000 mm, 109.4800 mm): Pad 2 [+12V] of C3 on F.Cu
+    @(152.5844 mm, 103.5000 mm): PTH pad 2 [+12V] of C1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(167.2400 mm, 71.3500 mm): PTH pad 3 [Net-(C3-Pad1)] of T1
+    @(172.1000 mm, 109.4800 mm): Pad 1 [Net-(C3-Pad1)] of C3 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(167.2400 mm, 66.3500 mm): PTH pad 4 [Net-(C4-Pad1)] of T1
+    @(172.1000 mm, 112.4900 mm): Pad 1 [Net-(C4-Pad1)] of C4 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(172.1000 mm, 115.5000 mm): Pad 1 [Net-(C5-Pad1)] of C5 on F.Cu
+    @(174.0000 mm, 115.5000 mm): Pad 2 [Net-(C5-Pad1)] of C5 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(167.2400 mm, 81.4000 mm): PTH pad 4 [Net-(C5-Pad1)] of T2
+    @(157.2400 mm, 81.4000 mm): PTH pad 2 [Net-(C5-Pad1)] of T2
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(172.1000 mm, 115.5000 mm): Pad 1 [Net-(C5-Pad1)] of C5 on F.Cu
+    @(167.2400 mm, 81.4000 mm): PTH pad 4 [Net-(C5-Pad1)] of T2
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(171.4400 mm, 81.7600 mm): PTH pad 1 [Net-(D1-K)] of D1
+    @(172.8825 mm, 68.7000 mm): Pad 2 [Net-(D1-K)] of R3 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(171.4400 mm, 87.2300 mm): PTH pad 1 [Net-(D2-K)] of D2
+    @(172.8825 mm, 71.6500 mm): Pad 2 [Net-(D2-K)] of R4 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(128.4825 mm, 66.2825 mm): PTH pad 2 [unconnected-(J2-Ext-Pad2)] of J2
+    @(124.8825 mm, 67.7625 mm): PTH pad 2 [unconnected-(J2-Ext-Pad2)] of J2
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(124.8825 mm, 67.7625 mm): PTH pad 2 [unconnected-(J2-Ext-Pad2)] of J2
+    @(123.4025 mm, 71.3625 mm): PTH pad 2 [unconnected-(J2-Ext-Pad2)] of J2
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(133.5625 mm, 71.3625 mm): PTH pad 2 [unconnected-(J2-Ext-Pad2)] of J2
+    @(132.0825 mm, 67.7625 mm): PTH pad 2 [unconnected-(J2-Ext-Pad2)] of J2
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(132.0825 mm, 67.7625 mm): PTH pad 2 [unconnected-(J2-Ext-Pad2)] of J2
+    @(128.4825 mm, 66.2825 mm): PTH pad 2 [unconnected-(J2-Ext-Pad2)] of J2
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(124.8825 mm, 74.9625 mm): PTH pad 2 [unconnected-(J2-Ext-Pad2)] of J2
+    @(128.4825 mm, 76.4425 mm): PTH pad 2 [unconnected-(J2-Ext-Pad2)] of J2
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(123.4025 mm, 71.3625 mm): PTH pad 2 [unconnected-(J2-Ext-Pad2)] of J2
+    @(124.8825 mm, 74.9625 mm): PTH pad 2 [unconnected-(J2-Ext-Pad2)] of J2
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(128.4825 mm, 76.4425 mm): PTH pad 2 [unconnected-(J2-Ext-Pad2)] of J2
+    @(132.0825 mm, 74.9625 mm): PTH pad 2 [unconnected-(J2-Ext-Pad2)] of J2
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(128.4825 mm, 86.3575 mm): PTH pad 2 [unconnected-(J3-Ext-Pad2)] of J3
+    @(124.8825 mm, 87.8375 mm): PTH pad 2 [unconnected-(J3-Ext-Pad2)] of J3
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(124.8825 mm, 87.8375 mm): PTH pad 2 [unconnected-(J3-Ext-Pad2)] of J3
+    @(123.4025 mm, 91.4375 mm): PTH pad 2 [unconnected-(J3-Ext-Pad2)] of J3
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(133.5625 mm, 91.4375 mm): PTH pad 2 [unconnected-(J3-Ext-Pad2)] of J3
+    @(132.0825 mm, 87.8375 mm): PTH pad 2 [unconnected-(J3-Ext-Pad2)] of J3
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(132.0825 mm, 87.8375 mm): PTH pad 2 [unconnected-(J3-Ext-Pad2)] of J3
+    @(128.4825 mm, 86.3575 mm): PTH pad 2 [unconnected-(J3-Ext-Pad2)] of J3
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(124.8825 mm, 95.0375 mm): PTH pad 2 [unconnected-(J3-Ext-Pad2)] of J3
+    @(128.4825 mm, 96.5175 mm): PTH pad 2 [unconnected-(J3-Ext-Pad2)] of J3
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(123.4025 mm, 91.4375 mm): PTH pad 2 [unconnected-(J3-Ext-Pad2)] of J3
+    @(124.8825 mm, 95.0375 mm): PTH pad 2 [unconnected-(J3-Ext-Pad2)] of J3
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(128.4825 mm, 96.5175 mm): PTH pad 2 [unconnected-(J3-Ext-Pad2)] of J3
+    @(132.0825 mm, 95.0375 mm): PTH pad 2 [unconnected-(J3-Ext-Pad2)] of J3
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(171.0575 mm, 77.5500 mm): Pad 1 [Net-(R5-Pad2)] of R6 on F.Cu
+    @(172.8825 mm, 74.6000 mm): Pad 2 [Net-(R5-Pad2)] of R5 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(140.3650 mm, 116.3800 mm): Pad 4 [Net-(R5-Pad2)] of U1 on F.Cu
+    @(146.2650 mm, 120.2700 mm): Pad 11 [Net-(R5-Pad2)] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(146.2650 mm, 120.2700 mm): Pad 11 [Net-(R5-Pad2)] of U1 on F.Cu
+    @(171.0575 mm, 77.5500 mm): Pad 1 [Net-(R5-Pad2)] of R6 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(146.2650 mm, 117.0200 mm): Pad 16 [Net-(U1-VIN-Pad1)] of U1 on F.Cu
+    @(146.2650 mm, 116.3800 mm): Pad 17 [Net-(U1-VIN-Pad1)] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(146.2650 mm, 116.3800 mm): Pad 17 [Net-(U1-VIN-Pad1)] of U1 on F.Cu
+    @(146.2650 mm, 115.7300 mm): Pad 18 [Net-(U1-VIN-Pad1)] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(146.2650 mm, 115.7300 mm): Pad 18 [Net-(U1-VIN-Pad1)] of U1 on F.Cu
+    @(146.2650 mm, 115.0800 mm): Pad 19 [Net-(U1-VIN-Pad1)] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(146.2650 mm, 115.0800 mm): Pad 19 [Net-(U1-VIN-Pad1)] of U1 on F.Cu
+    @(146.2650 mm, 114.4300 mm): Pad 20 [Net-(U1-VIN-Pad1)] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(146.2650 mm, 118.9700 mm): Pad 13 [Net-(U1-VIN-Pad1)] of U1 on F.Cu
+    @(146.2650 mm, 117.0200 mm): Pad 16 [Net-(U1-VIN-Pad1)] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(146.2650 mm, 114.4300 mm): Pad 20 [Net-(U1-VIN-Pad1)] of U1 on F.Cu
+    @(140.3650 mm, 114.4300 mm): Pad 1 [Net-(U1-VIN-Pad1)] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(146.2650 mm, 118.3200 mm): Pad 14 [Net-(U1-VIN-Pad14)] of U1 on F.Cu
+    @(146.2650 mm, 117.6800 mm): Pad 15 [Net-(U1-VIN-Pad14)] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(146.2650 mm, 117.6800 mm): Pad 15 [Net-(U1-VIN-Pad14)] of U1 on F.Cu
+    @(140.3650 mm, 115.0800 mm): Pad 2 [Net-(U1-VIN-Pad14)] of U1 on F.Cu
+
+** Found 0 Footprint errors **
+
+** End of Report **
