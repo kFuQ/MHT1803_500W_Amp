@@ -257,8 +257,10 @@ A professional-grade 500W RF power amplifier design featuring comprehensive prot
 ## 📑 Documentation
 - [User Manual](./MHT1803_Amplifier_500W_User_Manual.pdf)
 - [Compliance Summary](./MHT1803_Amplifier_500W.ComplianceSummary.md) - KiCad 9.0.2 compliance analysis and project status
-- [Bill of Materials](./Complete_BOM.csv)
-- [Repair Guide](./Repair_Diagram.svg)
+- [Bill of Materials](./MHT1803_Amplifier_500W.BOM.csv)
+- [Repair Guide](./MHT1803_Amplifier_500W_Repair_Diagram.svg)
+- [Verification Report](./MHT1803_Amplifier_500W_VERIFICATION_REPORT.md)
+- [File List](./MHT1803_Amplifier_500W.FileList.md)
 
 ## Safety Features
 - Multiple thermal sensors
