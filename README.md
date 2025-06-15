@@ -273,7 +273,7 @@ A professional-grade 500W RF power amplifier design featuring comprehensive prot
 - Status indicators
 
 ## License
-Copyright © 2024 kFuQ
+Copyright © 2025 kFuQ
 All rights reserved.
 
 
