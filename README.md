@@ -276,10 +276,5 @@ A professional-grade 500W RF power amplifier design featuring comprehensive prot
 Copyright © 2024 kFuQ
 All rights reserved.
 
-## Contact
-For technical support or inquiries:
-- Email: support@kfuq.com
-- Phone: +1-555-KFUQ-AMP
-- Web: www.kfuq.com/support
-- Hours: Monday-Friday, 8 AM - 5 PM EST
+
 
