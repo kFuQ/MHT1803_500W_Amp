@@ -1,4 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "MHT1803_Amplifier_500W")(type "KiCad")(uri "${KIPRJMOD}/MHT1803_Amplifier_500W.kicad_sym")(options "")(descr ""))
-)
