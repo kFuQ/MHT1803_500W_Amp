@@ -6,13 +6,132 @@ A professional-grade 500W RF power amplifier design featuring comprehensive prot
 
 - Output Power: 500W continuous
 - Frequency Range: 1.8-30 MHz
-- Supply Voltage: +50V DC
+- Primary Input: 12-13.8VDC @ 50A
 - Efficiency: >65% typical
 - Input Power: 0-5W adjustable
 - VSWR Protection: Auto-shutdown at 3:1
 - Thermal Protection: 85°C shutdown, 75°C resume
 - Monitoring: Input power, output power, temperature, current
-- Interface: RS-232 (9600 8N1)
+
+## Power System Architecture
+
+### Main Power Input
+- Operating Voltage: 12-13.8VDC nominal
+- Maximum Current: 50A continuous, 55A peak
+- Input Connection: 
+  - Anderson Powerpole 75A connectors (Red/Black)
+  - Auxiliary 4-pin Molex backup input
+  - Reverse polarity protection diode
+- Input Filtering:
+  - 4x 2200µF low-ESR capacitors
+  - Common-mode choke (FT240-43 core)
+  - 100nF ceramic bypass capacitors
+  - MOV surge protection
+
+### DC-DC Conversion Stage
+- Primary Converter:
+  - Synchronous buck-boost topology
+  - IR2110 gate drivers
+  - IRFP260N MOSFETs (4 pairs)
+  - Operating frequency: 125kHz
+  - Efficiency: >92% at full load
+  - Output: 50V @ 15A
+- Transformer Design:
+  - Core: 2x FT240-43 stacked
+  - Primary: 4T #12 AWG bifilar
+  - Secondary: 16T #16 AWG bifilar
+  - Interleaved winding for lower leakage
+  - Epoxy potted for stability
+- Output Filtering:
+  - 2x 470µH inductors (T200-2 cores)
+  - 4x 220µF/100V capacitors
+  - 100nF/100V ceramic bypass
+  - Common-mode rejection filter
+
+### Power Distribution
+- Main RF Stage (+50VDC):
+  - Dual redundant DC-DC converters
+  - Automatic load sharing
+  - Independent thermal monitoring
+  - Isolated feedback paths
+  - Current limiting at 16A
+- Control Circuits (12VDC direct):
+  - Relay coil drivers
+  - Fan control circuits
+  - LED indicators
+  - Input protection circuits
+- Logic Circuits (5VDC regulated):
+  - LM2596 switching regulator
+  - 2A maximum output
+  - Temperature compensated
+  - Short circuit protected
+
+### Power Monitoring System
+- Input Monitoring:
+  - Hall-effect current sensor (ACS758-050B)
+  - Voltage divider with op-amp buffer
+  - Temperature compensation
+  - 12-bit ADC sampling
+  - Real-time display update
+- DC-DC Converter Monitoring:
+  - Output voltage (±1% precision)
+  - Output current (ACS712-30A)
+  - Heatsink temperature (LM35)
+  - Transformer temperature (NTC)
+  - Efficiency calculation
+- Protection Thresholds:
+  - Input under-voltage: <11.0V
+  - Input over-voltage: >15.0V
+  - Input current: >55A
+  - Output voltage: >52V
+  - Temperature: >85°C
+
+### Protection Mechanisms
+- Input Protection:
+  - Reverse polarity (60V/60A Schottky)
+  - Over-current (60A blade fuse)
+  - Surge protection (30V MOV)
+  - EMI filtering (common mode)
+- DC-DC Protection:
+  - Soft-start ramping (2 seconds)
+  - Over-temperature shutdown
+  - Current limiting (fold-back)
+  - Short circuit protection
+  - Output crowbar (SCR based)
+- Backup Systems:
+  - Redundant converter modules
+  - Backup power input
+  - 1000µF hold-up capacitors
+  - Emergency shutdown circuit
+  - Watchdog timer reset
+
+### Power Control Interface
+- Front Panel:
+  - Digital ammeter (input current)
+  - Digital voltmeter (input voltage)
+  - Power status LEDs
+  - Temperature indication
+  - Fault status display
+- Remote Monitoring:
+  - RS-232 interface (9600 8N1)
+  - Power telemetry data
+  - Fault condition reporting
+  - Remote shutdown capability
+  - Configuration settings
+
+### Cooling System
+- DC-DC Stage:
+  - Forced air cooling
+  - 2x 80mm 12V fans
+  - Temperature controlled
+  - Airflow sensors
+  - Thermal shutdown backup
+- Heatsink Specifications:
+  - Material: Extruded aluminum
+  - Size: 200x100x40mm
+  - Thermal resistance: 0.3°C/W
+  - Mounting: Thermal pad interface
+  - Temperature monitoring
 
 ## System Architecture
 
@@ -88,6 +207,60 @@ A professional-grade 500W RF power amplifier design featuring comprehensive prot
   - Remote monitoring
   - Interlock chain
 
+## Additional Features
+
+### Thermal Management
+- Copper base heatsink with aluminum fins
+- Thermal resistance: 0.1°C/W
+- Size: 200x150x60mm
+- Arctic Silver 5 thermal compound
+- Three LM35 temperature sensors
+- Temperature-controlled fans
+- YF-S201 coolant flow sensor
+- Thermal shutdown protection
+- PCB thermal relief design
+
+### User Interface
+- 2-digit 7-segment fault display
+- 8 status LED indicators
+- Reset pushbutton
+- Mode selection switch
+- Band selection control
+- Power output adjustment
+- Piezo buzzer for alerts
+- RS-232 interface for monitoring
+- External fault input connector
+
+### EMI/RFI Protection
+- Multi-layer PCB with ground planes
+- RF shielding compartments
+- Ferrite beads on DC lines
+- Feed-through capacitors
+- Common-mode chokes
+- TVS diode protection
+- Isolated ground planes
+- EMI-suppressed enclosure
+
+### Safety Features
+- Cabinet interlock switch
+- External interlock chain
+- High voltage warning LED
+- Automatic RF power reduction
+- Multiple redundant protections
+- Fault condition memory
+- Emergency shutdown button
+- Safety certification ready
+
+### Monitoring & Logging
+- Real-time power monitoring
+- Temperature tracking
+- VSWR measurement
+- Current consumption
+- Fault history with timestamps
+- RS-232 data output
+- 32KB EEPROM storage
+- Last 100 faults recorded
+
 ## PCB Specifications
 - Material: Rogers RO4350B
 - Thickness: 0.762mm
@@ -157,3 +330,4 @@ All rights reserved.
 For technical support or inquiries:
 - Email: support@kfuq.com
 - Phone: +1 (555) 123-4567
+
