@@ -12,7 +12,6 @@ _autosave-*
 *-save.pro
 *-save.kicad_pcb
 fp-info-cache
-fp-lib-table
 *.kicad_sym-bak
 *.kicad_sym
 *.kicad_sym-bak
