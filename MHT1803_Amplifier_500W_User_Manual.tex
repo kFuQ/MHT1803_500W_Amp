@@ -31,7 +31,7 @@
 \title{\Huge\textbf{MHT1803 500W Push-Pull Amplifier}\\
 \Large User Manual and Operation Guide\\
 \large Version 1.0}
-\author{RF Design Engineering}
+\author{kFuQ}
 \date{June 2025}
 
 \begin{document}
@@ -54,10 +54,10 @@ The MHT1803 500W Push-Pull Amplifier is a high-performance RF power amplifier de
     \item \textbf{Frequency Range:} 1.8 - 30 MHz (HF bands)
     \item \textbf{Input Power:} 6-8W for full output
     \item \textbf{Modes Supported:} AM, SSB, FM
-    \item \textbf{Power Supply:} 12-14V DC mobile operation
-    \item \textbf{Cooling:} Integrated 240mm AIO liquid cooling
+    \item \textbf{Power Supply:} 12-13.8V DC @ 50A
+    \item \textbf{Cooling:} 240mm AIO liquid cooling with custom copper mounting plate
     \item \textbf{Band Selection:} 5-position rotary switch
-    \item \textbf{Protection:} Overheat, VSWR, overcurrent
+    \item \textbf{Protection:} Temperature, VSWR, overcurrent, voltage monitoring
 \end{itemize}
 
 \subsection{Applications}
@@ -148,9 +148,9 @@ This amplifier operates at dangerous voltages (50V DC) and generates high-power 
 \draw[fill=black] (0,0) rectangle (2,1);
 \node[white] at (1,0.5) {\textbf{12V BATTERY}};
 
-% Fuse
+% Circuit Breaker
 \draw (3,0.5) circle (0.3);
-\node at (3,0.5) {\textbf{F}};
+\node at (3,0.5) {\textbf{CB}};
 \node[below] at (3,0.2) {30A};
 
 % Switch
@@ -333,22 +333,34 @@ Set the 3-position mode switch according to your transmission mode:
 \textbf{LED} & \textbf{Status} & \textbf{Meaning} \\
 \hline
 Power (Green) & ON & Normal operation, DC power OK \\
-Power (Green) & OFF & No DC power or fuse blown \\
+Power (Green) & OFF & No DC power or circuit breaker tripped \\
 Power (Green) & Blinking & DC voltage low (<11V) \\
 \hline
 Overheat (Red) & OFF & Temperature normal (<85°C) \\
 Overheat (Red) & ON & Overtemperature protection active \\
-Overheat (Red) & Blinking & Thermal sensor fault \\
+Overheat (Red) & Blinking & Coolant flow or pump fault \\
 \hline
 \end{tabular}
 \end{center}
+
+\subsection{Protection Features}
+The amplifier includes comprehensive protection circuits:
+\begin{itemize}
+    \item Temperature monitoring with three LM35 sensors
+    \item YF-S201 coolant flow monitoring
+    \item Input voltage monitoring (LM339)
+    \item Current monitoring (ACS712-30A)
+    \item VSWR protection with PDC10-1 RF detector
+    \item Watchdog timer (555-based)
+    \item Fault latching with CD4043B
+\end{itemize}
 
 \section{Troubleshooting}
 
 \subsection{No Power (Power LED Off)}
 \textbf{Possible Causes and Solutions:}
 \begin{itemize}
-    \item \textbf{Blown fuse:} Check and replace 30A fuse
+    \item \textbf{Circuit breaker tripped:} Check and reset 30A circuit breaker
     \item \textbf{Loose connections:} Verify all power connections are tight
     \item \textbf{Low battery voltage:} Check battery voltage (should be >11V)
     \item \textbf{Faulty power switch:} Test switch continuity
@@ -399,11 +411,11 @@ Overheat (Red) & Blinking & Thermal sensor fault \\
 \hline
 \textbf{LED Pattern} & \textbf{Code} & \textbf{Problem} \\
 \hline
-Power: 1 blink, pause & E01 & Input undervoltage \\
-Power: 2 blinks, pause & E02 & Output overvoltage \\
+Power: 1 blink, pause & E01 & Input undervoltage (<11V) \\
+Power: 2 blinks, pause & E02 & Current limit exceeded \\
 Power: 3 blinks, pause & E03 & VSWR protection \\
-Overheat: Fast blink & E04 & Thermal sensor fault \\
-Both LEDs alternating & E05 & System fault \\
+Overheat: Fast blink & E04 & Coolant flow fault \\
+Both LEDs alternating & E05 & Multiple faults active \\
 \hline
 \end{tabular}
 \end{center}
@@ -414,27 +426,42 @@ Both LEDs alternating & E05 & System fault \\
 
 \subsubsection{Monthly Checks}
 \begin{itemize}
-    \item Verify AIO cooler operation
-    \item Check power connections for tightness
+    \item Check AIO cooler pump operation
+    \item Verify coolant flow sensor readings
+    \item Inspect radiator for dust/debris
+    \item Check all power connections
     \item Clean external surfaces
-    \item Inspect RF connectors for corrosion
+    \item Test protection circuits
 \end{itemize}
 
 \subsubsection{Quarterly Maintenance}
 \begin{itemize}
-    \item Check coolant level (if serviceable)
-    \item Inspect mounting hardware
-    \item Verify grounding connections
-    \item Test protection circuits
+    \item Clean radiator fins thoroughly
+    \item Check coolant level and condition
+    \item Inspect all cooling system hoses
+    \item Test temperature sensors
+    \item Verify flow sensor calibration
+    \item Check mounting hardware
 \end{itemize}
 
 \subsubsection{Annual Service}
 \begin{itemize}
-    \item Replace thermal paste on MOSFETs
-    \item Comprehensive electrical testing
-    \item AIO cooler system service
-    \item Calibration verification
+    \item Replace Arctic Silver 5 thermal compound
+    \item Flush and refill cooling system
+    \item Clean copper mounting plate
+    \item Full system calibration
+    \item Comprehensive protection testing
 \end{itemize}
+
+\subsection{Cooling System Maintenance}
+\begin{enumerate}
+    \item Keep radiator fins clean and unobstructed
+    \item Monitor coolant color for contamination
+    \item Check all hose connections monthly
+    \item Verify pump operation before each use
+    \item Replace coolant annually or if discolored
+    \item Clean copper mounting plate during thermal paste replacement
+\end{enumerate}
 
 \subsection{Cleaning Procedures}
 \begin{enumerate}
@@ -479,11 +506,11 @@ Output VSWR Tolerance & 3:1 maximum \\
 \hline
 \textbf{Parameter} & \textbf{Specification} \\
 \hline
-Supply Voltage & 12 - 14V DC \\
+Supply Voltage & 12 - 13.8V DC \\
 Current Consumption (Idle) & 2.5A \\
-Current Consumption (Full Power) & 45A \\
+Current Consumption (Full Power) & 50A \\
 Internal Voltage & 50V DC \\
-Power Consumption & 630W maximum \\
+Power Consumption & 690W maximum \\
 \hline
 \end{tabular}
 \end{center}
@@ -522,37 +549,36 @@ D2 & LED (Red) & Overheat Indicator \\
 \end{tabular}
 \end{center}
 
-\section{Warranty and Support}
+\section{Technical Support}
+For technical support or to report issues:
 
-\subsection{Warranty Terms}
-This amplifier is warranted for a period of two (2) years from date of purchase against defects in materials and workmanship under normal amateur radio use.
-
-\subsection{Warranty Exclusions}
-\begin{itemize}
-    \item Damage from overvoltage or reverse polarity
-    \item Damage from excessive SWR or no-load operation
-    \item Damage from modification or improper repair
-    \item Normal wear items (thermal paste, coolant)
-    \item Damage from environmental factors
-\end{itemize}
-
-\subsection{Technical Support}
-For technical support, please contact:
-\begin{itemize}
-    \item Email: support@rfdesign.com
-    \item Phone: +1-555-RF-POWER
-    \item Web: www.rfdesign.com/support
-    \item Hours: Monday-Friday, 8 AM - 5 PM EST
-\end{itemize}
-
-\subsection{Service Information}
-For service requirements:
 \begin{enumerate}
-    \item Contact technical support for return authorization
-    \item Package unit securely with all accessories
-    \item Include detailed description of problem
-    \item Allow 2-3 weeks for repair turnaround
+    \item Visit our GitHub repository at \url{https://github.com/kfuq/MHT1803-500W-Amp}
+    \item Click on the "Issues" tab
+    \item Click "New Issue"
+    \item Select the appropriate issue template:
+    \begin{itemize}
+        \item Bug Report - for operational problems
+        \item Feature Request - for enhancement suggestions
+        \item Build Help - for assembly questions
+        \item Technical Support - for general assistance
+    \end{itemize}
+    \item Fill out all required information in the template
+    \item Include detailed descriptions and photos if applicable
+    \item Submit the issue
 \end{enumerate}
+
+\textbf{When reporting issues, please include:}
+\begin{itemize}
+    \item Detailed description of the problem
+    \item Operating conditions when the issue occurred
+    \item LED status indicators at time of failure
+    \item Any error codes displayed
+    \item Photos or videos demonstrating the issue
+    \item Steps you've already taken to troubleshoot
+\end{itemize}
+
+Our support team monitors GitHub issues during normal business hours (Monday-Friday, 8 AM - 5 PM EST).
 
 \section{Appendices}
 
@@ -595,7 +621,7 @@ For service requirements:
 \hline
 \textbf{Item} & \textbf{Part Number} & \textbf{Description} \\
 \hline
-F1 & LF-30A-32V & 30A Automotive Fuse \\
+CB1 & CB-30A-32V & 30A Automotive Circuit Breaker \\
 TH1 & NTC-10K-B3977 & 10K NTC Thermistor \\
 Thermal Paste & MX-4-4G & Arctic MX-4 Thermal Compound \\
 Coolant & CL-CLEAR-1L & AIO Coolant (Clear) \\
@@ -676,7 +702,7 @@ To maintain proper EMI filtering:
 \begin{center}
 \textbf{END OF MANUAL}\\
 \textit{Document Version 1.0 - June 2025}\\
-\textit{© 2025 RF Design Engineering - All Rights Reserved}
+\textit{© 2025 kFuQ - All Rights Reserved}
 \end{center}
 
 \end{document}
