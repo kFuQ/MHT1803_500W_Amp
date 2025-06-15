@@ -1,0 +1,36 @@
+(module G5V2_Relay (layer F.Cu)
+  (descr "Omron G5V-2 Relay DPDT")
+  (tags "relay G5V-2 DPDT")
+  (fp_text reference REF** (at 0 -8) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value G5V2_Relay (at 0 8) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  
+  (fp_line (start -7.5 -6.5) (end 7.5 -6.5) (layer F.SilkS) (width 0.12))
+  (fp_line (start 7.5 -6.5) (end 7.5 6.5) (layer F.SilkS) (width 0.12))
+  (fp_line (start 7.5 6.5) (end -7.5 6.5) (layer F.SilkS) (width 0.12))
+  (fp_line (start -7.5 6.5) (end -7.5 -6.5) (layer F.SilkS) (width 0.12))
+  
+  (fp_line (start -8 -7) (end 8 -7) (layer F.CrtYd) (width 0.05))
+  (fp_line (start 8 -7) (end 8 7) (layer F.CrtYd) (width 0.05))
+  (fp_line (start 8 7) (end -8 7) (layer F.CrtYd) (width 0.05))
+  (fp_line (start -8 7) (end -8 -7) (layer F.CrtYd) (width 0.05))
+  
+  (pad 1 thru_hole rect (at -6.35 -3.81) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask))
+  (pad 2 thru_hole circle (at -6.35 -1.27) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask))
+  (pad 3 thru_hole circle (at -6.35 1.27) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask))
+  (pad 4 thru_hole circle (at -6.35 3.81) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask))
+  
+  (pad 5 thru_hole circle (at 6.35 3.81) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask))
+  (pad 6 thru_hole circle (at 6.35 1.27) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask))
+  (pad 7 thru_hole circle (at 6.35 -1.27) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask))
+  (pad 8 thru_hole circle (at 6.35 -3.81) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask))
+  
+  (model ${KISYS3DMOD}/Relay_THT.3dshapes/Relay_DPDT_Omron_G5V-2.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+) 

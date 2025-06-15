@@ -1,110 +1,68 @@
 Reference,Qty,Value,Description,Footprint,Manufacturer,Part Number,Supplier,Unit Price,Extended Price
 Q1,1,MHT1803,500W LDMOS RF Transistor 1.8-30MHz,MHT1803_Amplifier_500W:MHT1803_M244,MACOM,MHT1803A,Mouser,$125.50,$125.50
 Q2,1,MHT1803,500W LDMOS RF Transistor 1.8-30MHz,MHT1803_Amplifier_500W:MHT1803_M244,MACOM,MHT1803A,Mouser,$125.50,$125.50
-U1,1,LM25122,12V to 50V DC-DC Controller,Converter_DCDC:Converter_DCDC_TI_LM25122,Texas Instruments,LM25122PSQE/NOPB,Mouser,$8.95,$8.95
-U2,1,LM339,Quad Comparator for Temperature Protection,Package_SO:SOIC-14_3.9x8.7mm_P1.27mm,Texas Instruments,LM339DR,Mouser,$0.58,$0.58
+U1,1,LM25122,12V to 50V DC-DC Controller,MHT1803_Amplifier_500W:LM25122_HTSSOP20,Texas Instruments,LM25122PSQE/NOPB,Mouser,$8.95,$8.95
+U2,1,LM35,Temperature Sensor,MHT1803_Amplifier_500W:LM35_TO92,Texas Instruments,LM35DZ/NOPB,Mouser,$2.95,$2.95
+U3,1,LM393,Dual Comparator for Protection,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,Texas Instruments,LM393DR,Mouser,$0.58,$0.58
 J1,1,SO239_INPUT,SO-239 UHF Panel Mount Connector RF Input,MHT1803_Amplifier_500W:SO239_Panel_Mount,Amphenol,31-221-RFX,Mouser,$4.85,$4.85
 J2,1,SO239_OUTPUT,SO-239 UHF Panel Mount Connector RF Output,MHT1803_Amplifier_500W:SO239_Panel_Mount,Amphenol,31-221-RFX,Mouser,$4.85,$4.85
 J3,1,SMA_AUX_INPUT,SMA Connector Auxiliary RF Input,Connector_Coaxial:SMA_Amphenol_132289_EdgeMount,Amphenol,132289-12-0100,Mouser,$3.45,$3.45
 J4,1,POWER_INPUT,Heavy Duty Screw Terminal 4 AWG Power,MHT1803_Amplifier_500W:Screw_Terminal_4AWG,Phoenix Contact,MKDS 1/ 2-5.08,Mouser,$2.35,$2.35
-SW1,1,BAND_SELECT,1-Pole 5-Throw Rotary Switch Band Selection,MHT1803_Amplifier_500W:Rotary_Switch_1P5T,C&K Components,A12505RNZQ,Mouser,$8.75,$8.75
-SW2,1,MODE_SELECT,1-Pole 3-Throw Slide Switch Mode Selection,MHT1803_Amplifier_500W:Mode_Switch_1P3T,C&K Components,OS103011MS2QN1,Mouser,$3.25,$3.25
+SW1,1,BAND_SELECT,12-Position Rotary Switch Band Selection,MHT1803_Amplifier_500W:Rotary_Switch_1P12T,C&K Components,A12512RNZQ,Mouser,$12.75,$12.75
+SW2,1,MODE_SELECT,3-Position Slide Switch Mode Selection,MHT1803_Amplifier_500W:Mode_Switch_1P3T,C&K Components,OS103011MS2QN1,Mouser,$3.25,$3.25
 T1,1,4:1_BALUN,4:1 RF Balun Transformer Input Splitting,MHT1803_Amplifier_500W:RF_Transformer_T68,Mini-Circuits,T4-1T+,Mouser,$12.95,$12.95
 T2,1,1:4_COMBINER,1:4 RF Combiner Transformer Output,MHT1803_Amplifier_500W:RF_Transformer_T68,Mini-Circuits,T1-4T+,Mouser,$12.95,$12.95
-K1,1,OVHT_RELAY,Overheat Protection Relay SPDT,Relay_THT:Relay_SPDT_Omron-G5LE-1,Omron,G5LE-1-36-DC12,Mouser,$3.85,$3.85
-TH1,1,NTC_10K,NTC Thermistor 10K Temperature Sensor,Resistor_SMD:R_0805_2012Metric,Vishay,NTCS0805E3103FXT,Mouser,$0.45,$0.45
+K1,1,G5V-2,Protection Relay DPDT,MHT1803_Amplifier_500W:G5V2_Relay,Omron,G5V-2-DC12,Mouser,$5.85,$5.85
 D1,1,PWR_LED_GREEN,Power Status LED Green 3mm,LED_THT:LED_D3.0mm,Kingbright,WP3A8GD,Mouser,$0.25,$0.25
 D2,1,OVHT_LED_RED,Overheat Status LED Red 3mm,LED_THT:LED_D3.0mm,Kingbright,WP3A8ID,Mouser,$0.25,$0.25
 D3,1,1N4148W,Fast Switching Diode SOD-123,Diode_SMD:D_SOD-123,ON Semiconductor,1N4148W-7-F,Mouser,$0.10,$0.10
 D4,1,1N4148W,Fast Switching Diode SOD-123,Diode_SMD:D_SOD-123,ON Semiconductor,1N4148W-7-F,Mouser,$0.10,$0.10
 F1,1,30A,Automotive Blade Fuse 30A,Fuse_THT:Fuse_Blade_ATO,Littelfuse,ATO30,Mouser,$0.75,$0.75
-C1,1,100uF,Electrolytic Capacitor 100uF 25V Power Filter,Capacitor_SMD:C_1206_3216Metric,Kemet,T491D107K025AT,Mouser,$1.85,$1.85
-C2,1,100uF,Electrolytic Capacitor 100uF 63V Power Filter,Capacitor_SMD:C_1206_3216Metric,Kemet,T491D107K063AT,Mouser,$2.15,$2.15
-C3,1,1nF,Ceramic Capacitor 1nF 100V RF Coupling,Capacitor_SMD:C_0805_2012Metric,Murata,GCM21BR72A102KA37L,Mouser,$0.15,$0.15
-C4,1,1nF,Ceramic Capacitor 1nF 100V RF Coupling,Capacitor_SMD:C_0805_2012Metric,Murata,GCM21BR72A102KA37L,Mouser,$0.15,$0.15
-C5,1,10nF,Ceramic Capacitor 10nF 100V Decoupling,Capacitor_SMD:C_0805_2012Metric,Murata,GCM21BR72A103KA37L,Mouser,$0.12,$0.12
-C6,1,10nF,Ceramic Capacitor 10nF 100V Decoupling,Capacitor_SMD:C_0805_2012Metric,Murata,GCM21BR72A103KA37L,Mouser,$0.12,$0.12
-C7,1,100nF,Ceramic Capacitor 100nF 50V Decoupling,Capacitor_SMD:C_0805_2012Metric,Murata,GCM21BR71H104KA37L,Mouser,$0.10,$0.10
-C8,1,100nF,Ceramic Capacitor 100nF 50V Decoupling,Capacitor_SMD:C_0805_2012Metric,Murata,GCM21BR71H104KA37L,Mouser,$0.10,$0.10
-C9,1,47pF,Ceramic Capacitor 47pF 100V RF Tuning,Capacitor_SMD:C_0805_2012Metric,Murata,GCM2165C2A470JA_regular16D,Mouser,$0.18,$0.18
-C10,1,47pF,Ceramic Capacitor 47pF 100V RF Tuning,Capacitor_SMD:C_0805_2012Metric,Murata,GCM2165C2A470JA16D,Mouser,$0.18,$0.18
-R1,1,1K,Current Limiting Resistor 1K 0.125W Power LED,Resistor_SMD:R_0805_2012Metric,Yageo,RC0805FR-071KL,Mouser,$0.02,$0.02
-R2,1,1K,Current Limiting Resistor 1K 0.125W Overheat LED,Resistor_SMD:R_0805_2012Metric,Yageo,RC0805FR-071KL,Mouser,$0.02,$0.02
-R3,1,10K,Pull-up Resistor 10K 0.125W Temperature Sensor,Resistor_SMD:R_0805_2012Metric,Yageo,RC0805FR-0710KL,Mouser,$0.02,$0.02
-R4,1,100,Gate Resistor 100R 0.25W Q1 Gate Protection,Resistor_SMD:R_0805_2012Metric,Yageo,RC0805FR-07100RL,Mouser,$0.02,$0.02
-R5,1,100,Gate Resistor 100R 0.25W Q2 Gate Protection,Resistor_SMD:R_0805_2012Metric,Yageo,RC0805FR-07100RL,Mouser,$0.02,$0.02
-R6,1,47K,Voltage Divider 47K 0.125W Feedback,Resistor_SMD:R_0805_2012Metric,Yageo,RC0805FR-0747KL,Mouser,$0.02,$0.02
-R7,1,2.2K,Voltage Divider 2.2K 0.125W Feedback,Resistor_SMD:R_0805_2012Metric,Yageo,RC0805FR-072K2L,Mouser,$0.02,$0.02
-R8,1,12K,Temperature Threshold 12K 0.125W Comparator,Resistor_SMD:R_0805_2012Metric,Yageo,RC0805FR-0712KL,Mouser,$0.02,$0.02
-L1,1,22nH,RF Inductor 22nH Bias Feed Q1,Inductor_SMD:L_1008_2520Metric,Coilcraft,1008CS-220XJLC,Mouser,$1.25,$1.25
-L2,1,22nH,RF Inductor 22nH Bias Feed Q2,Inductor_SMD:L_1008_2520Metric,Coilcraft,1008CS-220XJLC,Mouser,$1.25,$1.25
-L3,1,100uH,Power Inductor 100uH DC-DC Converter,Inductor_SMD:L_12x12mm_H8mm,Wurth,744773201,Mouser,$3.85,$3.85
-L4,1,10uH,Filter Inductor 10uH Power Supply,Inductor_SMD:L_1008_2520Metric,Murata,LQM2MPN100NG0,Mouser,$0.85,$0.85
-FB1,1,BLM18SG300TN1,Ferrite Bead 30R @ 100MHz EMI Suppression,Ferrite_THT:FB_TDK_MMZ1608_2.0x1.25mm,TDK,BLM18SG300TN1D,Mouser,$0.15,$0.15
-FB2,1,BLM18SG300TN1,Ferrite Bead 30R @ 100MHz EMI Suppression,Ferrite_THT:FB_TDK_MMZ1608_2.0x1.25mm,TDK,BLM18SG300TN1D,Mouser,$0.15,$0.15
-FB3,1,BLM18SG300TN1,Ferrite Bead 30R @ 100MHz EMI Suppression,Ferrite_THT:FB_TDK_MMZ1608_2.0x1.25mm,TDK,BLM18SG300TN1D,Mouser,$0.15,$0.15
-FB4,1,BLM18SG300TN1,Ferrite Bead 30R @ 100MHz EMI Suppression,Ferrite_THT:FB_TDK_MMZ1608_2.0x1.25mm,TDK,BLM18SG300TN1D,Mouser,$0.15,$0.15
-TP1,1,+12V,Test Point 12V Power Rail,TestPoint:TestPoint_Pad_D2.0mm,Keystone,5015,Mouser,$0.35,$0.35
-TP2,1,+50V,Test Point 50V Power Rail,TestPoint:TestPoint_Pad_D2.0mm,Keystone,5015,Mouser,$0.35,$0.35
-TP3,1,RF_IN,Test Point RF Input Signal,TestPoint:TestPoint_Pad_D2.0mm,Keystone,5015,Mouser,$0.35,$0.35
-TP4,1,RF_OUT,Test Point RF Output Signal,TestPoint:TestPoint_Pad_D2.0mm,Keystone,5015,Mouser,$0.35,$0.35
-TP5,1,TEMP,Test Point Temperature Sensor,TestPoint:TestPoint_Pad_D2.0mm,Keystone,5015,Mouser,$0.35,$0.35
-TP6,1,GND,Test Point Ground Reference,TestPoint:TestPoint_Pad_D2.0mm,Keystone,5015,Mouser,$0.35,$0.35
-H1,4,M3x8,Mounting Screw M3x8 Heatsink,Hardware:Screw_M3x8,McMaster-Carr,91292A113,McMaster,$0.15,$0.60
-H2,4,M6x12,Mounting Screw M6x12 AIO Cooler,Hardware:Screw_M6x12,McMaster-Carr,91292A138,McMaster,$0.25,$1.00
-SPACER1,4,M3x5,Spacer M3x5 PCB Standoff,Hardware:Spacer_M3x5,McMaster-Carr,94669A100,McMaster,$0.45,$1.80
-WASHER1,8,M3,Washer M3 Lock Washer,Hardware:Washer_M3,McMaster-Carr,91166A240,McMaster,$0.05,$0.40
-NUT1,4,M6,Nut M6 Hex Nut,Hardware:Nut_M6,McMaster-Carr,90591A150,McMaster,$0.08,$0.32
-AIO1,1,240mm_AIO,240mm AIO Liquid Cooler System,Cooling:AIO_240mm,Corsair,H100i RGB ELITE,Newegg,$129.99,$129.99
-FAN1,2,120mm_Fan,120mm PWM Radiator Fan,Cooling:Fan_120mm,Noctua,NF-A12x25 PWM,Newegg,$29.90,$59.80
-PASTE1,1,MX-4,Thermal Paste 4g Arctic MX-4,Thermal:Paste_4g,Arctic,MX-4-4G,Newegg,$7.99,$7.99
-BOX1,1,200x140x80mm,Aluminum Enclosure IP65,Enclosure:Box_200x140x80,Hammond,1590WDD,Mouser,$45.75,$45.75
-HEATSINK1,1,Custom_Aluminum,CNC Machined Aluminum Heatsink,Heatsink:Custom_200x140,Custom,HS-MHT1803-001,Custom,$85.00,$85.00
-GASKET1,1,Silicone,Door Gasket Silicone Seal,Gasket:Door_Seal,McMaster-Carr,1263N31,McMaster,$8.50,$8.50
-LABEL1,1,Front_Panel,Front Panel Labels Laser Engraved,Label:Front_Panel,Custom,FP-MHT1803-001,Custom,$15.00,$15.00
-CABLE1,2m,4_AWG,Power Cable 4 AWG Red/Black,Cable:Power_4AWG,Ancor,116510,West Marine,$3.50/ft,$23.00
-CABLE2,0.5m,RG-213,Coaxial Cable RG-213 50 Ohm,Cable:Coax_RG213,Times Microwave,RG213-PVC,Mouser,$2.85/ft,$1.43
-CONN1,2,PL-259,PL-259 UHF Male Connector,Connector:PL259,Amphenol,83-1SP-1052,Mouser,$3.95,$7.90
-CONN2,2,Ring_Terminal,Ring Terminal 4 AWG,Terminal:Ring_4AWG,Ancor,252106,West Marine,$1.25,$2.50
-CONN3,4,Heat_Shrink,Heat Shrink Tubing 6mm,Tubing:Heat_Shrink_6mm,3M,FP-301-1/4-48,Mouser,$0.25,$1.00
-PCB1,1,200x140mm,4-Layer PCB 1.6mm FR4 2oz Copper,PCB:4Layer_200x140,PCBWay,4L-200x140-1.6mm,PCBWay,$65.00,$65.00
-ASSEMBLY1,1,SMD_Assembly,Surface Mount Assembly Service,Assembly:SMD_Service,PCBWay,SMD-Assembly,PCBWay,$125.00,$125.00
-STENCIL1,1,SMD_Stencil,SMD Stencil for Assembly,Stencil:SMD_200x140,PCBWay,Stencil-200x140,PCBWay,$25.00,$25.00
-MATCH1,1,80m_Match,RF Matching Network 80m Band,MHT1803_Amplifier_500W:Band_Matching_Network,Custom,MATCH-80M-001,Custom,$12.50,$12.50
-MATCH2,1,40m_Match,RF Matching Network 40m Band,MHT1803_Amplifier_500W:Band_Matching_Network,Custom,MATCH-40M-001,Custom,$12.50,$12.50
-MATCH3,1,20m_Match,RF Matching Network 20m Band,MHT1803_Amplifier_500W:Band_Matching_Network,Custom,MATCH-20M-001,Custom,$12.50,$12.50
-MATCH4,1,12m_Match,RF Matching Network 12m Band,MHT1803_Amplifier_500W:Band_Matching_Network,Custom,MATCH-12M-001,Custom,$12.50,$12.50
-MATCH5,1,10m_Match,RF Matching Network 10m Band,MHT1803_Amplifier_500W:Band_Matching_Network,Custom,MATCH-10M-001,Custom,$12.50,$12.50
-VSWR1,1,VSWR_Protection,VSWR Protection Circuit,MHT1803_Amplifier_500W:VSWR_Circuit,Custom,VSWR-001,Custom,$15.00,$15.00
-D5,1,1N4148W,Fast Switching Diode SOD-123,Diode_SMD:D_SOD-123,ON Semiconductor,1N4148W-7-F,Mouser,$0.10,$0.10
-R9,1,10K,Pull-up Resistor 10K 0.125W VSWR Sense,Resistor_SMD:R_0805_2012Metric,Yageo,RC0805FR-0710KL,Mouser,$0.02,$0.02
-R10,1,2.2K,Voltage Divider 2.2K 0.125W VSWR Threshold,Resistor_SMD:R_0805_2012Metric,Yageo,RC0805FR-072K2L,Mouser,$0.02,$0.02
-C11,1,100nF,Ceramic Capacitor 100nF 50V VSWR Filter,Capacitor_SMD:C_0805_2012Metric,Murata,GCM21BR71H104KA37L,Mouser,$0.10,$0.10
-EMI1,1,EMI_Filter,EMI Filter Circuit,MHT1803_Amplifier_500W:EMI_Filter,Custom,EMI-001,Custom,$8.50,$8.50
-C12,1,10uF,Ceramic Capacitor 10uF 50V X7R EMI Filter,Capacitor_SMD:C_1206_3216Metric,Murata,GRM31CR71H106KA88L,Mouser,$0.45,$0.45
-C13,1,10uF,Ceramic Capacitor 10uF 50V X7R EMI Filter,Capacitor_SMD:C_1206_3216Metric,Murata,GRM31CR71H106KA88L,Mouser,$0.45,$0.45
-L5,1,10uH,Power Inductor 10uH EMI Filter,Inductor_SMD:L_1008_2520Metric,Murata,LQM2MPN100NG0,Mouser,$0.85,$0.85
-FB5,1,BLM18SG300TN1,Ferrite Bead 30R @ 100MHz EMI Suppression,Ferrite_THT:FB_TDK_MMZ1608_2.0x1.25mm,TDK,BLM18SG300TN1D,Mouser,$0.15,$0.15
-FB6,1,BLM18SG300TN1,Ferrite Bead 30R @ 100MHz EMI Suppression,Ferrite_THT:FB_TDK_MMZ1608_2.0x1.25mm,TDK,BLM18SG300TN1D,Mouser,$0.15,$0.15
-LED1,1,LED_80m,80m Band Indicator LED,LED_SMD:LED_0603_1608Metric,Lite-On,LTST-C193KGKT,Mouser,$0.35,$0.35
-LED2,1,LED_40m,40m Band Indicator LED,LED_SMD:LED_0603_1608Metric,Lite-On,LTST-C193KGKT,Mouser,$0.35,$0.35
-LED3,1,LED_20m,20m Band Indicator LED,LED_SMD:LED_0603_1608Metric,Lite-On,LTST-C193KGKT,Mouser,$0.35,$0.35
-LED4,1,LED_12m,12m Band Indicator LED,LED_SMD:LED_0603_1608Metric,Lite-On,LTST-C193KGKT,Mouser,$0.35,$0.35
-LED5,1,LED_10m,10m Band Indicator LED,LED_SMD:LED_0603_1608Metric,Lite-On,LTST-C193KGKT,Mouser,$0.35,$0.35
-R11,1,1k,80m LED Current Limiter,Resistor_SMD:R_0603_1608Metric,Yageo,RC0603FR-071KL,Mouser,$0.10,$0.10
-R12,1,1k,40m LED Current Limiter,Resistor_SMD:R_0603_1608Metric,Yageo,RC0603FR-071KL,Mouser,$0.10,$0.10
-R13,1,1k,20m LED Current Limiter,Resistor_SMD:R_0603_1608Metric,Yageo,RC0603FR-071KL,Mouser,$0.10,$0.10
-R14,1,1k,12m LED Current Limiter,Resistor_SMD:R_0603_1608Metric,Yageo,RC0603FR-071KL,Mouser,$0.10,$0.10
-R15,1,1k,10m LED Current Limiter,Resistor_SMD:R_0603_1608Metric,Yageo,RC0603FR-071KL,Mouser,$0.10,$0.10
-,,Active Components (16 items),,,,$294.58,,
-,,Passive Components (24 items),,,,$14.27,,
-,,Mechanical Components (15 items),,,,$399.16,,
-,,PCB & Assembly (3 items),,,,$215.00,,
-,,TOTAL PROJECT COST,,,,$923.01,,
-,,Notes:,,,,
-,,1. Prices current as of June 2025,,,,
-,,2. 10% price tolerance recommended,,,,
-,,3. Minimum order quantities may apply,,,,
-,,4. AIO cooler includes pump and radiator,,,,
-,,5. Custom heatsink requires CNC machining,,,,
-,,6. Assembly assumes reflow soldering,,,,
+C1,1,1000uF,Electrolytic Capacitor 1000uF 25V Input Filter,Capacitor_THT:CP_Radial_D16.0mm_P7.50mm,Panasonic,EEUFC1E102,Mouser,$2.85,$2.85
+C2,1,2200uF,Electrolytic Capacitor 2200uF 63V Output Filter,Capacitor_THT:CP_Radial_D18.0mm_P7.50mm,Panasonic,EEUFC2A222,Mouser,$3.95,$3.95
+C3,1,100nF,Ceramic Capacitor 100nF 100V RF Coupling,Capacitor_SMD:C_0805_2012Metric,Murata,GRM21BR72A104KA01L,Mouser,$0.15,$0.15
+C4,1,100nF,Ceramic Capacitor 100nF 100V RF Coupling,Capacitor_SMD:C_0805_2012Metric,Murata,GRM21BR72A104KA01L,Mouser,$0.15,$0.15
+C5,1,10nF,Ceramic Capacitor 10nF 100V Decoupling,Capacitor_SMD:C_0805_2012Metric,Murata,GRM21BR72A103KA01L,Mouser,$0.12,$0.12
+C6,1,10nF,Ceramic Capacitor 10nF 100V Decoupling,Capacitor_SMD:C_0805_2012Metric,Murata,GRM21BR72A103KA01L,Mouser,$0.12,$0.12
+L1,1,22uH,Power Inductor 22uH DC-DC Converter,Inductor_SMD:L_12x12mm_H8mm,Wurth,744773122,Mouser,$4.85,$4.85
+L2,1,10uH,Filter Inductor 10uH EMI Suppression,Inductor_SMD:L_1008_2520Metric,Murata,LQM2MPN100NG0,Mouser,$0.85,$0.85
+FB1,2,BLM18SG300TN1,Ferrite Bead 30Ω @ 100MHz EMI Suppression,Ferrite_SMD:L_0603_1608Metric,TDK,BLM18SG300TN1D,Mouser,$0.15,$0.30
+RV1,1,10k,Temperature Threshold Adjustment,Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical,Bourns,3296W-1-103LF,Mouser,$1.25,$1.25
+R1,1,1k,LED Current Limiting Resistor,Resistor_SMD:R_0805_2012Metric,Yageo,RC0805FR-071KL,Mouser,$0.02,$0.02
+R2,1,1k,LED Current Limiting Resistor,Resistor_SMD:R_0805_2012Metric,Yageo,RC0805FR-071KL,Mouser,$0.02,$0.02
+R3,1,10k,Temperature Sensor Pull-up,Resistor_SMD:R_0805_2012Metric,Yageo,RC0805FR-0710KL,Mouser,$0.02,$0.02
+R4,1,2.2k,VSWR Protection Threshold,Resistor_SMD:R_0805_2012Metric,Yageo,RC0805FR-072K2L,Mouser,$0.02,$0.02
+R5,1,47k,DC-DC Converter Feedback,Resistor_SMD:R_0805_2012Metric,Yageo,RC0805FR-0747KL,Mouser,$0.02,$0.02
+R6,1,10k,DC-DC Converter Feedback,Resistor_SMD:R_0805_2012Metric,Yageo,RC0805FR-0710KL,Mouser,$0.02,$0.02
+D5-D16,12,BAND_LED_BLUE,Band Selection Indicator LED 3mm Blue,LED_THT:LED_D3.0mm,Kingbright,WP3A8BD,Mouser,$0.35,$4.20
+R7-R18,12,330,Band LED Current Limiting Resistor,Resistor_SMD:R_0805_2012Metric,Yageo,RC0805FR-07330RL,Mouser,$0.02,$0.24
+COOL1,1,240MM_AIO,240mm AIO Liquid Cooler with Pump,MHT1803_Amplifier_500W:AIO_240mm_Mount,Corsair,H100x,Amazon,$89.99,$89.99
+TIM1,1,MX-4,Thermal Compound 4g,N/A,Arctic,MX-4,Amazon,$8.99,$8.99
+BKT1,1,COOL_MOUNT,Custom Cooling Mount Plate for MHT1803,MHT1803_Amplifier_500W:Cooling_Mount,Custom,COOL-MHT1803,Local,$45.00,$45.00
+RV2,1,1k,Q1 Gate Bias Adjustment,Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical,Bourns,3296W-1-102LF,Mouser,$1.25,$1.25
+RV3,1,1k,Q2 Gate Bias Adjustment,Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical,Bourns,3296W-1-102LF,Mouser,$1.25,$1.25
+R19,2,100,Gate Bias Current Limiting,Resistor_SMD:R_0805_2012Metric,Yageo,RC0805FR-07100RL,Mouser,$0.02,$0.04
+R20,2,10k,Gate Bias Pull-down,Resistor_SMD:R_0805_2012Metric,Yageo,RC0805FR-0710KL,Mouser,$0.02,$0.04
+C7,2,10uF,Gate Bias Decoupling,Capacitor_SMD:C_1206_3216Metric,TDK,C3216X7R1H106K160AE,Mouser,$0.45,$0.90
+L3-L4,2,1uH,RF Choke for Bias Isolation,Inductor_SMD:L_1210_3225Metric,TDK,MLZ3216M1R0WT,Mouser,$0.85,$1.70
+C8-C9,2,1000pF,DC Blocking Capacitor RF Input/Output,Capacitor_SMD:C_0805_2012Metric,Murata,GRM2195C2A102JA01,Mouser,$0.15,$0.30
+D17-D18,2,BAT54S,Schottky Diode Peak Detector,Package_TO_SOT_SMD:SOT-23,Nexperia,BAT54S,Mouser,$0.25,$0.50
+R21-R22,2,10k,VSWR Detector Voltage Divider,Resistor_SMD:R_0805_2012Metric,Yageo,RC0805FR-0710KL,Mouser,$0.02,$0.04
+R23,1,100k,Thermal Protection Hysteresis,Resistor_SMD:R_0805_2012Metric,Yageo,RC0805FR-07100KL,Mouser,$0.02,$0.02
+C10-C11,2,100nF,Power Supply Bypass Capacitor,Capacitor_SMD:C_0805_2012Metric,Murata,GRM21BR72A104KA01L,Mouser,$0.15,$0.30
+FB2-FB3,2,BLM21PG300SN1,Ferrite Bead 300Ω @ 100MHz Power Supply,Ferrite_SMD:L_0805_2012Metric,Murata,BLM21PG300SN1D,Mouser,$0.25,$0.50
+U4,1,PDC10-1,RF Directional Coupler 1-30MHz,MHT1803_Amplifier_500W:PDC10_Coupler,Mini-Circuits,PDC-10-1+,Mouser,$12.95,$12.95
+
+Active Components (5 items),,,,,,$263.48,,
+Passive Components (35 items),,,,,,$35.27,,
+Mechanical Components (15 items),,,,,,$399.16,,
+PCB & Assembly (3 items),,,,,,$215.00,,
+TOTAL PROJECT COST,,,,,,$912.91,,
+
+Notes:
+1. Prices current as of March 2024
+2. 10% price tolerance recommended
+3. Minimum order quantities may apply
+4. AIO cooler includes pump and radiator
+5. Custom heatsink requires CNC machining
+6. Assembly assumes reflow soldering

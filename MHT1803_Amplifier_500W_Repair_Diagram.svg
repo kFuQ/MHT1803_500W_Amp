@@ -1,33 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   width="1200"
-   height="900"
+   width="1600"
+   height="1700"
    version="1.1"
    id="svg_main"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd">
-  <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="0.88777778"
-     inkscape:cx="600.37547"
-     inkscape:cy="450"
-     inkscape:window-width="1920"
-     inkscape:window-height="1013"
-     inkscape:window-x="-9"
-     inkscape:window-y="-9"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg_main" />
-  <defs>
-    <style>
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <style
+       id="style1">
       .title { font-family: Arial, sans-serif; font-size: 24px; font-weight: bold; fill: #000; }
       .subtitle { font-family: Arial, sans-serif; font-size: 16px; fill: #000; }
       .component { font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; fill: #000; }
@@ -37,305 +19,263 @@
       .voltage { font-family: Arial, sans-serif; font-size: 11px; fill: #0066cc; }
       .troubleshoot { font-family: Arial, sans-serif; font-size: 10px; fill: #006600; }
       .section-title { font-family: Arial, sans-serif; font-size: 16px; font-weight: bold; fill: #000; }
+      .circuit-text { font-family: Arial, sans-serif; font-size: 10px; fill: #000; }
     </style>
+    <!-- Arrow Marker -->
+    <marker
+       id="arrowhead"
+       markerWidth="10"
+       markerHeight="7"
+       refX="9"
+       refY="3.5"
+       orient="auto">
+      <polygon
+         points="0 0, 10 3.5, 0 7"
+         fill="#000"
+         id="polygon1" />
+    </marker>
   </defs>
-  
   <!-- Background -->
   <rect
-     width="1200"
-     height="900"
+     width="1505.6639"
+     height="960.32849"
      fill="#f8f8f8"
-     stroke="#000"
-     stroke-width="2"
-     id="background" />
-  
+     stroke="#000000"
+     stroke-width="2.19318"
+     id="background"
+     x="49.892361"
+     y="0.15174867" />
   <!-- Title Section -->
   <rect
-     x="50"
-     y="20"
-     width="1100"
-     height="60"
+     x="99.999023"
+     y="19.999022"
+     width="1394.4752"
+     height="60.001957"
      fill="#e6e6fa"
-     stroke="#000"
+     stroke="#000000"
      stroke-width="1"
-     id="title_box" />
+     id="rect1" />
   <text
-     x="600"
+     x="800"
      y="45"
      text-anchor="middle"
      class="title"
-     id="title_text">MHT1803 500W Amplifier - Repair & Troubleshooting Diagram</text>
+     id="text1">MHT1803 500W Amplifier - Repair  Troubleshooting Diagram</text>
   <text
-     x="600"
+     x="800"
      y="70"
      text-anchor="middle"
      class="subtitle"
-     id="subtitle_text">PCB Layout with Test Points and Component Locations</text>
-  
+     id="text2">Updated with New Protection Circuits and Band Selection</text>
   <!-- Warning Box -->
   <rect
-     x="50"
+     x="100"
      y="80"
-     width="1100"
-     height="30"
+     width="1400"
+     height="45.198521"
      fill="#ff0000"
      opacity="0.2"
-     id="warning_box" />
+     id="rect2"
+     style="stroke-width:1.22744" />
   <text
-     x="600"
-     y="100"
+     x="823.10864"
+     y="90.512161"
      text-anchor="middle"
      class="warning"
-     id="warning_text">⚠ HIGH VOLTAGE - 500W RF ⚠</text>
-  
+     id="text3"
+     transform="scale(0.83333471,1.199998)"
+     style="stroke-width:5.33483;-inkscape-font-specification:'Arial, sans-serif, Bold';font-family:Arial, sans-serif;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-size:17.3333px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:middle;fill:#ff0000">⚠ HIGH VOLTAGE - 50V DC / 500W RF - LIQUID COOLING SYSTEM ⚠</text>
   <!-- Main PCB Layout -->
-  <rect
-     x="50"
-     y="120"
-     width="1100"
-     height="700"
-     fill="#006400"
-     stroke="#000"
-     stroke-width="2"
-     opacity="0.8"
-     id="pcb_outline" />
-  
   <!-- Left Column - Power and Input -->
   <g
-     transform="translate(70,140)"
-     id="left_column">
+     transform="translate(120,140)"
+     id="g3">
     <!-- Power Input Section -->
     <rect
        x="0"
        y="0"
-       width="200"
-       height="120"
+       width="300"
+       height="150"
        fill="#ffd700"
        stroke="#000"
        stroke-width="1"
-       id="power_input_box" />
+       id="rect3" />
     <text
-       x="100"
-       y="20"
+       x="150"
+       y="30"
        text-anchor="middle"
        class="section-title"
        id="power_input_title">POWER INPUT</text>
     <text
-       x="100"
-       y="40"
+       x="150"
+       y="50"
        text-anchor="middle"
        class="label"
-       id="power_terminal">J4: Screw Terminal</text>
-    <text
-       x="100"
-       y="60"
-       text-anchor="middle"
-       class="label"
-       id="circuit_breaker">CB1: 30A Circuit Breaker</text>
-    <text
-       x="100"
-       y="80"
-       text-anchor="middle"
-       class="voltage"
-       id="wire_gauge">4 AWG Required</text>
-    
-    <!-- Circuit Breaker Test Points -->
-    <circle
-       cx="50"
-       cy="100"
-       r="8"
-       fill="#ff0000"
-       id="tp1_circle" />
-    <text
-       x="50"
-       y="105"
-       text-anchor="middle"
-       class="test-point"
-       id="tp1_label">TP1</text>
-    <text
-       x="50"
-       y="120"
-       text-anchor="middle"
-       class="label"
-       id="tp1_voltage">+12V</text>
-    
-    <circle
-       cx="150"
-       cy="100"
-       r="6"
-       fill="#ff0000"
-       stroke="#000"
-       stroke-width="1"
-       id="reset_button" />
+       id="power_terminal">J4: 4AWG Screw Terminal</text>
     <text
        x="150"
-       y="105"
+       y="70"
        text-anchor="middle"
        class="label"
-       id="reset_label">RESET</text>
-    
+       id="circuit_breaker">F1: 30A Fuse</text>
+    <text
+       x="150"
+       y="90"
+       text-anchor="middle"
+       class="voltage"
+       id="wire_gauge">12V Input / 28A Max</text>
+    <text
+       x="150"
+       y="110"
+       text-anchor="middle"
+       class="label"
+       id="input_filter">C1: 1000µF/25V Input Filter</text>
+    <text
+       x="150"
+       y="130"
+       text-anchor="middle"
+       class="label"
+       id="emiss_suppression">FB1-2: EMI Suppression</text>
+    <!-- Circuit Breaker Test Points -->
     <!-- RF Input Section -->
     <rect
        x="0"
-       y="140"
-       width="200"
-       height="160"
+       y="170"
+       width="300"
+       height="180"
        fill="#ffa500"
        stroke="#000"
        stroke-width="1"
        id="rf_input_box" />
     <text
-       x="100"
-       y="160"
+       x="150"
+       y="190"
        text-anchor="middle"
        class="section-title"
        id="rf_input_title">RF INPUT</text>
     <text
-       x="100"
-       y="180"
+       x="150"
+       y="210"
        text-anchor="middle"
        class="label"
        id="rf_main_input">J1: SO-239 Main Input</text>
     <text
-       x="100"
-       y="200"
+       x="150"
+       y="230"
        text-anchor="middle"
        class="label"
-       id="rf_aux_input">J3: SMA Aux Input</text>
+       id="rf_aux_input">J3: SMA Auxiliary Input</text>
     <text
-       x="100"
-       y="220"
+       x="150"
+       y="250"
        text-anchor="middle"
        class="label"
-       id="balun">T1: 4:1 Balun</text>
+       id="relay">K1: G5V-2 Input Relay</text>
     <text
-       x="100"
-       y="240"
+       x="150"
+       y="270"
+       text-anchor="middle"
+       class="label"
+       id="balun">T1: 4:1 Input Balun</text>
+    <text
+       x="150"
+       y="290"
        text-anchor="middle"
        class="voltage"
-       id="drive_power">6-8W Drive Required</text>
+       id="drive_power">Drive: 6-8W</text>
     <text
-       x="100"
-       y="260"
+       x="150"
+       y="310"
        text-anchor="middle"
        class="label"
-       id="input_impedance">50Ω Input Impedance</text>
-    
+       id="dc_blocking">C8-9: DC Blocking</text>
     <!-- RF Input Test Point -->
-    <circle
-       cx="200"
-       cy="200"
-       r="8"
-       fill="#ff0000"
-       id="tp3_circle" />
-    <text
-       x="200"
-       y="205"
-       text-anchor="middle"
-       class="test-point"
-       id="tp3_label">TP3</text>
-    <text
-       x="200"
-       y="220"
-       text-anchor="middle"
-       class="label"
-       id="tp3_signal">RF_IN</text>
   </g>
-  
   <!-- Center Column - Amplifier Core -->
   <g
-     transform="translate(300,140)"
-     id="center_column">
+     transform="matrix(1.0001988,0,0,0.88411913,449.97018,139.97018)"
+     id="g4">
     <!-- DC-DC Converter -->
     <rect
        x="0"
        y="0"
-       width="200"
-       height="120"
+       width="300"
+       height="150"
        fill="#87ceeb"
-       stroke="#000"
+       stroke="#000000"
        stroke-width="1"
-       id="dc_dc_box" />
+       id="rect4" />
     <text
-       x="100"
-       y="20"
+       x="150"
+       y="30"
        text-anchor="middle"
        class="section-title"
        id="dc_dc_title">DC-DC CONVERTER</text>
     <text
-       x="100"
-       y="40"
+       x="150"
+       y="50"
        text-anchor="middle"
        class="component"
        id="dc_dc_ic">U1: LM25122</text>
     <text
-       x="100"
-       y="60"
+       x="150"
+       y="70"
        text-anchor="middle"
        class="label"
-       id="dc_dc_conv">12V → 50V Conversion</text>
+       id="dc_dc_conv">12V to 50V Conversion</text>
     <text
-       x="100"
-       y="80"
+       x="150"
+       y="90"
+       text-anchor="middle"
+       class="label"
+       id="power_inductor">L1: 22µH Power Inductor</text>
+    <text
+       x="150"
+       y="110"
+       text-anchor="middle"
+       class="label"
+       id="output_filter">C2: 2200µF/63V Output</text>
+    <text
+       x="150"
+       y="130"
        text-anchor="middle"
        class="voltage"
-       id="dc_dc_current">20-28A Output</text>
-    
+       id="dc_dc_current">50V @ 28A Max</text>
     <!-- DC-DC Test Point -->
-    <circle
-       cx="200"
-       cy="100"
-       r="8"
-       fill="#ff0000"
-       id="tp2_circle" />
-    <text
-       x="200"
-       y="105"
-       text-anchor="middle"
-       class="test-point"
-       id="tp2_label">TP2</text>
-    <text
-       x="200"
-       y="120"
-       text-anchor="middle"
-       class="label"
-       id="tp2_voltage">+50V</text>
-    
     <!-- MHT1803 Q1 -->
     <rect
        x="0"
-       y="140"
-       width="200"
-       height="160"
+       y="170"
+       width="300"
+       height="300"
        fill="#ff69b4"
-       stroke="#000"
-       stroke-width="2"
+       stroke="#000000"
+       stroke-width="1"
        id="q1_box" />
     <text
-       x="100"
-       y="160"
+       x="150"
+       y="190"
        text-anchor="middle"
        class="section-title"
        id="q1_title">Q1: MHT1803</text>
     <text
-       x="100"
-       y="180"
+       x="150"
+       y="210"
        text-anchor="middle"
        class="component"
        id="q1_power">250W Output</text>
     <text
-       x="100"
-       y="200"
+       x="150"
+       y="230"
        text-anchor="middle"
        class="voltage"
        id="q1_drain">50V Drain</text>
     <text
-       x="100"
-       y="220"
+       x="150"
+       y="250"
        text-anchor="middle"
        class="label"
-       id="q1_gate">Gate Bias: 3.3V</text>
-    
+       id="q1_gate">Gate Bias: 2.8-3.2V</text>
     <!-- Thermal Vias Q1 -->
     <g
        transform="translate(20,240)"
@@ -344,75 +284,73 @@
          cx="0"
          cy="0"
          r="2"
-         fill="#000"
+         fill="#000000"
          id="q1_via1" />
       <circle
          cx="10"
          cy="0"
          r="2"
-         fill="#000"
+         fill="#000000"
          id="q1_via2" />
       <circle
          cx="20"
          cy="0"
          r="2"
-         fill="#000"
+         fill="#000000"
          id="q1_via3" />
       <circle
          cx="30"
          cy="0"
          r="2"
-         fill="#000"
+         fill="#000000"
          id="q1_via4" />
       <circle
          cx="40"
          cy="0"
          r="2"
-         fill="#000"
+         fill="#000000"
          id="q1_via5" />
     </g>
     <text
-       x="100"
+       x="150"
        y="260"
        text-anchor="middle"
        class="troubleshoot"
        id="q1_vias_label">25+ Thermal Vias</text>
-    
     <!-- MHT1803 Q2 -->
     <rect
        x="0"
        y="320"
-       width="200"
-       height="160"
+       width="300"
+       height="300"
        fill="#ff69b4"
-       stroke="#000"
-       stroke-width="2"
+       stroke="#000000"
+       stroke-width="1"
        id="q2_box" />
     <text
-       x="100"
+       x="150"
        y="340"
        text-anchor="middle"
        class="section-title"
        id="q2_title">Q2: MHT1803</text>
     <text
-       x="100"
+       x="150"
        y="360"
        text-anchor="middle"
        class="component"
        id="q2_power">250W Output</text>
     <text
-       x="100"
+       x="150"
        y="380"
        text-anchor="middle"
        class="voltage"
        id="q2_drain">50V Drain</text>
     <text
-       x="100"
+       x="150"
        y="400"
        text-anchor="middle"
        class="label"
-       id="q2_gate">Gate Bias: 3.3V</text>
-    
+       id="q2_gate">Gate Bias: 2.8-3.2V</text>
     <!-- Thermal Vias Q2 -->
     <g
        transform="translate(20,440)"
@@ -421,369 +359,988 @@
          cx="0"
          cy="0"
          r="2"
-         fill="#000"
+         fill="#000000"
          id="q2_via1" />
       <circle
          cx="10"
          cy="0"
          r="2"
-         fill="#000"
+         fill="#000000"
          id="q2_via2" />
       <circle
          cx="20"
          cy="0"
          r="2"
-         fill="#000"
+         fill="#000000"
          id="q2_via3" />
       <circle
          cx="30"
          cy="0"
          r="2"
-         fill="#000"
+         fill="#000000"
          id="q2_via4" />
       <circle
          cx="40"
          cy="0"
          r="2"
-         fill="#000"
+         fill="#000000"
          id="q2_via5" />
     </g>
     <text
-       x="100"
+       x="150"
        y="460"
        text-anchor="middle"
        class="troubleshoot"
        id="q2_vias_label">25+ Thermal Vias</text>
   </g>
-  
   <!-- Right Column - Output and Control -->
   <g
-     transform="translate(530,140)"
-     id="right_column">
+     transform="translate(780,140)"
+     id="g5">
     <!-- RF Output Section -->
     <rect
        x="0"
        y="0"
-       width="200"
+       width="300"
        height="160"
        fill="#90ee90"
        stroke="#000"
        stroke-width="1"
-       id="rf_output_box" />
+       id="rect5" />
     <text
-       x="100"
-       y="20"
+       x="150"
+       y="30"
        text-anchor="middle"
        class="section-title"
        id="rf_output_title">RF OUTPUT</text>
     <text
-       x="100"
-       y="40"
+       x="150"
+       y="50"
        text-anchor="middle"
        class="label"
-       id="combiner">T2: 1:4 Combiner</text>
+       id="combiner">T2: 1:4 Output Balun</text>
     <text
-       x="100"
-       y="60"
+       x="150"
+       y="70"
        text-anchor="middle"
        class="label"
        id="rf_output">J2: SO-239 Output</text>
     <text
-       x="100"
-       y="80"
+       x="150"
+       y="90"
        text-anchor="middle"
        class="voltage"
-       id="output_power">500W Output Power</text>
+       id="output_power">500W Combined Output</text>
     <text
-       x="100"
-       y="100"
+       x="150"
+       y="110"
        text-anchor="middle"
        class="warning"
        id="load_warning">50Ω Load Required</text>
     <text
-       x="100"
-       y="120"
+       x="150"
+       y="130"
        text-anchor="middle"
        class="label"
        id="vswr_protection">VSWR Protection</text>
-    
     <!-- RF Output Test Point -->
-    <circle
-       cx="200"
-       cy="80"
-       r="8"
-       fill="#ff0000"
-       id="tp4_circle" />
-    <text
-       x="200"
-       y="85"
-       text-anchor="middle"
-       class="test-point"
-       id="tp4_label">TP4</text>
-    <text
-       x="200"
-       y="100"
-       text-anchor="middle"
-       class="label"
-       id="tp4_signal">RF_OUT</text>
-    
     <!-- Control Section -->
     <rect
        x="0"
-       y="180"
-       width="200"
-       height="160"
+       y="220"
+       width="300"
+       height="200"
        fill="#dda0dd"
        stroke="#000"
        stroke-width="1"
        id="control_box" />
     <text
-       x="100"
-       y="200"
+       x="150"
+       y="240"
        text-anchor="middle"
        class="section-title"
        id="control_title">CONTROL</text>
     <text
-       x="100"
-       y="220"
+       x="150"
+       y="260"
        text-anchor="middle"
        class="label"
-       id="band_switch">SW1: Band Select (5-Position)</text>
+       id="band_switch">SW1: 12-Position Switch</text>
     <text
-       x="100"
-       y="240"
+       x="150"
+       y="280"
        text-anchor="middle"
        class="label"
        id="mode_switch">SW2: Mode Select (AM/SSB/FM)</text>
     <text
-       x="100"
-       y="260"
+       x="150"
+       y="300"
        text-anchor="middle"
        class="label"
        id="power_led">D1: Power LED (Green)</text>
     <text
-       x="100"
-       y="280"
+       x="150"
+       y="320"
        text-anchor="middle"
        class="label"
        id="overheat_led">D2: Overheat LED (Red)</text>
     <text
-       x="100"
-       y="300"
+       x="150"
+       y="340"
        text-anchor="middle"
        class="label"
-       id="band_leds">D3-D7: Band LEDs</text>
+       id="band_leds">D5-D16: Band LEDs</text>
   </g>
-  
   <!-- Bottom Section - Protection and Cooling -->
   <g
-     transform="translate(70,500)"
-     id="bottom_section">
+     transform="translate(255.39975,746.11046)"
+     id="g7">
     <!-- Protection Circuit -->
+    <rect
+       x="0.066179678"
+       y="0.066179678"
+       width="399.86765"
+       height="153.91946"
+       fill="#f0e68c"
+       stroke="#000000"
+       stroke-width="1.13236"
+       id="rect6" />
+    <text
+       x="200"
+       y="30"
+       text-anchor="middle"
+       class="section-title"
+       id="protection_title">LIQUID COOLING SYSTEM</text>
+    <text
+       x="200"
+       y="50"
+       text-anchor="middle"
+       class="component"
+       id="cooler">COOL1: 240mm AIO</text>
+    <text
+       x="200"
+       y="70"
+       text-anchor="middle"
+       class="label"
+       id="mount">Custom Mounting Bracket</text>
+    <text
+       x="200"
+       y="90"
+       text-anchor="middle"
+       class="label"
+       id="thermal_compound">Arctic MX-4 Thermal Compound</text>
+    <text
+       x="200"
+       y="110"
+       text-anchor="middle"
+       class="warning"
+       id="tim_replacement">Replace TIM Yearly</text>
+    <text
+       x="200"
+       y="130"
+       text-anchor="middle"
+       class="label"
+       id="fluid_check">Check Fluid Level Monthly</text>
+    <!-- AIO Cooler -->
+    <rect
+       x="420.06506"
+       y="0.065065891"
+       width="399.86987"
+       height="153.31361"
+       fill="#b0c4de"
+       stroke="#000000"
+       stroke-width="1.13013"
+       id="rect7" />
+    <text
+       x="620"
+       y="30"
+       text-anchor="middle"
+       class="section-title"
+       id="aio_cooler_title">AIO COOLER</text>
+    <text
+       x="620"
+       y="50"
+       text-anchor="middle"
+       class="component"
+       id="aio_cooler">COOL2: 240mm AIO</text>
+    <text
+       x="620"
+       y="70"
+       text-anchor="middle"
+       class="label"
+       id="aio_mount">Custom Mounting Bracket</text>
+    <text
+       x="620"
+       y="90"
+       text-anchor="middle"
+       class="label"
+       id="aio_thermal_compound">Arctic MX-4 Thermal Compound</text>
+    <text
+       x="620"
+       y="110"
+       text-anchor="middle"
+       class="warning"
+       id="aio_tim_replacement">Replace TIM Yearly</text>
+    <text
+       x="620"
+       y="130"
+       text-anchor="middle"
+       class="label"
+       id="aio_fluid_check">Check Fluid Level Monthly</text>
+  </g>
+  <!-- Test Points -->
+  <g
+     transform="matrix(1.0115028,0,0,1.1226099,1110.0246,140.04115)"
+     id="g8">
+    <rect
+       x="0.062671714"
+       y="0.062871203"
+       width="359.87466"
+       height="601.20514"
+       fill="#e6e6fa"
+       stroke="#000000"
+       stroke-width="1.11896"
+       id="rect8" />
+    <text
+       x="180"
+       y="30"
+       text-anchor="middle"
+       class="section-title"
+       id="test_points_title">TEST POINTS</text>
+    <!-- Test Point List -->
+    <text
+       x="20"
+       y="60"
+       class="voltage"
+       id="tp1_test_point">TP1: +12V Input</text>
+    <text
+       x="20"
+       y="90"
+       class="voltage"
+       id="tp2_test_point">TP2: +50V Rail</text>
+    <text
+       x="20"
+       y="120"
+       class="voltage"
+       id="tp3_test_point">TP3: Q1 Gate (3.0V)</text>
+    <text
+       x="20"
+       y="150"
+       class="voltage"
+       id="tp4_test_point">TP4: Q2 Gate (3.0V)</text>
+    <text
+       x="20"
+       y="180"
+       class="voltage"
+       id="tp5_test_point">TP5: Temperature</text>
+    <text
+       x="20"
+       y="210"
+       class="voltage"
+       id="tp6_test_point">TP6: VSWR Forward</text>
+    <text
+       x="20"
+       y="240"
+       class="voltage"
+       id="tp7_test_point">TP7: VSWR Reflected</text>
+    <!-- Maintenance Schedule -->
+    <text
+       x="180"
+       y="280"
+       text-anchor="middle"
+       class="section-title"
+       id="maintenance_title">MAINTENANCE</text>
+    <text
+       x="20"
+       y="310"
+       class="troubleshoot"
+       id="maintenance1">Monthly: Check Bias Settings</text>
+    <text
+       x="20"
+       y="340"
+       class="troubleshoot"
+       id="maintenance2">Monthly: Verify Cooling</text>
+    <text
+       x="20"
+       y="370"
+       class="troubleshoot"
+       id="maintenance3">6 Months: Clean Filters</text>
+    <text
+       x="20"
+       y="400"
+       class="troubleshoot"
+       id="maintenance4">Yearly: Replace TIM</text>
+    <!-- Common Issues -->
+    <text
+       x="180"
+       y="440"
+       text-anchor="middle"
+       class="section-title"
+       id="common_issues_title">COMMON ISSUES</text>
+    <text
+       x="20"
+       y="470"
+       class="troubleshoot"
+       id="issue1">1. Check DC-DC Output</text>
+    <text
+       x="20"
+       y="500"
+       class="troubleshoot"
+       id="issue2">2. Verify Gate Bias</text>
+    <text
+       x="20"
+       y="530"
+       class="troubleshoot"
+       id="issue3">3. Monitor Temperature</text>
+    <text
+       x="20"
+       y="560"
+       class="troubleshoot"
+       id="issue4">4. Check VSWR Reading</text>
+  </g>
+  <!-- Circuit Diagram Section -->
+  <g
+     transform="matrix(1.0739235,0,0,0.99993955,47.279464,1031.9325)"
+     id="g51">
+    <!-- Section Background -->
     <rect
        x="0"
        y="0"
-       width="300"
-       height="120"
-       fill="#f0e68c"
-       stroke="#000"
+       width="1400"
+       height="600"
+       fill="#ffffff"
+       stroke="#000000"
        stroke-width="1"
-       id="protection_box" />
+       id="rect9" />
+    <!-- Section Title -->
     <text
-       x="150"
-       y="20"
+       x="700"
+       y="50"
        text-anchor="middle"
        class="section-title"
-       id="protection_title">PROTECTION CIRCUIT</text>
-    <text
-       x="75"
-       y="40"
-       text-anchor="middle"
-       class="label"
-       id="temp_sensor">TH1: NTC Sensor</text>
-    <text
-       x="225"
-       y="40"
-       text-anchor="middle"
-       class="label"
-       id="safety_relay">K1: Safety Relay</text>
-    <text
-       x="150"
-       y="60"
-       text-anchor="middle"
-       class="label"
-       id="comparator">U2: Comparator</text>
-    <text
-       x="150"
-       y="80"
-       text-anchor="middle"
-       class="warning"
-       id="temp_cutoff">85°C Cutoff</text>
-    
-    <!-- Temperature Test Point -->
-    <circle
-       cx="150"
-       cy="100"
-       r="8"
-       fill="#ff0000"
-       id="tp5_circle" />
-    <text
-       x="150"
-       y="105"
-       text-anchor="middle"
-       class="test-point"
-       id="tp5_label">TP5</text>
-    <text
-       x="150"
-       y="120"
-       text-anchor="middle"
-       class="label"
-       id="tp5_temp">TEMP</text>
-    
-    <!-- AIO Cooler -->
-    <rect
-       x="320"
-       y="0"
-       width="200"
-       height="120"
-       fill="#b0c4de"
-       stroke="#000"
-       stroke-width="1"
-       id="aio_box" />
-    <text
-       x="420"
-       y="20"
-       text-anchor="middle"
-       class="section-title"
-       id="aio_title">AIO COOLER</text>
-    <text
-       x="420"
-       y="40"
-       text-anchor="middle"
-       class="label"
-       id="radiator">240mm Radiator</text>
-    <text
-       x="420"
-       y="60"
-       text-anchor="middle"
-       class="label"
-       id="pump_fan">Pump + Fan Assembly</text>
-    <text
-       x="420"
-       y="80"
-       text-anchor="middle"
-       class="voltage"
-       id="aio_power">12V Power</text>
-    
-    <!-- Mounting Points -->
+       id="text9">SIMPLIFIED CIRCUIT DIAGRAM</text>
+    <!-- RF Input Stage -->
     <g
-       transform="translate(420,100)"
-       id="mount_points">
-      <circle
-         cx="-30"
-         cy="0"
-         r="6"
-         fill="none"
-         stroke="#000"
-         stroke-width="2"
-         id="mount1" />
-      <circle
-         cx="30"
-         cy="0"
-         r="6"
-         fill="none"
-         stroke="#000"
-         stroke-width="2"
-         id="mount2" />
-      <text
+       transform="translate(100,120)"
+       id="g15">
+      <!-- Input -->
+      <rect
          x="0"
-         y="20"
+         y="0"
+         width="120"
+         height="60"
+         fill="#ffd700"
+         stroke="#000000"
+         id="rect10" />
+      <text
+         x="60"
+         y="35"
          text-anchor="middle"
-         class="troubleshoot"
-         id="mount_label">AIO Mount Points</text>
+         class="circuit-text"
+         id="text10">RF Input</text>
+      <text
+         x="60"
+         y="50"
+         text-anchor="middle"
+         class="circuit-text"
+         id="text11">6-8W</text>
+      
+      <!-- TVS Protection -->
+      <rect
+         x="140"
+         y="0"
+         width="120"
+         height="60"
+         fill="#ffd700"
+         stroke="#000000"
+         id="rect11" />
+      <text
+         x="200"
+         y="35"
+         text-anchor="middle"
+         class="circuit-text"
+         id="text12">TVS Diodes</text>
+      <text
+         x="200"
+         y="50"
+         text-anchor="middle"
+         class="circuit-text"
+         id="text13">Protection</text>
+      
+      <!-- Input Switch -->
+      <rect
+         x="280"
+         y="0"
+         width="120"
+         height="60"
+         fill="#ffd700"
+         stroke="#000000"
+         id="rect13" />
+      <text
+         x="340"
+         y="35"
+         text-anchor="middle"
+         class="circuit-text"
+         id="text14">Input Switch</text>
+      <text
+         x="340"
+         y="50"
+         text-anchor="middle"
+         class="circuit-text"
+         id="text15">SO-239/SMA</text>
+      
+      <!-- Low Pass Filter -->
+      <rect
+         x="420"
+         y="0"
+         width="120"
+         height="60"
+         fill="#ffd700"
+         stroke="#000000"
+         id="rect15" />
+      <text
+         x="480"
+         y="35"
+         text-anchor="middle"
+         class="circuit-text"
+         id="text16">Low Pass</text>
+      <text
+         x="480"
+         y="50"
+         text-anchor="middle"
+         class="circuit-text"
+         id="text17">Filter</text>
+      
+      <!-- Input Balun -->
+      <rect
+         x="560"
+         y="0"
+         width="120"
+         height="60"
+         fill="#ffd700"
+         stroke="#000000"
+         id="rect16" />
+      <text
+         x="620"
+         y="35"
+         text-anchor="middle"
+         class="circuit-text"
+         id="text18">T1 4:1</text>
+      <text
+         x="620"
+         y="50"
+         text-anchor="middle"
+         class="circuit-text"
+         id="text19">Input Balun</text>
+    </g>
+    <!-- Power Supply -->
+    <g
+       transform="translate(100,250)"
+       id="g18">
+      <!-- Input Power -->
+      <rect
+         x="0"
+         y="0"
+         width="120"
+         height="60"
+         fill="#87ceeb"
+         stroke="#000000"
+         id="rect17" />
+      <text
+         x="60"
+         y="35"
+         text-anchor="middle"
+         class="circuit-text"
+         id="text20">12V Input</text>
+      
+      <!-- Soft Start -->
+      <rect
+         x="140"
+         y="0"
+         width="120"
+         height="60"
+         fill="#87ceeb"
+         stroke="#000000"
+         id="rect18" />
+      <text
+         x="200"
+         y="35"
+         text-anchor="middle"
+         class="circuit-text"
+         id="text21">Soft Start</text>
+      <text
+         x="200"
+         y="50"
+         text-anchor="middle"
+         class="circuit-text"
+         id="text22">Circuit</text>
+      
+      <!-- DC-DC Converter -->
+      <rect
+         x="280"
+         y="0"
+         width="120"
+         height="60"
+         fill="#87ceeb"
+         stroke="#000000"
+         id="rect19" />
+      <text
+         x="340"
+         y="35"
+         text-anchor="middle"
+         class="circuit-text"
+         id="text23">LM25122</text>
+      <text
+         x="340"
+         y="50"
+         text-anchor="middle"
+         class="circuit-text"
+         id="text24">DC-DC 50V</text>
+      
+      <!-- Capacitor Banks -->
+      <rect
+         x="420"
+         y="0"
+         width="120"
+         height="60"
+         fill="#87ceeb"
+         stroke="#000000"
+         id="rect20" />
+      <text
+         x="480"
+         y="35"
+         text-anchor="middle"
+         class="circuit-text"
+         id="text25">Cap Banks</text>
+      <text
+         x="480"
+         y="50"
+         text-anchor="middle"
+         class="circuit-text"
+         id="text26">4700µF/100V</text>
+    </g>
+    <!-- Amplifier Stage -->
+    <g
+       transform="translate(650,120)"
+       id="g22">
+      <!-- Gate Bias 1 -->
+      <rect
+         x="-120"
+         y="0"
+         width="100"
+         height="70"
+         fill="#ff69b4"
+         stroke="#000000"
+         id="rect21" />
+      <text
+         x="-70"
+         y="35"
+         text-anchor="middle"
+         class="circuit-text"
+         id="text27">Gate Bias</text>
+      <text
+         x="-70"
+         y="55"
+         text-anchor="middle"
+         class="circuit-text"
+         id="text28">Temp Comp</text>
+      
+      <!-- Q1 -->
+      <rect
+         x="0"
+         y="0"
+         width="140"
+         height="70"
+         fill="#ff69b4"
+         stroke="#000000"
+         id="rect22" />
+      <text
+         x="70"
+         y="35"
+         text-anchor="middle"
+         class="circuit-text"
+         id="text29">Q1 MHT1803</text>
+      <text
+         x="70"
+         y="55"
+         text-anchor="middle"
+         class="circuit-text"
+         id="text30">250W</text>
+      
+      <!-- Drain Choke 1 -->
+      <rect
+         x="160"
+         y="0"
+         width="100"
+         height="70"
+         fill="#ff69b4"
+         stroke="#000000"
+         id="rect23" />
+      <text
+         x="210"
+         y="35"
+         text-anchor="middle"
+         class="circuit-text"
+         id="text31">RF Choke</text>
+      <text
+         x="210"
+         y="55"
+         text-anchor="middle"
+         class="circuit-text"
+         id="text32">FT240-43</text>
+      
+      <!-- Gate Bias 2 -->
+      <rect
+         x="-120"
+         y="180"
+         width="100"
+         height="70"
+         fill="#ff69b4"
+         stroke="#000000"
+         id="rect24" />
+      <text
+         x="-70"
+         y="215"
+         text-anchor="middle"
+         class="circuit-text"
+         id="text33">Gate Bias</text>
+      <text
+         x="-70"
+         y="235"
+         text-anchor="middle"
+         class="circuit-text"
+         id="text34">Temp Comp</text>
+      
+      <!-- Q2 -->
+      <rect
+         x="0"
+         y="180"
+         width="140"
+         height="70"
+         fill="#ff69b4"
+         stroke="#000000"
+         id="rect25" />
+      <text
+         x="70"
+         y="215"
+         text-anchor="middle"
+         class="circuit-text"
+         id="text35">Q2 MHT1803</text>
+      <text
+         x="70"
+         y="235"
+         text-anchor="middle"
+         class="circuit-text"
+         id="text36">250W</text>
+      
+      <!-- Drain Choke 2 -->
+      <rect
+         x="160"
+         y="180"
+         width="100"
+         height="70"
+         fill="#ff69b4"
+         stroke="#000000"
+         id="rect26" />
+      <text
+         x="210"
+         y="215"
+         text-anchor="middle"
+         class="circuit-text"
+         id="text37">RF Choke</text>
+      <text
+         x="210"
+         y="235"
+         text-anchor="middle"
+         class="circuit-text"
+         id="text38">FT240-43</text>
+    </g>
+    <!-- Output Stage -->
+    <g
+       transform="translate(900,120)"
+       id="g27">
+      <!-- Combiner -->
+      <rect
+         x="0"
+         y="0"
+         width="120"
+         height="60"
+         fill="#90ee90"
+         stroke="#000000"
+         id="rect27" />
+      <text
+         x="60"
+         y="35"
+         text-anchor="middle"
+         class="circuit-text"
+         id="text39">T2 1:4</text>
+      <text
+         x="60"
+         y="50"
+         text-anchor="middle"
+         class="circuit-text"
+         id="text40">Combiner</text>
+      
+      <!-- Harmonic Filter -->
+      <rect
+         x="140"
+         y="0"
+         width="120"
+         height="60"
+         fill="#90ee90"
+         stroke="#000000"
+         id="rect28" />
+      <text
+         x="200"
+         y="35"
+         text-anchor="middle"
+         class="circuit-text"
+         id="text41">7-Element</text>
+      <text
+         x="200"
+         y="50"
+         text-anchor="middle"
+         class="circuit-text"
+         id="text42">LPF</text>
+      
+      <!-- VSWR Bridge -->
+      <rect
+         x="280"
+         y="0"
+         width="120"
+         height="60"
+         fill="#90ee90"
+         stroke="#000000"
+         id="rect29" />
+      <text
+         x="340"
+         y="35"
+         text-anchor="middle"
+         class="circuit-text"
+         id="text43">VSWR Bridge</text>
+      
+      <!-- Output -->
+      <rect
+         x="420"
+         y="0"
+         width="120"
+         height="60"
+         fill="#90ee90"
+         stroke="#000000"
+         id="rect30" />
+      <text
+         x="480"
+         y="35"
+         text-anchor="middle"
+         class="circuit-text"
+         id="text44">RF Output</text>
+      <text
+         x="480"
+         y="50"
+         text-anchor="middle"
+         class="circuit-text"
+         id="text45">500W</text>
+    </g>
+    <!-- Protection Circuit -->
+    <g
+       transform="translate(900,250)"
+       id="g32">
+      <!-- Temperature Sensors -->
+      <rect
+         x="0"
+         y="0"
+         width="120"
+         height="60"
+         fill="#f0e68c"
+         stroke="#000000"
+         id="rect31" />
+      <text
+         x="60"
+         y="25"
+         text-anchor="middle"
+         class="circuit-text"
+         id="text46">LM35 x3</text>
+      <text
+         x="60"
+         y="40"
+         text-anchor="middle"
+         class="circuit-text"
+         id="text47">Temp Sensors</text>
+      <text
+         x="60"
+         y="55"
+         text-anchor="middle"
+         class="circuit-text"
+         id="text48">Q1/Q2/Heat</text>
+      
+      <!-- Current Sense -->
+      <rect
+         x="140"
+         y="0"
+         width="120"
+         height="60"
+         fill="#f0e68c"
+         stroke="#000000"
+         id="rect32" />
+      <text
+         x="200"
+         y="35"
+         text-anchor="middle"
+         class="circuit-text"
+         id="text49">Current</text>
+      <text
+         x="200"
+         y="50"
+         text-anchor="middle"
+         class="circuit-text"
+         id="text50">Sensing</text>
+      
+      <!-- Protection Logic -->
+      <rect
+         x="280"
+         y="0"
+         width="120"
+         height="60"
+         fill="#f0e68c"
+         stroke="#000000"
+         id="rect33" />
+      <text
+         x="340"
+         y="25"
+         text-anchor="middle"
+         class="circuit-text"
+         id="text51">Protection</text>
+      <text
+         x="340"
+         y="40"
+         text-anchor="middle"
+         class="circuit-text"
+         id="text52">Logic with</text>
+      <text
+         x="340"
+         y="55"
+         text-anchor="middle"
+         class="circuit-text"
+         id="text53">Fault Latch</text>
+      
+      <!-- Flow Sensor -->
+      <rect
+         x="420"
+         y="0"
+         width="120"
+         height="60"
+         fill="#f0e68c"
+         stroke="#000000"
+         id="rect34" />
+      <text
+         x="480"
+         y="25"
+         text-anchor="middle"
+         class="circuit-text"
+         id="text54">Cooling</text>
+      <text
+         x="480"
+         y="40"
+         text-anchor="middle"
+         class="circuit-text"
+         id="text55">Flow</text>
+      <text
+         x="480"
+         y="55"
+         text-anchor="middle"
+         class="circuit-text"
+         id="text56">Monitor</text>
+    </g>
+    <!-- Signal Flow Lines -->
+    <g
+       fill="none"
+       stroke="#000000"
+       stroke-width="1.5"
+       marker-end="url(#arrowhead)"
+       id="g44">
+      <!-- RF Path -->
+      <path
+         d="M 220,150 H 320"
+         id="path32" />
+      <path
+         d="M 420,150 H 520"
+         id="path33" />
+      <path
+         d="M 650,150 H 790"
+         id="path34" />
+      <path
+         d="m 900,150 h 120"
+         id="path35" />
+      <path
+         d="m 1100,150 h 120"
+         id="path36" />
+      <path
+         d="m 1300,150 h 20"
+         id="path37" />
+      <!-- Power Distribution -->
+      <path
+         d="M 220,280 H 320"
+         id="path38" />
+      <path
+         d="M 320,280 V 155 h 330"
+         id="path39" />
+      <path
+         d="m 320,280 v 55 h 330"
+         id="path40" />
+      <!-- Protection Paths -->
+      <path
+         d="m 1020,280 h 80"
+         id="path41" />
+      <path
+         d="m 1200,280 h 100"
+         id="path42" />
+      <path
+         d="m 1305.2785,279.3919 h 20 v -130"
+         id="path43" />
+      <!-- Splitter to Q2 -->
+      <path
+         d="M 520,150 V 335 H 650"
+         id="path44" />
+    </g>
+    <!-- Labels -->
+    <g
+       class="circuit-text"
+       id="g50">
+      <text
+         x="260"
+         y="130"
+         text-anchor="middle"
+         id="text57">RF In</text>
+      <text
+         x="460"
+         y="130"
+         text-anchor="middle"
+         id="text58">Split</text>
+      <text
+         x="720"
+         y="130"
+         text-anchor="middle"
+         id="text59">Amplify</text>
+      <text
+         x="960"
+         y="130"
+         text-anchor="middle"
+         id="text60">Combine</text>
+      <text
+         x="1160"
+         y="130"
+         text-anchor="middle"
+         id="text61">Monitor</text>
+      <text
+         x="260"
+         y="230"
+         text-anchor="middle"
+         id="text62">Power</text>
+      <text
+         x="960"
+         y="230"
+         text-anchor="middle"
+         id="text63">Protect</text>
     </g>
   </g>
-  
-  <!-- Troubleshooting Guide -->
-  <rect
-     x="50"
-     y="780"
-     width="1100"
-     height="100"
-     fill="#ffffcc"
-     stroke="#000"
-     stroke-width="1"
-     id="troubleshoot_box" />
-  <text
-     x="70"
-     y="800"
-     class="section-title"
-     id="troubleshoot_title">TROUBLESHOOTING GUIDE:</text>
-  <text
-     x="70"
-     y="820"
-     class="troubleshoot"
-     id="troubleshoot1">1. NO POWER: Check CB1 circuit breaker (30A), verify J4 connections, measure TP1 (should be 12-14V)</text>
-  <text
-     x="70"
-     y="840"
-     class="troubleshoot"
-     id="troubleshoot2">2. OVERHEAT LED ON: Verify AIO cooler operation, check TP5 for temp sensor voltage (2.5V nominal)</text>
-  <text
-     x="70"
-     y="860"
-     class="troubleshoot"
-     id="troubleshoot3">3. NO RF OUTPUT: Check drive level (6-8W), verify TP2 (+50V), check antenna SWR (&lt;2:1)</text>
-  <text
-     x="70"
-     y="880"
-     class="troubleshoot"
-     id="troubleshoot4">4. LOW OUTPUT: Verify band/mode switch settings, check thermal throttling, measure gate bias voltage</text>
-  
-  <!-- Voltage References -->
-  <rect
-     x="780"
-     y="140"
-     width="200"
-     height="160"
-     fill="#e6e6fa"
-     stroke="#000"
-     stroke-width="1"
-     id="voltage_box" />
-  <text
-     x="880"
-     y="160"
-     text-anchor="middle"
-     class="section-title"
-     id="voltage_title">VOLTAGE REFERENCES</text>
-  <text
-     x="800"
-     y="180"
-     class="voltage"
-     id="voltage1">TP1: +12.5V DC Input</text>
-  <text
-     x="800"
-     y="200"
-     class="voltage"
-     id="voltage2">TP2: +50V DC Output</text>
-  <text
-     x="800"
-     y="220"
-     class="voltage"
-     id="voltage3">TP5: 2.5V (25°C)</text>
-  <text
-     x="800"
-     y="240"
-     class="voltage"
-     id="voltage4">Q1/Q2 Gate: 3.3V</text>
-  <text
-     x="800"
-     y="260"
-     class="voltage"
-     id="voltage5">RF Systems: 50Ω</text>
-  <text
-     x="800"
-     y="280"
-     class="voltage"
-     id="voltage6">VSWR: &lt;2:1 Required</text>
 </svg>
